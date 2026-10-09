@@ -1,0 +1,55 @@
+Your task is to write a test for the following function
+```
+simple-statistics.poissonDistribution(lambda)
+```
+
+This function is defined as follows:
+```
+function poissonDistribution(lambda) /*: ?number[] */ {
+    // Check that lambda is strictly positive
+    if (lambda <= 0) {
+        return undefined;
+    }
+
+    // our current place in the distribution
+    var x = 0;
+    // and we keep track of the current cumulative probability, in
+    // order to know when to stop calculating chances.
+    var cumulativeProbability = 0;
+    // the calculated cells to be returned
+    var cells = [];
+    var factorialX = 1;
+
+    // This algorithm iterates through each potential outcome,
+    // until the `cumulativeProbability` is very close to 1, at
+    // which point we've defined the vast majority of outcomes
+    do {
+        // a [probability mass function](https://en.wikipedia.org/wiki/Probability_mass_function)
+        cells[x] = (Math.exp(-lambda) * Math.pow(lambda, x)) / factorialX;
+        cumulativeProbability += cells[x];
+        x++;
+        factorialX *= x;
+        // when the cumulativeProbability is nearly 1, we've calculated
+        // the useful range of this distribution
+    } while (cumulativeProbability < 1 - epsilon);
+
+    return cells;
+}
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.poissonDistribution', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```

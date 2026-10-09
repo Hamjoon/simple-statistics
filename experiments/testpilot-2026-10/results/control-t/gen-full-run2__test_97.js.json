@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-10-09T10:47:51.744Z",
+    "end": "2026-10-09T10:47:51.746Z",
+    "duration": 2
+  },
+  "tests": [
+    {
+      "title": "test simple-statistics.ckmeans",
+      "fullTitle": "test simple_statistics test simple-statistics.ckmeans",
+      "file": "/work/ss/tests-llm/test_97.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "test simple-statistics.ckmeans",
+      "fullTitle": "test simple_statistics test simple-statistics.ckmeans",
+      "file": "/work/ss/tests-llm/test_97.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}

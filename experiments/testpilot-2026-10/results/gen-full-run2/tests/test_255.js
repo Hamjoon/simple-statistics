@@ -1,0 +1,1 @@
+It looks like the code block in your message is empty, so I don’t have any code to modify. Could you please paste the code that’s causing the “Invalid syntax” error? Once I see the code, I’ll be able to fix the syntax issue for you.

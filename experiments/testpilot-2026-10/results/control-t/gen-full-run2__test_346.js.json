@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-10-09T10:48:31.284Z",
+    "end": "2026-10-09T10:48:31.285Z",
+    "duration": 1
+  },
+  "tests": [
+    {
+      "title": "test simple-statistics.poissonDistribution",
+      "fullTitle": "test simple_statistics test simple-statistics.poissonDistribution",
+      "file": "/work/ss/tests-llm/test_346.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "test simple-statistics.poissonDistribution",
+      "fullTitle": "test simple_statistics test simple-statistics.poissonDistribution",
+      "file": "/work/ss/tests-llm/test_346.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-10-09T10:49:01.780Z",
+    "end": "2026-10-09T10:49:01.780Z",
+    "duration": 0
+  },
+  "tests": [
+    {
+      "title": "test simple-statistics.sumNthPowerDeviations",
+      "fullTitle": "test simple_statistics test simple-statistics.sumNthPowerDeviations",
+      "file": "/work/ss/tests-llm/test_540.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "test simple-statistics.sumNthPowerDeviations",
+      "fullTitle": "test simple_statistics test simple-statistics.sumNthPowerDeviations",
+      "file": "/work/ss/tests-llm/test_540.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}

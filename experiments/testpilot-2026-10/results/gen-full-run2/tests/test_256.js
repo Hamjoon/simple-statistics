@@ -1,0 +1,6 @@
+// test-simple-statistics.js
+const assert = require('assert');
+const ss = require('simple-statistics');
+
+describe('simple-statistics library', function () {
+  it('should correctly compute log

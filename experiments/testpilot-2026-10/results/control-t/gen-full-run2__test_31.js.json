@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-10-09T10:47:42.133Z",
+    "end": "2026-10-09T10:47:42.134Z",
+    "duration": 1
+  },
+  "tests": [
+    {
+      "title": "test simple-statistics.PerceptronModel.prototype.train",
+      "fullTitle": "test simple_statistics test simple-statistics.PerceptronModel.prototype.train",
+      "file": "/work/ss/tests-llm/test_31.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "test simple-statistics.PerceptronModel.prototype.train",
+      "fullTitle": "test simple_statistics test simple-statistics.PerceptronModel.prototype.train",
+      "file": "/work/ss/tests-llm/test_31.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}

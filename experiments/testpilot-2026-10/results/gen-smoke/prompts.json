@@ -1,0 +1,274 @@
+{
+  "metaData": {
+    "packageName": "simple-statistics",
+    "useDocSnippets": true,
+    "useCodeSnippets": false,
+    "numSnippets": 3,
+    "snippetLength": 20,
+    "numCompletions": 1
+  },
+  "prompts": [
+    {
+      "id": 0,
+      "file": "prompt_0.js",
+      "temperature": 0,
+      "completions": [
+        "```javascript\nlet mocha = require('mocha');\nlet assert = require('assert');\nlet simple_statistics = require('simple-statistics');\ndescribe('test simple_statistics', function() {\n    it('test simple-statistics.average', function(done) {\n        // Basic functionality\n        assert.strictEqual(simple_statistics.average([1, 2, 3]), 2);\n        assert.strictEqual(simple_statistics.average([5]), 5);\n        assert.strictEqual(simple_statistics.average([-1, 1]), 0);\n        assert.strictEqual(simple_statistics.average([0.1, 0.2]), 0.15);\n        // Edge case: empty array should return NaN\n        assert.ok(isNaN(simple_statistics.average([])));\n        done();\n    });\n});\n```"
+      ],
+      "tests": [
+        "test_0.js"
+      ],
+      "provenance": []
+    },
+    {
+      "id": 1,
+      "file": "prompt_1.js",
+      "temperature": 0,
+      "completions": [
+        "```javascript\nlet mocha = require('mocha');\nlet assert = require('assert');\nlet simple_statistics = require('simple-statistics');\ndescribe('test simple_statistics', function() {\n    it('test simple-statistics.average', function(done) {\n        // Normal case\n        const data = [1, 2, 3, 4, 5];\n        const avg = simple_statistics.average(data);\n        assert.strictEqual(avg, 3);\n\n        // Decimal values\n        const data2 = [0.5, 1.5, 2.5];\n        assert.strictEqual(simple_statistics.average(data2), 1.5);\n\n        // Empty array should throw\n        assert.throws(() => simple_statistics.average([]), /mean requires at least one data point/);\n\n        done();\n    });\n});\n```"
+      ],
+      "tests": [
+        "test_1.js"
+      ],
+      "provenance": [
+        {
+          "originalPrompt": 0,
+          "test": 0,
+          "refiner": "FunctionBodyIncluder"
+        },
+        {
+          "originalPrompt": 4,
+          "test": 4,
+          "refiner": "FunctionBodyIncluder"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "file": "prompt_2.js",
+      "temperature": 0,
+      "completions": [
+        "```javascript\nlet mocha = require('mocha');\nlet assert = require('assert');\nlet simple_statistics = require('simple-statistics');\ndescribe('test simple_statistics', function() {\n    it('test simple-statistics.average', function(done) {\n        // Normal cases\n        assert.strictEqual(simple_statistics.average([0, 10]), 5);\n        assert.strictEqual(simple_statistics.average([1, 2, 3, 4, 5]), 3);\n        assert.strictEqual(simple_statistics.average([-5, 5]), 0);\n        assert.strictEqual(simple_statistics.average([1.5, 2.5]), 2);\n\n        // Edge case: empty array should throw\n        assert.throws(\n            () => simple_statistics.average([]),\n            /mean requires at least one data point/\n        );\n\n        done();\n    });\n});\n```"
+      ],
+      "tests": [
+        "test_2.js"
+      ],
+      "provenance": [
+        {
+          "originalPrompt": 1,
+          "test": 1,
+          "refiner": "DocCommentIncluder"
+        },
+        {
+          "originalPrompt": 3,
+          "test": 3,
+          "refiner": "FunctionBodyIncluder"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "file": "prompt_3.js",
+      "temperature": 0,
+      "completions": [
+        "```javascript\nlet mocha = require('mocha');\nlet assert = require('assert');\nlet simple_statistics = require('simple-statistics');\n\ndescribe('test simple_statistics', function() {\n    it('test simple-statistics.average', function(done) {\n        // Normal case: average of two numbers\n        const result1 = simple_statistics.average([0, 10]);\n        assert.strictEqual(result1, 5, 'average([0,10]) should be 5');\n\n        // Mixed positive and negative numbers\n        const result2 = simple_statistics.average([-5, 5, 10]);\n        assert.strictEqual(result2, 10 / 3, 'average([-5,5,10]) should be 10/3');\n\n        // Decimal numbers\n        const result3 = simple_statistics.average([1.2, 3.4, 5.6]);\n        assert.strictEqual(result3, (1.2 + 3.4 + 5.6) / 3, 'average of decimal numbers');\n\n        // Edge case: single element array\n        const result4 = simple_statistics.average([42]);\n        assert.strictEqual(result4, 42, 'average of single-element array should be the element itself');\n\n        // Error case: empty array should throw\n        assert.throws(\n            () => simple_statistics.average([]),\n            Error,\n            'average([]) should throw an Error'\n        );\n\n        done();\n    });\n});\n```"
+      ],
+      "tests": [
+        "test_3.js"
+      ],
+      "provenance": [
+        {
+          "originalPrompt": 0,
+          "test": 0,
+          "refiner": "DocCommentIncluder"
+        },
+        {
+          "originalPrompt": 4,
+          "test": 4,
+          "refiner": "DocCommentIncluder"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "file": "prompt_4.js",
+      "temperature": 0,
+      "completions": [
+        "```javascript\nlet mocha = require('mocha');\nlet assert = require('assert');\nlet simple_statistics = require('simple-statistics');\n\ndescribe('test simple_statistics', function () {\n    it('test simple-statistics.average', function (done) {\n        // Basic functionality\n        assert.strictEqual(simple_statistics.average([1, 2, 3]), 2);\n        assert.strictEqual(simple_statistics.average([5]), 5);\n        assert.strictEqual(simple_statistics.average([-1, 1]), 0);\n\n        // Floating‑point comparison – allow a tiny tolerance\n        const avg01 = simple_statistics.average([0.1, 0.2]);\n        const expected = 0.15;\n        const epsilon = 1e-12;               // tolerance\n        assert.ok(Math.abs(avg01 - expected) < epsilon,\n            `average([0.1,0.2]) expected ${expected} but got ${avg01}`);\n\n        // Edge case: empty array should return NaN\n        assert.ok(isNaN(simple_statistics.average([])));\n        done();\n    });\n});\n```"
+      ],
+      "tests": [
+        "test_4.js"
+      ],
+      "provenance": [
+        {
+          "originalPrompt": 0,
+          "test": 0,
+          "refiner": "RetryWithError"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "file": "prompt_5.js",
+      "temperature": 0,
+      "completions": [
+        "```javascript\nlet mocha = require('mocha');\nlet assert = require('assert');\nlet simple_statistics = require('simple-statistics');\ndescribe('test simple_statistics', function() {\n    it('test simple-statistics.linearRegression', function(done) {\n        // Simple linear data: y = 2x + 0\n        const data = [\n            [0, 0],\n            [1, 2],\n            [2, 4],\n            [3, 6]\n        ];\n        const result = simple_statistics.linearRegression(data);\n        // result should have properties m (slope) and b (intercept)\n        assert.ok(Math.abs(result.m - 2) < 1e-12, `Expected slope ~2, got ${result.m}`);\n        assert.ok(Math.abs(result.b - 0) < 1e-12, `Expected intercept ~0, got ${result.b}`);\n        done();\n    });\n});\n```"
+      ],
+      "tests": [
+        "test_5.js"
+      ],
+      "provenance": []
+    },
+    {
+      "id": 6,
+      "file": "prompt_6.js",
+      "temperature": 0,
+      "completions": [
+        "```javascript\nlet mocha = require('mocha');\nlet assert = require('assert');\nlet simple_statistics = require('simple-statistics');\n\ndescribe('test simple_statistics', function() {\n    it('test simple-statistics.linearRegression', function(done) {\n        // Test case 1: multiple points with a clear linear relationship\n        const data1 = [\n            [0, 1],\n            [1, 3],\n            [2, 5],\n            [3, 7]\n        ]; // y = 2x + 1\n        const result1 = simple_statistics.linearRegression(data1);\n        // Use a tolerance for floating point arithmetic\n        const tolerance = 1e-12;\n        assert.ok(Math.abs(result1.m - 2) < tolerance, `Expected slope ~2, got ${result1.m}`);\n        assert.ok(Math.abs(result1.b - 1) < tolerance, `Expected intercept ~1, got ${result1.b}`);\n\n        // Test case 2: single point (edge case)\n        const data2 = [[2, 7]];\n        const result2 = simple_statistics.linearRegression(data2);\n        assert.strictEqual(result2.m, 0, 'Slope should be 0 for a single point');\n        assert.strictEqual(result2.b, 7, 'Intercept should equal the y value of the single point');\n\n        done();\n    });\n});\n```"
+      ],
+      "tests": [
+        "test_6.js"
+      ],
+      "provenance": [
+        {
+          "originalPrompt": 5,
+          "test": 5,
+          "refiner": "FunctionBodyIncluder"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "file": "prompt_7.js",
+      "temperature": 0,
+      "completions": [
+        "```javascript\nlet mocha = require('mocha');\nlet assert = require('assert');\nlet simple_statistics = require('simple-statistics');\ndescribe('test simple_statistics', function() {\n    it('test simple-statistics.linearRegression', function(done) {\n        // Basic two‑point case: y = x\n        let result = simple_statistics.linearRegression([[0, 0], [1, 1]]);\n        assert.strictEqual(result.m, 1);\n        assert.strictEqual(result.b, 0);\n\n        // Single‑point case: slope 0, intercept = y of the point\n        let single = simple_statistics.linearRegression([[5, 10]]);\n        assert.strictEqual(single.m, 0);\n        assert.strictEqual(single.b, 10);\n\n        // Another set of points where the line should be y = x + 1\n        let result2 = simple_statistics.linearRegression([[0, 1], [2, 3]]);\n        assert.ok(Math.abs(result2.m - 1) < 1e-12);\n        assert.ok(Math.abs(result2.b - 1) < 1e-12);\n\n        done();\n    });\n});\n```"
+      ],
+      "tests": [
+        "test_7.js"
+      ],
+      "provenance": [
+        {
+          "originalPrompt": 6,
+          "test": 6,
+          "refiner": "DocCommentIncluder"
+        },
+        {
+          "originalPrompt": 10,
+          "test": 10,
+          "refiner": "FunctionBodyIncluder"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "file": "prompt_8.js",
+      "temperature": 0,
+      "completions": [
+        "```javascript\nlet mocha = require('mocha');\nlet assert = require('assert');\nlet simple_statistics = require('simple-statistics');\ndescribe('test simple_statistics', function() {\n    it('test simple-statistics.linearRegression', function(done) {\n        // basic two‑point line y = x\n        const line1 = simple_statistics.linearRegression([[0, 0], [1, 1]]);\n        assert.strictEqual(line1.m, 1);\n        assert.strictEqual(line1.b, 0);\n\n        // single‑point edge case: slope 0, intercept = y of the point\n        const line2 = simple_statistics.linearRegression([[2, 3]]);\n        assert.strictEqual(line2.m, 0);\n        assert.strictEqual(line2.b, 3);\n\n        // three points with a known regression line (slope 1.5, intercept 1/3)\n        const data = [[1, 2], [2, 3], [3, 5]];\n        const line3 = simple_statistics.linearRegression(data);\n        const epsilon = 1e-12;\n        assert.ok(Math.abs(line3.m - 1.5) < epsilon, `expected slope ≈ 1.5, got ${line3.m}`);\n        assert.ok(Math.abs(line3.b - (1 / 3)) < epsilon, `expected intercept ≈ 0.333..., got ${line3.b}`);\n\n        done();\n    });\n});\n```"
+      ],
+      "tests": [
+        "test_8.js"
+      ],
+      "provenance": [
+        {
+          "originalPrompt": 7,
+          "test": 7,
+          "refiner": "SnippetIncluder"
+        },
+        {
+          "originalPrompt": 9,
+          "test": 9,
+          "refiner": "DocCommentIncluder"
+        },
+        {
+          "originalPrompt": 11,
+          "test": 11,
+          "refiner": "FunctionBodyIncluder"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "file": "prompt_9.js",
+      "temperature": 0,
+      "completions": [
+        "```javascript\nlet mocha = require('mocha');\nlet assert = require('assert');\nlet simple_statistics = require('simple-statistics');\n\ndescribe('test simple_statistics', function() {\n    it('test simple-statistics.linearRegression', function(done) {\n        // Test with multiple points that form a perfect line y = x\n        const data1 = [[0, 0], [1, 1], [2, 2]];\n        const result1 = simple_statistics.linearRegression(data1);\n        assert.strictEqual(result1.m, 1, 'Slope should be 1 for y = x');\n        assert.strictEqual(result1.b, 0, 'Intercept should be 0 for y = x');\n\n        // Test with a single point – slope should be 0 and intercept should be the y value\n        const data2 = [[5, 10]];\n        const result2 = simple_statistics.linearRegression(data2);\n        assert.strictEqual(result2.m, 0, 'Slope should be 0 for a single point');\n        assert.strictEqual(result2.b, 10, 'Intercept should equal the y value of the single point');\n\n        done();\n    });\n});\n```"
+      ],
+      "tests": [
+        "test_9.js"
+      ],
+      "provenance": [
+        {
+          "originalPrompt": 6,
+          "test": 6,
+          "refiner": "SnippetIncluder"
+        },
+        {
+          "originalPrompt": 12,
+          "test": 12,
+          "refiner": "FunctionBodyIncluder"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "file": "prompt_10.js",
+      "temperature": 0,
+      "completions": [
+        "```javascript\nlet mocha = require('mocha');\nlet assert = require('assert');\nlet simple_statistics = require('simple-statistics');\n\ndescribe('test simple_statistics', function() {\n    it('test simple-statistics.linearRegression', function(done) {\n        // Basic case: points on the line y = x\n        const data1 = [[0, 0], [1, 1]];\n        const result1 = simple_statistics.linearRegression(data1);\n        assert.strictEqual(result1.m, 1, 'slope should be 1');\n        assert.strictEqual(result1.b, 0, 'intercept should be 0');\n\n        // Another case: points on the line y = 2x + 3\n        const data2 = [[0, 3], [1, 5], [2, 7]];\n        const result2 = simple_statistics.linearRegression(data2);\n        // Use a tolerance for floating‑point arithmetic\n        const tolerance = 1e-12;\n        assert.ok(Math.abs(result2.m - 2) < tolerance, `slope should be close to 2 (got ${result2.m})`);\n        assert.ok(Math.abs(result2.b - 3) < tolerance, `intercept should be close to 3 (got ${result2.b})`);\n\n        done();\n    });\n});\n```"
+      ],
+      "tests": [
+        "test_10.js"
+      ],
+      "provenance": [
+        {
+          "originalPrompt": 5,
+          "test": 5,
+          "refiner": "DocCommentIncluder"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "file": "prompt_11.js",
+      "temperature": 0,
+      "completions": [
+        "```javascript\nlet mocha = require('mocha');\nlet assert = require('assert');\nlet simple_statistics = require('simple-statistics');\n\ndescribe('test simple_statistics', function() {\n    it('test simple-statistics.linearRegression', function(done) {\n        // Basic diagonal line (y = x)\n        const data1 = [[0, 0], [1, 1], [2, 2]];\n        const lr1 = simple_statistics.linearRegression(data1);\n        assert.strictEqual(lr1.m, 1);\n        assert.strictEqual(lr1.b, 0);\n\n        // Verify the line function works as expected\n        const line1 = simple_statistics.linearRegressionLine(lr1);\n        assert.strictEqual(line1(0), 0);\n        assert.strictEqual(line1(5), 5);\n\n        // Line with non‑zero intercept (y = 2x + 2)\n        const data2 = [[0, 2], [2, 6]];\n        const lr2 = simple_statistics.linearRegression(data2);\n        assert.strictEqual(lr2.m, 2);\n        assert.strictEqual(lr2.b, 2);\n\n        const line2 = simple_statistics.linearRegressionLine(lr2);\n        assert.strictEqual(line2(3), 8); // 2*3 + 2 = 8\n\n        done();\n    });\n});\n```"
+      ],
+      "tests": [
+        "test_11.js"
+      ],
+      "provenance": [
+        {
+          "originalPrompt": 10,
+          "test": 10,
+          "refiner": "SnippetIncluder"
+        },
+        {
+          "originalPrompt": 12,
+          "test": 12,
+          "refiner": "DocCommentIncluder"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "file": "prompt_12.js",
+      "temperature": 0,
+      "completions": [
+        "```javascript\nlet mocha = require('mocha');\nlet assert = require('assert');\nlet simple_statistics = require('simple-statistics');\ndescribe('test simple_statistics', function() {\n    it('test simple-statistics.linearRegression', function(done) {\n        // Prepare a simple dataset that lies perfectly on y = x\n        const data = [[0, 0], [1, 1], [2, 2]];\n        // Perform linear regression\n        const result = simple_statistics.linearRegression(data);\n        // The slope (m) should be 1 and the intercept (b) should be 0\n        assert.strictEqual(result.m, 1);\n        assert.strictEqual(result.b, 0);\n        // Verify that the generated line function works as expected\n        const line = simple_statistics.linearRegressionLine(result);\n        assert.strictEqual(line(5), 5);   // y = 5 when x = 5\n        assert.strictEqual(line(-3), -3); // y = -3 when x = -3\n        done();\n    });\n});\n```"
+      ],
+      "tests": [
+        "test_12.js"
+      ],
+      "provenance": [
+        {
+          "originalPrompt": 5,
+          "test": 5,
+          "refiner": "SnippetIncluder"
+        }
+      ]
+    }
+  ]
+}

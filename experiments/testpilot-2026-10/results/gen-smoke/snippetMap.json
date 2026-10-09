@@ -1,0 +1,12 @@
+[
+  [
+    "average",
+    []
+  ],
+  [
+    "linearRegression",
+    [
+      "var line = ss.linearRegressionLine(ss.linearRegression([[0, 0], [1, 1]]));\nline(0); // 0"
+    ]
+  ]
+]

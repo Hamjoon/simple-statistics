@@ -1,0 +1,632 @@
+{
+  "runs": [
+    "gen-full-run2"
+  ],
+  "metaData": {
+    "packageName": "simple-statistics",
+    "useDocSnippets": true,
+    "useCodeSnippets": false,
+    "numSnippets": 3,
+    "snippetLength": 20,
+    "numCompletions": 1
+  },
+  "statsByRun": {
+    "gen-full-run2": {
+      "nrTests": 576,
+      "nrPasses": 305,
+      "nrFailures": 271,
+      "nrPending": 0,
+      "nrOther": 0,
+      "snippetExtractionTime": 88.65883299999999,
+      "codexQueryTime": 0,
+      "totalTime": 6815707.946052999
+    }
+  },
+  "totals": {
+    "functions": 89,
+    "functionsWithTests": 89,
+    "functionsWithPasses": 87,
+    "prompts": 491,
+    "tests": 576,
+    "passingTests": 305,
+    "passRate": 0.5295138888888888,
+    "statuses": {
+      "FAILED": 271,
+      "PASSED": 305
+    },
+    "invalidSyntaxFailures": 100,
+    "suspiciousTests": 1
+  },
+  "perFunction": [
+    {
+      "api": "simple-statistics.BayesianClassifier",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.BayesianClassifier.prototype.train",
+      "prototypeMethod": true,
+      "tests": 6,
+      "passing": 2
+    },
+    {
+      "api": "simple-statistics.BayesianClassifier.prototype.score",
+      "prototypeMethod": true,
+      "tests": 8,
+      "passing": 2
+    },
+    {
+      "api": "simple-statistics.PerceptronModel",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.PerceptronModel.prototype.predict",
+      "prototypeMethod": true,
+      "tests": 6,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.PerceptronModel.prototype.train",
+      "prototypeMethod": true,
+      "tests": 5,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.addToMean",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.approxEqual",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 2
+    },
+    {
+      "api": "simple-statistics.average",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.averageSimple",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.bernoulliDistribution",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.binomialDistribution",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.bisect",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.chiSquaredGoodnessOfFit",
+      "prototypeMethod": false,
+      "tests": 23,
+      "passing": 0
+    },
+    {
+      "api": "simple-statistics.chunk",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.ckmeans",
+      "prototypeMethod": false,
+      "tests": 11,
+      "passing": 8
+    },
+    {
+      "api": "simple-statistics.coefficientOfVariation",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.combinations",
+      "prototypeMethod": false,
+      "tests": 3,
+      "passing": 1
+    },
+    {
+      "api": "simple-statistics.combinationsReplacement",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.combineMeans",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.combineVariances",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 2
+    },
+    {
+      "api": "simple-statistics.cumulativeStdLogisticProbability",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.cumulativeStdNormalProbability",
+      "prototypeMethod": false,
+      "tests": 7,
+      "passing": 2
+    },
+    {
+      "api": "simple-statistics.equalIntervalBreaks",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.erf",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.extent",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.extentSorted",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.factorial",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.gamma",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.gammaln",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.geometricMean",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.harmonicMean",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.interquartileRange",
+      "prototypeMethod": false,
+      "tests": 7,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.inverseErrorFunction",
+      "prototypeMethod": false,
+      "tests": 8,
+      "passing": 1
+    },
+    {
+      "api": "simple-statistics.kMeansCluster",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 2
+    },
+    {
+      "api": "simple-statistics.kde",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 2
+    },
+    {
+      "api": "simple-statistics.linearRegression",
+      "prototypeMethod": false,
+      "tests": 8,
+      "passing": 8
+    },
+    {
+      "api": "simple-statistics.linearRegressionLine",
+      "prototypeMethod": false,
+      "tests": 8,
+      "passing": 8
+    },
+    {
+      "api": "simple-statistics.logAverage",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.logit",
+      "prototypeMethod": false,
+      "tests": 39,
+      "passing": 0
+    },
+    {
+      "api": "simple-statistics.mad",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.max",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.maxSorted",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.median",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.medianSorted",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.min",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.minSorted",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.mode",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.modeFast",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.modeSorted",
+      "prototypeMethod": false,
+      "tests": 7,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.numericSort",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.permutationTest",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.permutationsHeap",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.poissonDistribution",
+      "prototypeMethod": false,
+      "tests": 8,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.probit",
+      "prototypeMethod": false,
+      "tests": 50,
+      "passing": 1
+    },
+    {
+      "api": "simple-statistics.product",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.quantile",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.quantileRank",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.quantileRankSorted",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 2
+    },
+    {
+      "api": "simple-statistics.quantileSorted",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.quickselect",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.rSquared",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.relativeError",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.rms",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.sample",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 2
+    },
+    {
+      "api": "simple-statistics.sampleCorrelation",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.sampleCovariance",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.sampleKurtosis",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.sampleRankCorrelation",
+      "prototypeMethod": false,
+      "tests": 8,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.sampleSkewness",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.sampleStandardDeviation",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.sampleVariance",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.sampleWithReplacement",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.shuffle",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.shuffleInPlace",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.sign",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.silhouette",
+      "prototypeMethod": false,
+      "tests": 8,
+      "passing": 2
+    },
+    {
+      "api": "simple-statistics.silhouetteMetric",
+      "prototypeMethod": false,
+      "tests": 7,
+      "passing": 2
+    },
+    {
+      "api": "simple-statistics.standardDeviation",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.subtractFromMean",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.sum",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.sumNthPowerDeviations",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.sumSimple",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.tTest",
+      "prototypeMethod": false,
+      "tests": 7,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.tTestTwoSample",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.uniqueCountSorted",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.variance",
+      "prototypeMethod": false,
+      "tests": 5,
+      "passing": 3
+    },
+    {
+      "api": "simple-statistics.wilcoxonRankSum",
+      "prototypeMethod": false,
+      "tests": 6,
+      "passing": 4
+    },
+    {
+      "api": "simple-statistics.zScore",
+      "prototypeMethod": false,
+      "tests": 4,
+      "passing": 4
+    }
+  ],
+  "failureCategories": {
+    "assertion": 116,
+    "file-system": 0,
+    "correctness": 129,
+    "timeout": 5,
+    "other": 21
+  },
+  "provenancePrompts": {
+    "Base": 89,
+    "DocCommentIncluder": 88,
+    "DocCommentIncluder+FunctionBodyIncluder": 88,
+    "DocCommentIncluder+FunctionBodyIncluder+SnippetIncluder": 3,
+    "DocCommentIncluder+SnippetIncluder": 3,
+    "FunctionBodyIncluder": 89,
+    "FunctionBodyIncluder+SnippetIncluder": 3,
+    "RetryWithError": 125,
+    "SnippetIncluder": 3
+  },
+  "provenanceTests": {
+    "Base": 108,
+    "DocCommentIncluder": 102,
+    "DocCommentIncluder+FunctionBodyIncluder": 104,
+    "DocCommentIncluder+FunctionBodyIncluder+SnippetIncluder": 3,
+    "DocCommentIncluder+SnippetIncluder": 3,
+    "FunctionBodyIncluder": 108,
+    "FunctionBodyIncluder+SnippetIncluder": 3,
+    "RetryWithError": 149,
+    "SnippetIncluder": 3
+  },
+  "provenancePassingTests": {
+    "Base": 33,
+    "DocCommentIncluder": 63,
+    "DocCommentIncluder+FunctionBodyIncluder": 70,
+    "DocCommentIncluder+FunctionBodyIncluder+SnippetIncluder": 3,
+    "DocCommentIncluder+SnippetIncluder": 2,
+    "FunctionBodyIncluder": 69,
+    "FunctionBodyIncluder+SnippetIncluder": 2,
+    "RetryWithError": 61,
+    "SnippetIncluder": 2
+  },
+  "suspiciousTests": [
+    {
+      "run": "gen-full-run2",
+      "testFile": "test_432.js",
+      "api": "simple-statistics.quickselect",
+      "reasons": [
+        "other require: simple-statistics/src/quickselect"
+      ]
+    }
+  ],
+  "requestFailuresByRun": {
+    "gen-full-run2": 0
+  },
+  "nullCompletionsByRun": {
+    "gen-full-run2": 1
+  }
+}

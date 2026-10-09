@@ -1,0 +1,34 @@
+Your task is to write a test for the following function
+```
+// Rearrange items in `arr` so that all items in `[left, k]` range are the smallest.
+// The `k`-th element will have the `(k - left + 1)`-th smallest value in `[left, right]`.
+// Implements Floyd-Rivest selection algorithm https://en.wikipedia.org/wiki/Floyd-Rivest_algorithm
+// @param {Array<number>} arr input array
+// @param {number} k pivot index
+// @param {number} [left] left index
+// @param {number} [right] right index
+// @returns {void} mutates input array
+// @example
+// var arr = [65, 28, 59, 33, 21, 56, 22, 95, 50, 12, 90, 53, 28, 77, 39];
+// quickselect(arr, 8);
+// // = [39, 28, 28, 33, 21, 12, 22, 50, 53, 56, 59, 65, 90, 77, 95]
+
+simple-statistics.quickselect(arr, k, left, right)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.quickselect', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```

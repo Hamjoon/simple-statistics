@@ -1,0 +1,43 @@
+Your task is to write a test for the following function
+```
+// The [Probit](http://en.wikipedia.org/wiki/Probit)
+// is the inverse of cumulativeStdNormalProbability(),
+// and is also known as the normal quantile function.
+// It returns the number of standard deviations from the mean
+// where the p'th quantile of values can be found in a normal distribution.
+// So, for example, probit(0.5 + 0.6827/2) ≈ 1 because 68.27% of values are
+// normally found within 1 standard deviation above or below the mean.
+// @param {number} p
+// @returns {number} probit
+
+simple-statistics.probit(p)
+```
+
+This function is defined as follows:
+```
+function probit(p) {
+    if (p === 0) {
+        p = epsilon;
+    } else if (p >= 1) {
+        p = 1 - epsilon;
+    }
+    return Math.sqrt(2) * inverseErrorFunction(2 * p - 1);
+}
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.probit', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```

@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-10-09T10:47:59.421Z",
+    "end": "2026-10-09T10:47:59.422Z",
+    "duration": 1
+  },
+  "tests": [
+    {
+      "title": "test simple-statistics.equalIntervalBreaks",
+      "fullTitle": "test simple_statistics test simple-statistics.equalIntervalBreaks",
+      "file": "/work/ss/tests-llm/test_143.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "test simple-statistics.equalIntervalBreaks",
+      "fullTitle": "test simple_statistics test simple-statistics.equalIntervalBreaks",
+      "file": "/work/ss/tests-llm/test_143.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}

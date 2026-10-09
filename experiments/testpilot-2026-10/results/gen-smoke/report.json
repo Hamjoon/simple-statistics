@@ -1,0 +1,3066 @@
+{
+  "metaData": {
+    "packageName": "simple-statistics",
+    "useDocSnippets": true,
+    "useCodeSnippets": false,
+    "numSnippets": 3,
+    "snippetLength": 20,
+    "numCompletions": 1
+  },
+  "nrUniqueSnippets": 1,
+  "stats": {
+    "nrTests": 13,
+    "nrPasses": 11,
+    "nrFailures": 2,
+    "nrPending": 0,
+    "nrOther": 0,
+    "snippetExtractionTime": 185.989791,
+    "codexQueryTime": 0,
+    "totalTime": 87133.969915
+  },
+  "tests": [
+    {
+      "testName": "test_0.js",
+      "api": "simple-statistics.average",
+      "testFile": "test_0.js",
+      "promptIds": [
+        0
+      ],
+      "status": "FAILED",
+      "err": {
+        "stack": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 0.15000000000000002\n- 0.15\n      ^\n\n    at Context.<anonymous> (/work/ss/test-ylFRYC/test_0.js:10:16)\n    at callFnAsync (/work/testpilot2/node_modules/mocha/lib/runnable.js:394:21)\n    at Runnable.run (/work/testpilot2/node_modules/mocha/lib/runnable.js:338:7)\n    at Runner.runTest (/work/testpilot2/node_modules/mocha/lib/runner.js:666:10)\n    at /work/testpilot2/node_modules/mocha/lib/runner.js:789:12\n    at next (/work/testpilot2/node_modules/mocha/lib/runner.js:581:14)\n    at /work/testpilot2/node_modules/mocha/lib/runner.js:591:7\n    at next (/work/testpilot2/node_modules/mocha/lib/runner.js:474:14)\n    at Immediate._onImmediate (/work/testpilot2/node_modules/mocha/lib/runner.js:559:5)\n    at process.processImmediate (node:internal/timers:484:21)",
+        "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ 0.15000000000000002\n- 0.15\n      ^\n",
+        "generatedMessage": true,
+        "name": "AssertionError",
+        "code": "ERR_ASSERTION",
+        "actual": "0.15000000000000002",
+        "expected": "0.15",
+        "operator": "strictEqual",
+        "diff": "simple"
+      },
+      "coveredStatements": [],
+      "duration": 581.7843750000002
+    },
+    {
+      "testName": "test_1.js",
+      "api": "simple-statistics.average",
+      "testFile": "test_1.js",
+      "promptIds": [
+        1
+      ],
+      "status": "PASSED",
+      "err": {},
+      "coveredStatements": [
+        "src/bayesian_classifier.js@24:4-30:5",
+        "src/bayesian_classifier.js@40:4-65:null",
+        "src/bayesian_classifier.js@75:4-117:null",
+        "src/chi_squared_distribution_table.js@12:36-494:null",
+        "src/epsilon.js@35:16-35:null",
+        "src/gammaln.js@2:21-10:1",
+        "src/gammaln.js@12:10-12:19",
+        "src/gammaln.js@13:19-13:51",
+        "src/kernel_density_estimation.js@4:17-4:39",
+        "src/kernel_density_estimation.js@10:16-18:1",
+        "src/kernel_density_estimation.js@24:25-40:1",
+        "src/mean.js@18:4-20:5",
+        "src/mean.js@19:8-19:65",
+        "src/mean.js@22:4-22:29",
+        "src/perceptron.js@24:4-32:5",
+        "src/perceptron.js@40:4-61:null",
+        "src/perceptron.js@71:4-97:null",
+        "src/standard_normal_table.js@1:17-1:39",
+        "src/standard_normal_table.js@4:14-4:15",
+        "src/standard_normal_table.js@5:14-5:15",
+        "src/standard_normal_table.js@8:4-11:5",
+        "src/standard_normal_table.js@8:17-8:18",
+        "src/standard_normal_table.js@9:8-9:37",
+        "src/standard_normal_table.js@10:8-10:19",
+        "src/standard_normal_table.js@12:4-15:6",
+        "src/standard_normal_table.js@26:28-26:31",
+        "src/standard_normal_table.js@28:0-30:null",
+        "src/standard_normal_table.js@28:13-28:14",
+        "src/standard_normal_table.js@29:4-29:56",
+        "src/sum.js@21:4-23:5",
+        "src/sum.js@26:14-26:18",
+        "src/sum.js@29:21-29:22",
+        "src/sum.js@33:4-35:5",
+        "src/sum.js@37:4-52:5",
+        "src/sum.js@37:17-37:18",
+        "src/sum.js@38:8-40:9",
+        "src/sum.js@41:8-41:32",
+        "src/sum.js@45:8-49:9",
+        "src/sum.js@46:12-46:50",
+        "src/sum.js@48:12-48:50",
+        "src/sum.js@51:8-51:25",
+        "src/sum.js@55:4-55:28"
+      ],
+      "duration": 495.6204170000019
+    },
+    {
+      "testName": "test_2.js",
+      "api": "simple-statistics.average",
+      "testFile": "test_2.js",
+      "promptIds": [
+        2
+      ],
+      "status": "PASSED",
+      "err": {},
+      "coveredStatements": [
+        "src/bayesian_classifier.js@24:4-30:5",
+        "src/bayesian_classifier.js@40:4-65:null",
+        "src/bayesian_classifier.js@75:4-117:null",
+        "src/chi_squared_distribution_table.js@12:36-494:null",
+        "src/epsilon.js@35:16-35:null",
+        "src/gammaln.js@2:21-10:1",
+        "src/gammaln.js@12:10-12:19",
+        "src/gammaln.js@13:19-13:51",
+        "src/kernel_density_estimation.js@4:17-4:39",
+        "src/kernel_density_estimation.js@10:16-18:1",
+        "src/kernel_density_estimation.js@24:25-40:1",
+        "src/mean.js@18:4-20:5",
+        "src/mean.js@19:8-19:65",
+        "src/mean.js@22:4-22:29",
+        "src/perceptron.js@24:4-32:5",
+        "src/perceptron.js@40:4-61:null",
+        "src/perceptron.js@71:4-97:null",
+        "src/standard_normal_table.js@1:17-1:39",
+        "src/standard_normal_table.js@4:14-4:15",
+        "src/standard_normal_table.js@5:14-5:15",
+        "src/standard_normal_table.js@8:4-11:5",
+        "src/standard_normal_table.js@8:17-8:18",
+        "src/standard_normal_table.js@9:8-9:37",
+        "src/standard_normal_table.js@10:8-10:19",
+        "src/standard_normal_table.js@12:4-15:6",
+        "src/standard_normal_table.js@26:28-26:31",
+        "src/standard_normal_table.js@28:0-30:null",
+        "src/standard_normal_table.js@28:13-28:14",
+        "src/standard_normal_table.js@29:4-29:56",
+        "src/sum.js@21:4-23:5",
+        "src/sum.js@26:14-26:18",
+        "src/sum.js@29:21-29:22",
+        "src/sum.js@33:4-35:5",
+        "src/sum.js@37:4-52:5",
+        "src/sum.js@37:17-37:18",
+        "src/sum.js@38:8-40:9",
+        "src/sum.js@41:8-41:32",
+        "src/sum.js@45:8-49:9",
+        "src/sum.js@46:12-46:50",
+        "src/sum.js@48:12-48:50",
+        "src/sum.js@51:8-51:25",
+        "src/sum.js@55:4-55:28"
+      ],
+      "duration": 429.18675000000076
+    },
+    {
+      "testName": "test_3.js",
+      "api": "simple-statistics.average",
+      "testFile": "test_3.js",
+      "promptIds": [
+        3
+      ],
+      "status": "PASSED",
+      "err": {},
+      "coveredStatements": [
+        "src/bayesian_classifier.js@24:4-30:5",
+        "src/bayesian_classifier.js@40:4-65:null",
+        "src/bayesian_classifier.js@75:4-117:null",
+        "src/chi_squared_distribution_table.js@12:36-494:null",
+        "src/epsilon.js@35:16-35:null",
+        "src/gammaln.js@2:21-10:1",
+        "src/gammaln.js@12:10-12:19",
+        "src/gammaln.js@13:19-13:51",
+        "src/kernel_density_estimation.js@4:17-4:39",
+        "src/kernel_density_estimation.js@10:16-18:1",
+        "src/kernel_density_estimation.js@24:25-40:1",
+        "src/mean.js@18:4-20:5",
+        "src/mean.js@19:8-19:65",
+        "src/mean.js@22:4-22:29",
+        "src/perceptron.js@24:4-32:5",
+        "src/perceptron.js@40:4-61:null",
+        "src/perceptron.js@71:4-97:null",
+        "src/standard_normal_table.js@1:17-1:39",
+        "src/standard_normal_table.js@4:14-4:15",
+        "src/standard_normal_table.js@5:14-5:15",
+        "src/standard_normal_table.js@8:4-11:5",
+        "src/standard_normal_table.js@8:17-8:18",
+        "src/standard_normal_table.js@9:8-9:37",
+        "src/standard_normal_table.js@10:8-10:19",
+        "src/standard_normal_table.js@12:4-15:6",
+        "src/standard_normal_table.js@26:28-26:31",
+        "src/standard_normal_table.js@28:0-30:null",
+        "src/standard_normal_table.js@28:13-28:14",
+        "src/standard_normal_table.js@29:4-29:56",
+        "src/sum.js@21:4-23:5",
+        "src/sum.js@26:14-26:18",
+        "src/sum.js@29:21-29:22",
+        "src/sum.js@33:4-35:5",
+        "src/sum.js@37:4-52:5",
+        "src/sum.js@37:17-37:18",
+        "src/sum.js@38:8-40:9",
+        "src/sum.js@41:8-41:32",
+        "src/sum.js@45:8-49:9",
+        "src/sum.js@46:12-46:50",
+        "src/sum.js@48:12-48:50",
+        "src/sum.js@51:8-51:25",
+        "src/sum.js@55:4-55:28"
+      ],
+      "duration": 442.20224999999846
+    },
+    {
+      "testName": "test_4.js",
+      "api": "simple-statistics.average",
+      "testFile": "test_4.js",
+      "promptIds": [
+        4
+      ],
+      "status": "FAILED",
+      "err": {
+        "stack": "Error: mean requires at least one data point\n    at Object.mean (/work/ss/dist/simple-statistics.js:84:145)\n    at Context.<anonymous> (/work/ss/test-ylFRYC/test_4.js:20:43)\n    at callFnAsync (/work/testpilot2/node_modules/mocha/lib/runnable.js:394:21)\n    at Runnable.run (/work/testpilot2/node_modules/mocha/lib/runnable.js:338:7)\n    at Runner.runTest (/work/testpilot2/node_modules/mocha/lib/runner.js:666:10)\n    at /work/testpilot2/node_modules/mocha/lib/runner.js:789:12\n    at next (/work/testpilot2/node_modules/mocha/lib/runner.js:581:14)\n    at /work/testpilot2/node_modules/mocha/lib/runner.js:591:7\n    at next (/work/testpilot2/node_modules/mocha/lib/runner.js:474:14)\n    at Immediate._onImmediate (/work/testpilot2/node_modules/mocha/lib/runner.js:559:5)\n    at process.processImmediate (node:internal/timers:484:21)",
+        "message": "mean requires at least one data point"
+      },
+      "coveredStatements": [],
+      "duration": 490.23195900000064
+    },
+    {
+      "testName": "test_5.js",
+      "api": "simple-statistics.linearRegression",
+      "testFile": "test_5.js",
+      "promptIds": [
+        5
+      ],
+      "status": "PASSED",
+      "err": {},
+      "coveredStatements": [
+        "src/bayesian_classifier.js@24:4-30:5",
+        "src/bayesian_classifier.js@40:4-65:null",
+        "src/bayesian_classifier.js@75:4-117:null",
+        "src/chi_squared_distribution_table.js@12:36-494:null",
+        "src/epsilon.js@35:16-35:null",
+        "src/gammaln.js@2:21-10:1",
+        "src/gammaln.js@12:10-12:19",
+        "src/gammaln.js@13:19-13:51",
+        "src/kernel_density_estimation.js@4:17-4:39",
+        "src/kernel_density_estimation.js@10:16-18:1",
+        "src/kernel_density_estimation.js@24:25-40:1",
+        "src/linear_regression.js@18:23-18:34",
+        "src/linear_regression.js@22:4-61:5",
+        "src/linear_regression.js@28:19-28:20",
+        "src/linear_regression.js@29:19-29:20",
+        "src/linear_regression.js@30:20-30:21",
+        "src/linear_regression.js@31:20-31:21",
+        "src/linear_regression.js@42:8-52:9",
+        "src/linear_regression.js@42:21-42:22",
+        "src/linear_regression.js@43:12-43:28",
+        "src/linear_regression.js@44:12-44:25",
+        "src/linear_regression.js@45:12-45:25",
+        "src/linear_regression.js@47:12-47:22",
+        "src/linear_regression.js@48:12-48:22",
+        "src/linear_regression.js@50:12-50:27",
+        "src/linear_regression.js@51:12-51:27",
+        "src/linear_regression.js@55:8-57:47",
+        "src/linear_regression.js@60:8-60:56",
+        "src/linear_regression.js@64:4-67:6",
+        "src/perceptron.js@24:4-32:5",
+        "src/perceptron.js@40:4-61:null",
+        "src/perceptron.js@71:4-97:null",
+        "src/standard_normal_table.js@1:17-1:39",
+        "src/standard_normal_table.js@4:14-4:15",
+        "src/standard_normal_table.js@5:14-5:15",
+        "src/standard_normal_table.js@8:4-11:5",
+        "src/standard_normal_table.js@8:17-8:18",
+        "src/standard_normal_table.js@9:8-9:37",
+        "src/standard_normal_table.js@10:8-10:19",
+        "src/standard_normal_table.js@12:4-15:6",
+        "src/standard_normal_table.js@26:28-26:31",
+        "src/standard_normal_table.js@28:0-30:null",
+        "src/standard_normal_table.js@28:13-28:14",
+        "src/standard_normal_table.js@29:4-29:56"
+      ],
+      "duration": 428.3009579999998
+    },
+    {
+      "testName": "test_6.js",
+      "api": "simple-statistics.linearRegression",
+      "testFile": "test_6.js",
+      "promptIds": [
+        6
+      ],
+      "status": "PASSED",
+      "err": {},
+      "coveredStatements": [
+        "src/bayesian_classifier.js@24:4-30:5",
+        "src/bayesian_classifier.js@40:4-65:null",
+        "src/bayesian_classifier.js@75:4-117:null",
+        "src/chi_squared_distribution_table.js@12:36-494:null",
+        "src/epsilon.js@35:16-35:null",
+        "src/gammaln.js@2:21-10:1",
+        "src/gammaln.js@12:10-12:19",
+        "src/gammaln.js@13:19-13:51",
+        "src/kernel_density_estimation.js@4:17-4:39",
+        "src/kernel_density_estimation.js@10:16-18:1",
+        "src/kernel_density_estimation.js@24:25-40:1",
+        "src/linear_regression.js@18:23-18:34",
+        "src/linear_regression.js@22:4-61:5",
+        "src/linear_regression.js@23:8-23:14",
+        "src/linear_regression.js@24:8-24:23",
+        "src/linear_regression.js@28:19-28:20",
+        "src/linear_regression.js@29:19-29:20",
+        "src/linear_regression.js@30:20-30:21",
+        "src/linear_regression.js@31:20-31:21",
+        "src/linear_regression.js@42:8-52:9",
+        "src/linear_regression.js@42:21-42:22",
+        "src/linear_regression.js@43:12-43:28",
+        "src/linear_regression.js@44:12-44:25",
+        "src/linear_regression.js@45:12-45:25",
+        "src/linear_regression.js@47:12-47:22",
+        "src/linear_regression.js@48:12-48:22",
+        "src/linear_regression.js@50:12-50:27",
+        "src/linear_regression.js@51:12-51:27",
+        "src/linear_regression.js@55:8-57:47",
+        "src/linear_regression.js@60:8-60:56",
+        "src/linear_regression.js@64:4-67:6",
+        "src/perceptron.js@24:4-32:5",
+        "src/perceptron.js@40:4-61:null",
+        "src/perceptron.js@71:4-97:null",
+        "src/standard_normal_table.js@1:17-1:39",
+        "src/standard_normal_table.js@4:14-4:15",
+        "src/standard_normal_table.js@5:14-5:15",
+        "src/standard_normal_table.js@8:4-11:5",
+        "src/standard_normal_table.js@8:17-8:18",
+        "src/standard_normal_table.js@9:8-9:37",
+        "src/standard_normal_table.js@10:8-10:19",
+        "src/standard_normal_table.js@12:4-15:6",
+        "src/standard_normal_table.js@26:28-26:31",
+        "src/standard_normal_table.js@28:0-30:null",
+        "src/standard_normal_table.js@28:13-28:14",
+        "src/standard_normal_table.js@29:4-29:56"
+      ],
+      "duration": 605.9501259999961
+    },
+    {
+      "testName": "test_7.js",
+      "api": "simple-statistics.linearRegression",
+      "testFile": "test_7.js",
+      "promptIds": [
+        7
+      ],
+      "status": "PASSED",
+      "err": {},
+      "coveredStatements": [
+        "src/bayesian_classifier.js@24:4-30:5",
+        "src/bayesian_classifier.js@40:4-65:null",
+        "src/bayesian_classifier.js@75:4-117:null",
+        "src/chi_squared_distribution_table.js@12:36-494:null",
+        "src/epsilon.js@35:16-35:null",
+        "src/gammaln.js@2:21-10:1",
+        "src/gammaln.js@12:10-12:19",
+        "src/gammaln.js@13:19-13:51",
+        "src/kernel_density_estimation.js@4:17-4:39",
+        "src/kernel_density_estimation.js@10:16-18:1",
+        "src/kernel_density_estimation.js@24:25-40:1",
+        "src/linear_regression.js@18:23-18:34",
+        "src/linear_regression.js@22:4-61:5",
+        "src/linear_regression.js@23:8-23:14",
+        "src/linear_regression.js@24:8-24:23",
+        "src/linear_regression.js@28:19-28:20",
+        "src/linear_regression.js@29:19-29:20",
+        "src/linear_regression.js@30:20-30:21",
+        "src/linear_regression.js@31:20-31:21",
+        "src/linear_regression.js@42:8-52:9",
+        "src/linear_regression.js@42:21-42:22",
+        "src/linear_regression.js@43:12-43:28",
+        "src/linear_regression.js@44:12-44:25",
+        "src/linear_regression.js@45:12-45:25",
+        "src/linear_regression.js@47:12-47:22",
+        "src/linear_regression.js@48:12-48:22",
+        "src/linear_regression.js@50:12-50:27",
+        "src/linear_regression.js@51:12-51:27",
+        "src/linear_regression.js@55:8-57:47",
+        "src/linear_regression.js@60:8-60:56",
+        "src/linear_regression.js@64:4-67:6",
+        "src/perceptron.js@24:4-32:5",
+        "src/perceptron.js@40:4-61:null",
+        "src/perceptron.js@71:4-97:null",
+        "src/standard_normal_table.js@1:17-1:39",
+        "src/standard_normal_table.js@4:14-4:15",
+        "src/standard_normal_table.js@5:14-5:15",
+        "src/standard_normal_table.js@8:4-11:5",
+        "src/standard_normal_table.js@8:17-8:18",
+        "src/standard_normal_table.js@9:8-9:37",
+        "src/standard_normal_table.js@10:8-10:19",
+        "src/standard_normal_table.js@12:4-15:6",
+        "src/standard_normal_table.js@26:28-26:31",
+        "src/standard_normal_table.js@28:0-30:null",
+        "src/standard_normal_table.js@28:13-28:14",
+        "src/standard_normal_table.js@29:4-29:56"
+      ],
+      "duration": 602.1030830000018
+    },
+    {
+      "testName": "test_8.js",
+      "api": "simple-statistics.linearRegression",
+      "testFile": "test_8.js",
+      "promptIds": [
+        8
+      ],
+      "status": "PASSED",
+      "err": {},
+      "coveredStatements": [
+        "src/bayesian_classifier.js@24:4-30:5",
+        "src/bayesian_classifier.js@40:4-65:null",
+        "src/bayesian_classifier.js@75:4-117:null",
+        "src/chi_squared_distribution_table.js@12:36-494:null",
+        "src/epsilon.js@35:16-35:null",
+        "src/gammaln.js@2:21-10:1",
+        "src/gammaln.js@12:10-12:19",
+        "src/gammaln.js@13:19-13:51",
+        "src/kernel_density_estimation.js@4:17-4:39",
+        "src/kernel_density_estimation.js@10:16-18:1",
+        "src/kernel_density_estimation.js@24:25-40:1",
+        "src/linear_regression.js@18:23-18:34",
+        "src/linear_regression.js@22:4-61:5",
+        "src/linear_regression.js@23:8-23:14",
+        "src/linear_regression.js@24:8-24:23",
+        "src/linear_regression.js@28:19-28:20",
+        "src/linear_regression.js@29:19-29:20",
+        "src/linear_regression.js@30:20-30:21",
+        "src/linear_regression.js@31:20-31:21",
+        "src/linear_regression.js@42:8-52:9",
+        "src/linear_regression.js@42:21-42:22",
+        "src/linear_regression.js@43:12-43:28",
+        "src/linear_regression.js@44:12-44:25",
+        "src/linear_regression.js@45:12-45:25",
+        "src/linear_regression.js@47:12-47:22",
+        "src/linear_regression.js@48:12-48:22",
+        "src/linear_regression.js@50:12-50:27",
+        "src/linear_regression.js@51:12-51:27",
+        "src/linear_regression.js@55:8-57:47",
+        "src/linear_regression.js@60:8-60:56",
+        "src/linear_regression.js@64:4-67:6",
+        "src/perceptron.js@24:4-32:5",
+        "src/perceptron.js@40:4-61:null",
+        "src/perceptron.js@71:4-97:null",
+        "src/standard_normal_table.js@1:17-1:39",
+        "src/standard_normal_table.js@4:14-4:15",
+        "src/standard_normal_table.js@5:14-5:15",
+        "src/standard_normal_table.js@8:4-11:5",
+        "src/standard_normal_table.js@8:17-8:18",
+        "src/standard_normal_table.js@9:8-9:37",
+        "src/standard_normal_table.js@10:8-10:19",
+        "src/standard_normal_table.js@12:4-15:6",
+        "src/standard_normal_table.js@26:28-26:31",
+        "src/standard_normal_table.js@28:0-30:null",
+        "src/standard_normal_table.js@28:13-28:14",
+        "src/standard_normal_table.js@29:4-29:56"
+      ],
+      "duration": 796.0380829999995
+    },
+    {
+      "testName": "test_9.js",
+      "api": "simple-statistics.linearRegression",
+      "testFile": "test_9.js",
+      "promptIds": [
+        9
+      ],
+      "status": "PASSED",
+      "err": {},
+      "coveredStatements": [
+        "src/bayesian_classifier.js@24:4-30:5",
+        "src/bayesian_classifier.js@40:4-65:null",
+        "src/bayesian_classifier.js@75:4-117:null",
+        "src/chi_squared_distribution_table.js@12:36-494:null",
+        "src/epsilon.js@35:16-35:null",
+        "src/gammaln.js@2:21-10:1",
+        "src/gammaln.js@12:10-12:19",
+        "src/gammaln.js@13:19-13:51",
+        "src/kernel_density_estimation.js@4:17-4:39",
+        "src/kernel_density_estimation.js@10:16-18:1",
+        "src/kernel_density_estimation.js@24:25-40:1",
+        "src/linear_regression.js@18:23-18:34",
+        "src/linear_regression.js@22:4-61:5",
+        "src/linear_regression.js@23:8-23:14",
+        "src/linear_regression.js@24:8-24:23",
+        "src/linear_regression.js@28:19-28:20",
+        "src/linear_regression.js@29:19-29:20",
+        "src/linear_regression.js@30:20-30:21",
+        "src/linear_regression.js@31:20-31:21",
+        "src/linear_regression.js@42:8-52:9",
+        "src/linear_regression.js@42:21-42:22",
+        "src/linear_regression.js@43:12-43:28",
+        "src/linear_regression.js@44:12-44:25",
+        "src/linear_regression.js@45:12-45:25",
+        "src/linear_regression.js@47:12-47:22",
+        "src/linear_regression.js@48:12-48:22",
+        "src/linear_regression.js@50:12-50:27",
+        "src/linear_regression.js@51:12-51:27",
+        "src/linear_regression.js@55:8-57:47",
+        "src/linear_regression.js@60:8-60:56",
+        "src/linear_regression.js@64:4-67:6",
+        "src/perceptron.js@24:4-32:5",
+        "src/perceptron.js@40:4-61:null",
+        "src/perceptron.js@71:4-97:null",
+        "src/standard_normal_table.js@1:17-1:39",
+        "src/standard_normal_table.js@4:14-4:15",
+        "src/standard_normal_table.js@5:14-5:15",
+        "src/standard_normal_table.js@8:4-11:5",
+        "src/standard_normal_table.js@8:17-8:18",
+        "src/standard_normal_table.js@9:8-9:37",
+        "src/standard_normal_table.js@10:8-10:19",
+        "src/standard_normal_table.js@12:4-15:6",
+        "src/standard_normal_table.js@26:28-26:31",
+        "src/standard_normal_table.js@28:0-30:null",
+        "src/standard_normal_table.js@28:13-28:14",
+        "src/standard_normal_table.js@29:4-29:56"
+      ],
+      "duration": 650.3807090000046
+    },
+    {
+      "testName": "test_10.js",
+      "api": "simple-statistics.linearRegression",
+      "testFile": "test_10.js",
+      "promptIds": [
+        10
+      ],
+      "status": "PASSED",
+      "err": {},
+      "coveredStatements": [
+        "src/bayesian_classifier.js@24:4-30:5",
+        "src/bayesian_classifier.js@40:4-65:null",
+        "src/bayesian_classifier.js@75:4-117:null",
+        "src/chi_squared_distribution_table.js@12:36-494:null",
+        "src/epsilon.js@35:16-35:null",
+        "src/gammaln.js@2:21-10:1",
+        "src/gammaln.js@12:10-12:19",
+        "src/gammaln.js@13:19-13:51",
+        "src/kernel_density_estimation.js@4:17-4:39",
+        "src/kernel_density_estimation.js@10:16-18:1",
+        "src/kernel_density_estimation.js@24:25-40:1",
+        "src/linear_regression.js@18:23-18:34",
+        "src/linear_regression.js@22:4-61:5",
+        "src/linear_regression.js@28:19-28:20",
+        "src/linear_regression.js@29:19-29:20",
+        "src/linear_regression.js@30:20-30:21",
+        "src/linear_regression.js@31:20-31:21",
+        "src/linear_regression.js@42:8-52:9",
+        "src/linear_regression.js@42:21-42:22",
+        "src/linear_regression.js@43:12-43:28",
+        "src/linear_regression.js@44:12-44:25",
+        "src/linear_regression.js@45:12-45:25",
+        "src/linear_regression.js@47:12-47:22",
+        "src/linear_regression.js@48:12-48:22",
+        "src/linear_regression.js@50:12-50:27",
+        "src/linear_regression.js@51:12-51:27",
+        "src/linear_regression.js@55:8-57:47",
+        "src/linear_regression.js@60:8-60:56",
+        "src/linear_regression.js@64:4-67:6",
+        "src/perceptron.js@24:4-32:5",
+        "src/perceptron.js@40:4-61:null",
+        "src/perceptron.js@71:4-97:null",
+        "src/standard_normal_table.js@1:17-1:39",
+        "src/standard_normal_table.js@4:14-4:15",
+        "src/standard_normal_table.js@5:14-5:15",
+        "src/standard_normal_table.js@8:4-11:5",
+        "src/standard_normal_table.js@8:17-8:18",
+        "src/standard_normal_table.js@9:8-9:37",
+        "src/standard_normal_table.js@10:8-10:19",
+        "src/standard_normal_table.js@12:4-15:6",
+        "src/standard_normal_table.js@26:28-26:31",
+        "src/standard_normal_table.js@28:0-30:null",
+        "src/standard_normal_table.js@28:13-28:14",
+        "src/standard_normal_table.js@29:4-29:56"
+      ],
+      "duration": 446.856208000012
+    },
+    {
+      "testName": "test_11.js",
+      "api": "simple-statistics.linearRegression",
+      "testFile": "test_11.js",
+      "promptIds": [
+        11
+      ],
+      "status": "PASSED",
+      "err": {},
+      "coveredStatements": [
+        "src/bayesian_classifier.js@24:4-30:5",
+        "src/bayesian_classifier.js@40:4-65:null",
+        "src/bayesian_classifier.js@75:4-117:null",
+        "src/chi_squared_distribution_table.js@12:36-494:null",
+        "src/epsilon.js@35:16-35:null",
+        "src/gammaln.js@2:21-10:1",
+        "src/gammaln.js@12:10-12:19",
+        "src/gammaln.js@13:19-13:51",
+        "src/kernel_density_estimation.js@4:17-4:39",
+        "src/kernel_density_estimation.js@10:16-18:1",
+        "src/kernel_density_estimation.js@24:25-40:1",
+        "src/linear_regression.js@18:23-18:34",
+        "src/linear_regression.js@22:4-61:5",
+        "src/linear_regression.js@28:19-28:20",
+        "src/linear_regression.js@29:19-29:20",
+        "src/linear_regression.js@30:20-30:21",
+        "src/linear_regression.js@31:20-31:21",
+        "src/linear_regression.js@42:8-52:9",
+        "src/linear_regression.js@42:21-42:22",
+        "src/linear_regression.js@43:12-43:28",
+        "src/linear_regression.js@44:12-44:25",
+        "src/linear_regression.js@45:12-45:25",
+        "src/linear_regression.js@47:12-47:22",
+        "src/linear_regression.js@48:12-48:22",
+        "src/linear_regression.js@50:12-50:27",
+        "src/linear_regression.js@51:12-51:27",
+        "src/linear_regression.js@55:8-57:47",
+        "src/linear_regression.js@60:8-60:56",
+        "src/linear_regression.js@64:4-67:6",
+        "src/linear_regression_line.js@22:4-24:6",
+        "src/linear_regression_line.js@23:8-23:31",
+        "src/perceptron.js@24:4-32:5",
+        "src/perceptron.js@40:4-61:null",
+        "src/perceptron.js@71:4-97:null",
+        "src/standard_normal_table.js@1:17-1:39",
+        "src/standard_normal_table.js@4:14-4:15",
+        "src/standard_normal_table.js@5:14-5:15",
+        "src/standard_normal_table.js@8:4-11:5",
+        "src/standard_normal_table.js@8:17-8:18",
+        "src/standard_normal_table.js@9:8-9:37",
+        "src/standard_normal_table.js@10:8-10:19",
+        "src/standard_normal_table.js@12:4-15:6",
+        "src/standard_normal_table.js@26:28-26:31",
+        "src/standard_normal_table.js@28:0-30:null",
+        "src/standard_normal_table.js@28:13-28:14",
+        "src/standard_normal_table.js@29:4-29:56"
+      ],
+      "duration": 409.70912600000156
+    },
+    {
+      "testName": "test_12.js",
+      "api": "simple-statistics.linearRegression",
+      "testFile": "test_12.js",
+      "promptIds": [
+        12
+      ],
+      "status": "PASSED",
+      "err": {},
+      "coveredStatements": [
+        "src/bayesian_classifier.js@24:4-30:5",
+        "src/bayesian_classifier.js@40:4-65:null",
+        "src/bayesian_classifier.js@75:4-117:null",
+        "src/chi_squared_distribution_table.js@12:36-494:null",
+        "src/epsilon.js@35:16-35:null",
+        "src/gammaln.js@2:21-10:1",
+        "src/gammaln.js@12:10-12:19",
+        "src/gammaln.js@13:19-13:51",
+        "src/kernel_density_estimation.js@4:17-4:39",
+        "src/kernel_density_estimation.js@10:16-18:1",
+        "src/kernel_density_estimation.js@24:25-40:1",
+        "src/linear_regression.js@18:23-18:34",
+        "src/linear_regression.js@22:4-61:5",
+        "src/linear_regression.js@28:19-28:20",
+        "src/linear_regression.js@29:19-29:20",
+        "src/linear_regression.js@30:20-30:21",
+        "src/linear_regression.js@31:20-31:21",
+        "src/linear_regression.js@42:8-52:9",
+        "src/linear_regression.js@42:21-42:22",
+        "src/linear_regression.js@43:12-43:28",
+        "src/linear_regression.js@44:12-44:25",
+        "src/linear_regression.js@45:12-45:25",
+        "src/linear_regression.js@47:12-47:22",
+        "src/linear_regression.js@48:12-48:22",
+        "src/linear_regression.js@50:12-50:27",
+        "src/linear_regression.js@51:12-51:27",
+        "src/linear_regression.js@55:8-57:47",
+        "src/linear_regression.js@60:8-60:56",
+        "src/linear_regression.js@64:4-67:6",
+        "src/linear_regression_line.js@22:4-24:6",
+        "src/linear_regression_line.js@23:8-23:31",
+        "src/perceptron.js@24:4-32:5",
+        "src/perceptron.js@40:4-61:null",
+        "src/perceptron.js@71:4-97:null",
+        "src/standard_normal_table.js@1:17-1:39",
+        "src/standard_normal_table.js@4:14-4:15",
+        "src/standard_normal_table.js@5:14-5:15",
+        "src/standard_normal_table.js@8:4-11:5",
+        "src/standard_normal_table.js@8:17-8:18",
+        "src/standard_normal_table.js@9:8-9:37",
+        "src/standard_normal_table.js@10:8-10:19",
+        "src/standard_normal_table.js@12:4-15:6",
+        "src/standard_normal_table.js@26:28-26:31",
+        "src/standard_normal_table.js@28:0-30:null",
+        "src/standard_normal_table.js@28:13-28:14",
+        "src/standard_normal_table.js@29:4-29:56"
+      ]
+    }
+  ],
+  "coverage": {
+    "total": {
+      "lines": {
+        "total": 917,
+        "covered": 60,
+        "skipped": 0,
+        "pct": 6.54
+      },
+      "statements": {
+        "total": 995,
+        "covered": 64,
+        "skipped": 0,
+        "pct": 6.43
+      },
+      "functions": {
+        "total": 125,
+        "covered": 6,
+        "skipped": 0,
+        "pct": 4.8
+      },
+      "branches": {
+        "total": 355,
+        "covered": 9,
+        "skipped": 0,
+        "pct": 2.53
+      },
+      "branchesTrue": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": "Unknown"
+      }
+    },
+    "/work/ss/src/add_to_mean.js": {
+      "lines": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/approx_equal.js": {
+      "lines": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/bayesian_classifier.js": {
+      "lines": {
+        "total": 29,
+        "covered": 3,
+        "skipped": 0,
+        "pct": 10.34
+      },
+      "functions": {
+        "total": 3,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 29,
+        "covered": 3,
+        "skipped": 0,
+        "pct": 10.34
+      },
+      "branches": {
+        "total": 10,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/bernoulli_distribution.js": {
+      "lines": {
+        "total": 3,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 3,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/binomial_distribution.js": {
+      "lines": {
+        "total": 12,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 12,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 6,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/bisect.js": {
+      "lines": {
+        "total": 10,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 11,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 8,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/chi_squared_distribution_table.js": {
+      "lines": {
+        "total": 1,
+        "covered": 1,
+        "skipped": 0,
+        "pct": 100
+      },
+      "functions": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      },
+      "statements": {
+        "total": 1,
+        "covered": 1,
+        "skipped": 0,
+        "pct": 100
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/chi_squared_goodness_of_fit.js": {
+      "lines": {
+        "total": 26,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 30,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 8,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/chunk.js": {
+      "lines": {
+        "total": 8,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 9,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/ckmeans.js": {
+      "lines": {
+        "total": 70,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 75,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 32,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/coefficient_of_variation.js": {
+      "lines": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/combinations.js": {
+      "lines": {
+        "total": 10,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 10,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/combinations_replacement.js": {
+      "lines": {
+        "total": 8,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 10,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/combine_means.js": {
+      "lines": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/combine_variances.js": {
+      "lines": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/cumulative_std_logistic_probability.js": {
+      "lines": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/cumulative_std_normal_probability.js": {
+      "lines": {
+        "total": 5,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 5,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/epsilon.js": {
+      "lines": {
+        "total": 1,
+        "covered": 1,
+        "skipped": 0,
+        "pct": 100
+      },
+      "functions": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      },
+      "statements": {
+        "total": 1,
+        "covered": 1,
+        "skipped": 0,
+        "pct": 100
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/equal_interval_breaks.js": {
+      "lines": {
+        "total": 10,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 11,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/error_function.js": {
+      "lines": {
+        "total": 5,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 5,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/euclidean_distance.js": {
+      "lines": {
+        "total": 5,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 6,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/extent.js": {
+      "lines": {
+        "total": 10,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 11,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 6,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/extent_sorted.js": {
+      "lines": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/factorial.js": {
+      "lines": {
+        "total": 8,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 9,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/gamma.js": {
+      "lines": {
+        "total": 11,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 11,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 6,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/gammaln.js": {
+      "lines": {
+        "total": 11,
+        "covered": 3,
+        "skipped": 0,
+        "pct": 27.27
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 12,
+        "covered": 3,
+        "skipped": 0,
+        "pct": 25
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/geometric_mean.js": {
+      "lines": {
+        "total": 8,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 9,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/harmonic_mean.js": {
+      "lines": {
+        "total": 8,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 9,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/interquartile_range.js": {
+      "lines": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/inverse_error_function.js": {
+      "lines": {
+        "total": 5,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 5,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/k_means_cluster.js": {
+      "lines": {
+        "total": 42,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 5,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 48,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 6,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/kernel_density_estimation.js": {
+      "lines": {
+        "total": 29,
+        "covered": 3,
+        "skipped": 0,
+        "pct": 10.34
+      },
+      "functions": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 29,
+        "covered": 3,
+        "skipped": 0,
+        "pct": 10.34
+      },
+      "branches": {
+        "total": 14,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/linear_regression.js": {
+      "lines": {
+        "total": 19,
+        "covered": 19,
+        "skipped": 0,
+        "pct": 100
+      },
+      "functions": {
+        "total": 1,
+        "covered": 1,
+        "skipped": 0,
+        "pct": 100
+      },
+      "statements": {
+        "total": 20,
+        "covered": 20,
+        "skipped": 0,
+        "pct": 100
+      },
+      "branches": {
+        "total": 2,
+        "covered": 2,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/linear_regression_line.js": {
+      "lines": {
+        "total": 2,
+        "covered": 2,
+        "skipped": 0,
+        "pct": 100
+      },
+      "functions": {
+        "total": 2,
+        "covered": 2,
+        "skipped": 0,
+        "pct": 100
+      },
+      "statements": {
+        "total": 2,
+        "covered": 2,
+        "skipped": 0,
+        "pct": 100
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/log_average.js": {
+      "lines": {
+        "total": 8,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 9,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/logit.js": {
+      "lines": {
+        "total": 3,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 3,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/make_matrix.js": {
+      "lines": {
+        "total": 7,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 9,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/max.js": {
+      "lines": {
+        "total": 7,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 8,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/max_sorted.js": {
+      "lines": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/mean.js": {
+      "lines": {
+        "total": 3,
+        "covered": 3,
+        "skipped": 0,
+        "pct": 100
+      },
+      "functions": {
+        "total": 1,
+        "covered": 1,
+        "skipped": 0,
+        "pct": 100
+      },
+      "statements": {
+        "total": 3,
+        "covered": 3,
+        "skipped": 0,
+        "pct": 100
+      },
+      "branches": {
+        "total": 2,
+        "covered": 2,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/mean_simple.js": {
+      "lines": {
+        "total": 3,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 3,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/median.js": {
+      "lines": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/median_absolute_deviation.js": {
+      "lines": {
+        "total": 5,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 6,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/median_sorted.js": {
+      "lines": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/min.js": {
+      "lines": {
+        "total": 7,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 8,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/min_sorted.js": {
+      "lines": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/mode.js": {
+      "lines": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/mode_fast.js": {
+      "lines": {
+        "total": 14,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 15,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 6,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/mode_sorted.js": {
+      "lines": {
+        "total": 17,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 18,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 8,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/numeric_sort.js": {
+      "lines": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/perceptron.js": {
+      "lines": {
+        "total": 26,
+        "covered": 3,
+        "skipped": 0,
+        "pct": 11.53
+      },
+      "functions": {
+        "total": 3,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 28,
+        "covered": 3,
+        "skipped": 0,
+        "pct": 10.71
+      },
+      "branches": {
+        "total": 14,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/permutation_test.js": {
+      "lines": {
+        "total": 31,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 35,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 19,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/permutations_heap.js": {
+      "lines": {
+        "total": 18,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 20,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/poisson_distribution.js": {
+      "lines": {
+        "total": 12,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 12,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/probit.js": {
+      "lines": {
+        "total": 5,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 5,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/product.js": {
+      "lines": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 5,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/quantile.js": {
+      "lines": {
+        "total": 39,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 5,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 42,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 14,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/quantile_rank.js": {
+      "lines": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/quantile_rank_sorted.js": {
+      "lines": {
+        "total": 33,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 3,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 33,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 12,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/quantile_sorted.js": {
+      "lines": {
+        "total": 14,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 14,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 14,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/quickselect.js": {
+      "lines": {
+        "total": 32,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 39,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 16,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/r_squared.js": {
+      "lines": {
+        "total": 13,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 16,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/relative_error.js": {
+      "lines": {
+        "total": 3,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 3,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/root_mean_square.js": {
+      "lines": {
+        "total": 6,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 7,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/sample.js": {
+      "lines": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/sample_correlation.js": {
+      "lines": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/sample_covariance.js": {
+      "lines": {
+        "total": 11,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 12,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/sample_kurtosis.js": {
+      "lines": {
+        "total": 11,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 12,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/sample_rank_correlation.js": {
+      "lines": {
+        "total": 14,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 7,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 15,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/sample_skewness.js": {
+      "lines": {
+        "total": 14,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 15,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/sample_standard_deviation.js": {
+      "lines": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/sample_variance.js": {
+      "lines": {
+        "total": 5,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 5,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/sample_with_replacement.js": {
+      "lines": {
+        "total": 9,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 10,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/shuffle.js": {
+      "lines": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/shuffle_in_place.js": {
+      "lines": {
+        "total": 8,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 8,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/sign.js": {
+      "lines": {
+        "total": 7,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 7,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 6,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/silhouette.js": {
+      "lines": {
+        "total": 40,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 5,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 46,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 10,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/silhouette_metric.js": {
+      "lines": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/standard_deviation.js": {
+      "lines": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/standard_normal_table.js": {
+      "lines": {
+        "total": 10,
+        "covered": 10,
+        "skipped": 0,
+        "pct": 100
+      },
+      "functions": {
+        "total": 1,
+        "covered": 1,
+        "skipped": 0,
+        "pct": 100
+      },
+      "statements": {
+        "total": 12,
+        "covered": 12,
+        "skipped": 0,
+        "pct": 100
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/subtract_from_mean.js": {
+      "lines": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/sum.js": {
+      "lines": {
+        "total": 15,
+        "covered": 12,
+        "skipped": 0,
+        "pct": 80
+      },
+      "functions": {
+        "total": 1,
+        "covered": 1,
+        "skipped": 0,
+        "pct": 100
+      },
+      "statements": {
+        "total": 16,
+        "covered": 13,
+        "skipped": 0,
+        "pct": 81.25
+      },
+      "branches": {
+        "total": 8,
+        "covered": 5,
+        "skipped": 0,
+        "pct": 62.5
+      }
+    },
+    "/work/ss/src/sum_nth_power_deviations.js": {
+      "lines": {
+        "total": 9,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 9,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/sum_simple.js": {
+      "lines": {
+        "total": 6,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 7,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/t_test.js": {
+      "lines": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    },
+    "/work/ss/src/t_test_two_sample.js": {
+      "lines": {
+        "total": 13,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 13,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 12,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/unique_count_sorted.js": {
+      "lines": {
+        "total": 6,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 7,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 4,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/variance.js": {
+      "lines": {
+        "total": 3,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 3,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 2,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/wilcoxon_rank_sum.js": {
+      "lines": {
+        "total": 26,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 5,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 30,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 12,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      }
+    },
+    "/work/ss/src/z_score.js": {
+      "lines": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "functions": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "statements": {
+        "total": 1,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 0
+      },
+      "branches": {
+        "total": 0,
+        "covered": 0,
+        "skipped": 0,
+        "pct": 100
+      }
+    }
+  }
+}

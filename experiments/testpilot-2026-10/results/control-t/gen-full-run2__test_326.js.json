@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-10-09T10:48:27.272Z",
+    "end": "2026-10-09T10:48:27.273Z",
+    "duration": 1
+  },
+  "tests": [
+    {
+      "title": "modeSorted returns correct mode and handles ties and empty input",
+      "fullTitle": "test simple_statistics modeSorted returns correct mode and handles ties and empty input",
+      "file": "/work/ss/tests-llm/test_326.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "modeSorted returns correct mode and handles ties and empty input",
+      "fullTitle": "test simple_statistics modeSorted returns correct mode and handles ties and empty input",
+      "file": "/work/ss/tests-llm/test_326.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}

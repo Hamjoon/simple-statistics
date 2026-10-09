@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-10-09T10:48:45.527Z",
+    "end": "2026-10-09T10:48:45.531Z",
+    "duration": 4
+  },
+  "tests": [
+    {
+      "title": "test simple-statistics.sampleSkewness",
+      "fullTitle": "test simple_statistics test simple-statistics.sampleSkewness",
+      "file": "/work/ss/tests-llm/test_473.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "test simple-statistics.sampleSkewness",
+      "fullTitle": "test simple_statistics test simple-statistics.sampleSkewness",
+      "file": "/work/ss/tests-llm/test_473.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}

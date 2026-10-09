@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-10-09T10:48:42.756Z",
+    "end": "2026-10-09T10:48:42.757Z",
+    "duration": 1
+  },
+  "tests": [
+    {
+      "title": "test simple-statistics.sampleCovariance",
+      "fullTitle": "test simple_statistics test simple-statistics.sampleCovariance",
+      "file": "/work/ss/tests-llm/test_458.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "test simple-statistics.sampleCovariance",
+      "fullTitle": "test simple_statistics test simple-statistics.sampleCovariance",
+      "file": "/work/ss/tests-llm/test_458.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}

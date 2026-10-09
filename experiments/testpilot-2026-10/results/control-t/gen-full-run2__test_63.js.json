@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-10-09T10:47:48.568Z",
+    "end": "2026-10-09T10:47:48.569Z",
+    "duration": 1
+  },
+  "tests": [
+    {
+      "title": "test simple-statistics.binomialDistribution",
+      "fullTitle": "test simple_statistics test simple-statistics.binomialDistribution",
+      "file": "/work/ss/tests-llm/test_63.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "test simple-statistics.binomialDistribution",
+      "fullTitle": "test simple_statistics test simple-statistics.binomialDistribution",
+      "file": "/work/ss/tests-llm/test_63.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}

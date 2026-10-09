@@ -1,0 +1,52 @@
+Your task is to write a test for the following function
+```
+simple-statistics.silhouette(points, labels)
+```
+
+This function is defined as follows:
+```
+function silhouette(points, labels) {
+    if (points.length !== labels.length) {
+        throw new Error("must have exactly as many labels as points");
+    }
+    var groupings = createGroups(labels);
+    var distances = calculateAllDistances(points);
+    var result = [];
+    for (var i = 0; i < points.length; i++) {
+        var s = 0;
+        if (groupings[labels[i]].length > 1) {
+            var a = meanDistanceFromPointToGroup(
+                i,
+                groupings[labels[i]],
+                distances
+            );
+            var b = meanDistanceToNearestGroup(
+                i,
+                labels,
+                groupings,
+                distances
+            );
+            s = (b - a) / Math.max(a, b);
+        }
+        result.push(s);
+    }
+    return result;
+}
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.silhouette', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```

@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-10-09T10:48:16.918Z",
+    "end": "2026-10-09T10:48:16.920Z",
+    "duration": 2
+  },
+  "tests": [
+    {
+      "title": "test simple-statistics.mad",
+      "fullTitle": "test simple_statistics test simple-statistics.mad",
+      "file": "/work/ss/tests-llm/test_280.js",
+      "duration": 2,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "test simple-statistics.mad",
+      "fullTitle": "test simple_statistics test simple-statistics.mad",
+      "file": "/work/ss/tests-llm/test_280.js",
+      "duration": 2,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}

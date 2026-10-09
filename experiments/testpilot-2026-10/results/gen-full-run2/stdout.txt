@@ -1,0 +1,681 @@
+Warning: --strictResponses has no effect when not using --responses
+Using openai/gpt-oss-120b at https://openrouter.ai/api/v1/chat/completions with 3 attempts and NoRateLimiter
+Running experiment for simple-statistics
+Loading API from /work/ss/experiments/testpilot-2026-10/results/explore-native/api.json
+Extracting snippets
+Generating tests
+test_0.js (for simple-statistics.BayesianClassifier at temperature 0, 0 snippets available): FAILED
+(node:9) [DEP0147] DeprecationWarning: In future versions of Node.js, fs.rmdir(path, { recursive: true }) will be removed. Use fs.rm(path, { recursive: true }) instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+test_1.js (for simple-statistics.BayesianClassifier at temperature 0, 0 snippets available): PASSED
+test_2.js (for simple-statistics.BayesianClassifier at temperature 0, 0 snippets available): PASSED
+test_3.js (for simple-statistics.BayesianClassifier at temperature 0, 0 snippets available): PASSED
+test_4.js (for simple-statistics.BayesianClassifier at temperature 0, 0 snippets available): FAILED
+test_5.js (for simple-statistics.BayesianClassifier.prototype.train at temperature 0, 0 snippets available): FAILED
+test_6.js (for simple-statistics.BayesianClassifier.prototype.train at temperature 0, 0 snippets available): PASSED
+test_7.js (for simple-statistics.BayesianClassifier.prototype.train at temperature 0, 0 snippets available): PASSED
+test_8.js (for simple-statistics.BayesianClassifier.prototype.train at temperature 0, 0 snippets available): FAILED
+test_9.js (for simple-statistics.BayesianClassifier.prototype.train at temperature 0, 0 snippets available): FAILED
+test_10.js (for simple-statistics.BayesianClassifier.prototype.train at temperature 0, 0 snippets available): FAILED
+test_11.js (for simple-statistics.BayesianClassifier.prototype.score at temperature 0, 0 snippets available): FAILED
+test_12.js (for simple-statistics.BayesianClassifier.prototype.score at temperature 0, 0 snippets available): FAILED
+test_13.js (for simple-statistics.BayesianClassifier.prototype.score at temperature 0, 0 snippets available): FAILED
+test_14.js (for simple-statistics.BayesianClassifier.prototype.score at temperature 0, 0 snippets available): FAILED
+test_15.js (for simple-statistics.BayesianClassifier.prototype.score at temperature 0, 0 snippets available): PASSED
+test_16.js (for simple-statistics.BayesianClassifier.prototype.score at temperature 0, 0 snippets available): FAILED
+test_17.js (for simple-statistics.BayesianClassifier.prototype.score at temperature 0, 0 snippets available): PASSED
+test_18.js (for simple-statistics.BayesianClassifier.prototype.score at temperature 0, 0 snippets available): FAILED
+test_19.js (for simple-statistics.PerceptronModel at temperature 0, 0 snippets available): FAILED
+test_20.js (for simple-statistics.PerceptronModel at temperature 0, 0 snippets available): PASSED
+test_21.js (for simple-statistics.PerceptronModel at temperature 0, 0 snippets available): PASSED
+test_22.js (for simple-statistics.PerceptronModel at temperature 0, 0 snippets available): PASSED
+test_23.js (for simple-statistics.PerceptronModel at temperature 0, 0 snippets available): FAILED
+test_24.js (for simple-statistics.PerceptronModel.prototype.predict at temperature 0, 0 snippets available): FAILED
+test_25.js (for simple-statistics.PerceptronModel.prototype.predict at temperature 0, 0 snippets available): PASSED
+test_26.js (for simple-statistics.PerceptronModel.prototype.predict at temperature 0, 0 snippets available): PASSED
+test_27.js (for simple-statistics.PerceptronModel.prototype.predict at temperature 0, 0 snippets available): FAILED
+test_28.js (for simple-statistics.PerceptronModel.prototype.predict at temperature 0, 0 snippets available): PASSED
+test_29.js (for simple-statistics.PerceptronModel.prototype.predict at temperature 0, 0 snippets available): FAILED
+test_30.js (for simple-statistics.PerceptronModel.prototype.train at temperature 0, 0 snippets available): FAILED
+test_31.js (for simple-statistics.PerceptronModel.prototype.train at temperature 0, 0 snippets available): PASSED
+test_32.js (for simple-statistics.PerceptronModel.prototype.train at temperature 0, 0 snippets available): PASSED
+test_33.js (for simple-statistics.PerceptronModel.prototype.train at temperature 0, 0 snippets available): PASSED
+test_34.js (for simple-statistics.PerceptronModel.prototype.train at temperature 0, 0 snippets available): FAILED
+test_35.js (for simple-statistics.addToMean at temperature 0, 0 snippets available): PASSED
+test_36.js (for simple-statistics.addToMean at temperature 0, 0 snippets available): PASSED
+test_37.js (for simple-statistics.addToMean at temperature 0, 0 snippets available): PASSED
+test_38.js (for simple-statistics.addToMean at temperature 0, 0 snippets available): PASSED
+test_39.js (for simple-statistics.approxEqual at temperature 0, 0 snippets available): FAILED
+test_40.js (for simple-statistics.approxEqual at temperature 0, 0 snippets available): PASSED
+test_41.js (for simple-statistics.approxEqual at temperature 0, 0 snippets available): FAILED
+test_42.js (for simple-statistics.approxEqual at temperature 0, 0 snippets available): FAILED
+test_43.js (for simple-statistics.approxEqual at temperature 0, 0 snippets available): PASSED
+test_44.js (for simple-statistics.approxEqual at temperature 0, 0 snippets available): FAILED
+test_45.js (for simple-statistics.average at temperature 0, 0 snippets available): FAILED
+test_46.js (for simple-statistics.average at temperature 0, 0 snippets available): PASSED
+test_47.js (for simple-statistics.average at temperature 0, 0 snippets available): PASSED
+test_48.js (for simple-statistics.average at temperature 0, 0 snippets available): PASSED
+test_49.js (for simple-statistics.average at temperature 0, 0 snippets available): PASSED
+test_50.js (for simple-statistics.averageSimple at temperature 0, 0 snippets available): FAILED
+test_51.js (for simple-statistics.averageSimple at temperature 0, 0 snippets available): PASSED
+test_52.js (for simple-statistics.averageSimple at temperature 0, 0 snippets available): PASSED
+test_53.js (for simple-statistics.averageSimple at temperature 0, 0 snippets available): PASSED
+test_54.js (for simple-statistics.averageSimple at temperature 0, 0 snippets available): PASSED
+test_55.js (for simple-statistics.bernoulliDistribution at temperature 0, 0 snippets available): FAILED
+test_56.js (for simple-statistics.bernoulliDistribution at temperature 0, 0 snippets available): PASSED
+test_57.js (for simple-statistics.bernoulliDistribution at temperature 0, 0 snippets available): PASSED
+test_58.js (for simple-statistics.bernoulliDistribution at temperature 0, 0 snippets available): PASSED
+test_59.js (for simple-statistics.bernoulliDistribution at temperature 0, 0 snippets available): PASSED
+test_60.js (for simple-statistics.binomialDistribution at temperature 0, 0 snippets available): FAILED
+test_61.js (for simple-statistics.binomialDistribution at temperature 0, 0 snippets available): PASSED
+test_62.js (for simple-statistics.binomialDistribution at temperature 0, 0 snippets available): PASSED
+test_63.js (for simple-statistics.binomialDistribution at temperature 0, 0 snippets available): PASSED
+test_64.js (for simple-statistics.binomialDistribution at temperature 0, 0 snippets available): FAILED
+test_65.js (for simple-statistics.bisect at temperature 0, 0 snippets available): PASSED
+test_66.js (for simple-statistics.bisect at temperature 0, 0 snippets available): PASSED
+test_67.js (for simple-statistics.bisect at temperature 0, 0 snippets available): PASSED
+test_68.js (for simple-statistics.bisect at temperature 0, 0 snippets available): PASSED
+test_69.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_70.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_71.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+Error parsing coverage report: Error: ENOENT: no such file or directory, open '/tmp/mocha-validatorBApIp7/report.json'
+test_72.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_73.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_74.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_75.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_76.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_77.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_78.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_79.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_80.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_81.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_82.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_83.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_84.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_85.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_86.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_87.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_88.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_89.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_90.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_91.js (for simple-statistics.chiSquaredGoodnessOfFit at temperature 0, 0 snippets available): FAILED
+test_92.js (for simple-statistics.chunk at temperature 0, 0 snippets available): PASSED
+test_93.js (for simple-statistics.chunk at temperature 0, 0 snippets available): PASSED
+test_94.js (for simple-statistics.chunk at temperature 0, 0 snippets available): PASSED
+test_95.js (for simple-statistics.chunk at temperature 0, 0 snippets available): PASSED
+test_96.js (for simple-statistics.ckmeans at temperature 0, 2 snippets available): PASSED
+test_97.js (for simple-statistics.ckmeans at temperature 0, 2 snippets available): PASSED
+test_98.js (for simple-statistics.ckmeans at temperature 0, 2 snippets available): PASSED
+test_99.js (for simple-statistics.ckmeans at temperature 0, 2 snippets available): PASSED
+test_100.js (for simple-statistics.ckmeans at temperature 0, 2 snippets available): FAILED
+test_101.js (for simple-statistics.ckmeans at temperature 0, 2 snippets available): PASSED
+test_102.js (for simple-statistics.ckmeans at temperature 0, 2 snippets available): PASSED
+test_103.js (for simple-statistics.ckmeans at temperature 0, 2 snippets available): FAILED
+test_104.js (for simple-statistics.ckmeans at temperature 0, 2 snippets available): PASSED
+test_105.js (for simple-statistics.ckmeans at temperature 0, 2 snippets available): FAILED
+test_106.js (for simple-statistics.ckmeans at temperature 0, 2 snippets available): PASSED
+test_107.js (for simple-statistics.coefficientOfVariation at temperature 0, 0 snippets available): FAILED
+test_108.js (for simple-statistics.coefficientOfVariation at temperature 0, 0 snippets available): PASSED
+test_109.js (for simple-statistics.coefficientOfVariation at temperature 0, 0 snippets available): PASSED
+test_110.js (for simple-statistics.coefficientOfVariation at temperature 0, 0 snippets available): PASSED
+test_111.js (for simple-statistics.coefficientOfVariation at temperature 0, 0 snippets available): PASSED
+test_112.js (for simple-statistics.combinations at temperature 0, 0 snippets available): FAILED
+test_113.js (for simple-statistics.combinations at temperature 0, 0 snippets available): PASSED
+test_114.js (for simple-statistics.combinations at temperature 0, 0 snippets available): FAILED
+test_115.js (for simple-statistics.combinationsReplacement at temperature 0, 0 snippets available): FAILED
+test_116.js (for simple-statistics.combinationsReplacement at temperature 0, 0 snippets available): PASSED
+test_117.js (for simple-statistics.combinationsReplacement at temperature 0, 0 snippets available): PASSED
+test_118.js (for simple-statistics.combinationsReplacement at temperature 0, 0 snippets available): PASSED
+test_119.js (for simple-statistics.combinationsReplacement at temperature 0, 0 snippets available): FAILED
+test_120.js (for simple-statistics.combineMeans at temperature 0, 0 snippets available): PASSED
+test_121.js (for simple-statistics.combineMeans at temperature 0, 0 snippets available): PASSED
+test_122.js (for simple-statistics.combineMeans at temperature 0, 0 snippets available): PASSED
+test_123.js (for simple-statistics.combineMeans at temperature 0, 0 snippets available): PASSED
+test_124.js (for simple-statistics.combineVariances at temperature 0, 0 snippets available): FAILED
+test_125.js (for simple-statistics.combineVariances at temperature 0, 0 snippets available): FAILED
+test_126.js (for simple-statistics.combineVariances at temperature 0, 0 snippets available): PASSED
+test_127.js (for simple-statistics.combineVariances at temperature 0, 0 snippets available): FAILED
+test_128.js (for simple-statistics.combineVariances at temperature 0, 0 snippets available): PASSED
+test_129.js (for simple-statistics.combineVariances at temperature 0, 0 snippets available): FAILED
+test_130.js (for simple-statistics.cumulativeStdLogisticProbability at temperature 0, 0 snippets available): PASSED
+test_131.js (for simple-statistics.cumulativeStdLogisticProbability at temperature 0, 0 snippets available): PASSED
+test_132.js (for simple-statistics.cumulativeStdLogisticProbability at temperature 0, 0 snippets available): FAILED
+test_133.js (for simple-statistics.cumulativeStdLogisticProbability at temperature 0, 0 snippets available): PASSED
+test_134.js (for simple-statistics.cumulativeStdLogisticProbability at temperature 0, 0 snippets available): PASSED
+test_135.js (for simple-statistics.cumulativeStdNormalProbability at temperature 0, 0 snippets available): FAILED
+test_136.js (for simple-statistics.cumulativeStdNormalProbability at temperature 0, 0 snippets available): FAILED
+test_137.js (for simple-statistics.cumulativeStdNormalProbability at temperature 0, 0 snippets available): PASSED
+test_138.js (for simple-statistics.cumulativeStdNormalProbability at temperature 0, 0 snippets available): FAILED
+test_139.js (for simple-statistics.cumulativeStdNormalProbability at temperature 0, 0 snippets available): FAILED
+test_140.js (for simple-statistics.cumulativeStdNormalProbability at temperature 0, 0 snippets available): PASSED
+test_141.js (for simple-statistics.cumulativeStdNormalProbability at temperature 0, 0 snippets available): FAILED
+test_142.js (for simple-statistics.equalIntervalBreaks at temperature 0, 0 snippets available): PASSED
+test_143.js (for simple-statistics.equalIntervalBreaks at temperature 0, 0 snippets available): PASSED
+test_144.js (for simple-statistics.equalIntervalBreaks at temperature 0, 0 snippets available): PASSED
+test_145.js (for simple-statistics.equalIntervalBreaks at temperature 0, 0 snippets available): PASSED
+test_146.js (for simple-statistics.erf at temperature 0, 0 snippets available): PASSED
+test_147.js (for simple-statistics.erf at temperature 0, 0 snippets available): PASSED
+test_148.js (for simple-statistics.erf at temperature 0, 0 snippets available): FAILED
+test_149.js (for simple-statistics.erf at temperature 0, 0 snippets available): PASSED
+test_150.js (for simple-statistics.erf at temperature 0, 0 snippets available): FAILED
+test_151.js (for simple-statistics.erf at temperature 0, 0 snippets available): PASSED
+test_152.js (for simple-statistics.extent at temperature 0, 0 snippets available): FAILED
+test_153.js (for simple-statistics.extent at temperature 0, 0 snippets available): PASSED
+test_154.js (for simple-statistics.extent at temperature 0, 0 snippets available): PASSED
+test_155.js (for simple-statistics.extent at temperature 0, 0 snippets available): PASSED
+test_156.js (for simple-statistics.extent at temperature 0, 0 snippets available): PASSED
+test_157.js (for simple-statistics.extentSorted at temperature 0, 0 snippets available): FAILED
+test_158.js (for simple-statistics.extentSorted at temperature 0, 0 snippets available): PASSED
+test_159.js (for simple-statistics.extentSorted at temperature 0, 0 snippets available): PASSED
+test_160.js (for simple-statistics.extentSorted at temperature 0, 0 snippets available): PASSED
+test_161.js (for simple-statistics.extentSorted at temperature 0, 0 snippets available): PASSED
+test_162.js (for simple-statistics.factorial at temperature 0, 0 snippets available): FAILED
+test_163.js (for simple-statistics.factorial at temperature 0, 0 snippets available): PASSED
+test_164.js (for simple-statistics.factorial at temperature 0, 0 snippets available): PASSED
+test_165.js (for simple-statistics.factorial at temperature 0, 0 snippets available): PASSED
+test_166.js (for simple-statistics.factorial at temperature 0, 0 snippets available): PASSED
+test_167.js (for simple-statistics.gamma at temperature 0, 0 snippets available): FAILED
+test_168.js (for simple-statistics.gamma at temperature 0, 0 snippets available): FAILED
+test_169.js (for simple-statistics.gamma at temperature 0, 0 snippets available): PASSED
+test_170.js (for simple-statistics.gamma at temperature 0, 0 snippets available): PASSED
+test_171.js (for simple-statistics.gamma at temperature 0, 0 snippets available): PASSED
+test_172.js (for simple-statistics.gamma at temperature 0, 0 snippets available): FAILED
+test_173.js (for simple-statistics.gammaln at temperature 0, 0 snippets available): FAILED
+test_174.js (for simple-statistics.gammaln at temperature 0, 0 snippets available): PASSED
+test_175.js (for simple-statistics.gammaln at temperature 0, 0 snippets available): PASSED
+test_176.js (for simple-statistics.gammaln at temperature 0, 0 snippets available): PASSED
+test_177.js (for simple-statistics.gammaln at temperature 0, 0 snippets available): PASSED
+test_178.js (for simple-statistics.geometricMean at temperature 0, 0 snippets available): FAILED
+test_179.js (for simple-statistics.geometricMean at temperature 0, 0 snippets available): PASSED
+test_180.js (for simple-statistics.geometricMean at temperature 0, 0 snippets available): PASSED
+test_181.js (for simple-statistics.geometricMean at temperature 0, 0 snippets available): PASSED
+test_182.js (for simple-statistics.geometricMean at temperature 0, 0 snippets available): FAILED
+test_183.js (for simple-statistics.harmonicMean at temperature 0, 0 snippets available): FAILED
+test_184.js (for simple-statistics.harmonicMean at temperature 0, 0 snippets available): PASSED
+test_185.js (for simple-statistics.harmonicMean at temperature 0, 0 snippets available): FAILED
+test_186.js (for simple-statistics.harmonicMean at temperature 0, 0 snippets available): PASSED
+test_187.js (for simple-statistics.harmonicMean at temperature 0, 0 snippets available): PASSED
+test_188.js (for simple-statistics.harmonicMean at temperature 0, 0 snippets available): PASSED
+test_189.js (for simple-statistics.interquartileRange at temperature 0, 0 snippets available): FAILED
+test_190.js (for simple-statistics.interquartileRange at temperature 0, 0 snippets available): FAILED
+test_191.js (for simple-statistics.interquartileRange at temperature 0, 0 snippets available): PASSED
+test_192.js (for simple-statistics.interquartileRange at temperature 0, 0 snippets available): FAILED
+test_193.js (for simple-statistics.interquartileRange at temperature 0, 0 snippets available): FAILED
+test_194.js (for simple-statistics.interquartileRange at temperature 0, 0 snippets available): PASSED
+test_195.js (for simple-statistics.interquartileRange at temperature 0, 0 snippets available): PASSED
+test_196.js (for simple-statistics.inverseErrorFunction at temperature 0, 0 snippets available): FAILED
+test_197.js (for simple-statistics.inverseErrorFunction at temperature 0, 0 snippets available): FAILED
+test_198.js (for simple-statistics.inverseErrorFunction at temperature 0, 0 snippets available): FAILED
+test_199.js (for simple-statistics.inverseErrorFunction at temperature 0, 0 snippets available): PASSED
+test_200.js (for simple-statistics.inverseErrorFunction at temperature 0, 0 snippets available): FAILED
+test_201.js (for simple-statistics.inverseErrorFunction at temperature 0, 0 snippets available): FAILED
+test_202.js (for simple-statistics.inverseErrorFunction at temperature 0, 0 snippets available): FAILED
+test_203.js (for simple-statistics.inverseErrorFunction at temperature 0, 0 snippets available): FAILED
+test_204.js (for simple-statistics.kMeansCluster at temperature 0, 0 snippets available): FAILED
+test_205.js (for simple-statistics.kMeansCluster at temperature 0, 0 snippets available): PASSED
+test_206.js (for simple-statistics.kMeansCluster at temperature 0, 0 snippets available): PASSED
+test_207.js (for simple-statistics.kMeansCluster at temperature 0, 0 snippets available): FAILED
+test_208.js (for simple-statistics.kMeansCluster at temperature 0, 0 snippets available): FAILED
+test_209.js (for simple-statistics.kMeansCluster at temperature 0, 0 snippets available): FAILED
+test_210.js (for simple-statistics.kde at temperature 0, 0 snippets available): FAILED
+test_211.js (for simple-statistics.kde at temperature 0, 0 snippets available): FAILED
+test_212.js (for simple-statistics.kde at temperature 0, 0 snippets available): PASSED
+test_213.js (for simple-statistics.kde at temperature 0, 0 snippets available): FAILED
+test_214.js (for simple-statistics.kde at temperature 0, 0 snippets available): PASSED
+test_215.js (for simple-statistics.kde at temperature 0, 0 snippets available): FAILED
+test_216.js (for simple-statistics.linearRegression at temperature 0, 1 snippets available): PASSED
+test_217.js (for simple-statistics.linearRegression at temperature 0, 1 snippets available): PASSED
+test_218.js (for simple-statistics.linearRegression at temperature 0, 1 snippets available): PASSED
+test_219.js (for simple-statistics.linearRegression at temperature 0, 1 snippets available): PASSED
+test_220.js (for simple-statistics.linearRegression at temperature 0, 1 snippets available): PASSED
+test_221.js (for simple-statistics.linearRegression at temperature 0, 1 snippets available): PASSED
+test_222.js (for simple-statistics.linearRegression at temperature 0, 1 snippets available): PASSED
+test_223.js (for simple-statistics.linearRegression at temperature 0, 1 snippets available): PASSED
+test_224.js (for simple-statistics.linearRegressionLine at temperature 0, 1 snippets available): PASSED
+test_225.js (for simple-statistics.linearRegressionLine at temperature 0, 1 snippets available): PASSED
+test_226.js (for simple-statistics.linearRegressionLine at temperature 0, 1 snippets available): PASSED
+test_227.js (for simple-statistics.linearRegressionLine at temperature 0, 1 snippets available): PASSED
+test_228.js (for simple-statistics.linearRegressionLine at temperature 0, 1 snippets available): PASSED
+test_229.js (for simple-statistics.linearRegressionLine at temperature 0, 1 snippets available): PASSED
+test_230.js (for simple-statistics.linearRegressionLine at temperature 0, 1 snippets available): PASSED
+test_231.js (for simple-statistics.linearRegressionLine at temperature 0, 1 snippets available): PASSED
+test_232.js (for simple-statistics.logAverage at temperature 0, 0 snippets available): FAILED
+test_233.js (for simple-statistics.logAverage at temperature 0, 0 snippets available): PASSED
+test_234.js (for simple-statistics.logAverage at temperature 0, 0 snippets available): PASSED
+test_235.js (for simple-statistics.logAverage at temperature 0, 0 snippets available): PASSED
+test_236.js (for simple-statistics.logAverage at temperature 0, 0 snippets available): PASSED
+test_237.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_238.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_239.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_240.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_241.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_242.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_243.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_244.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_245.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_246.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_247.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_248.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_249.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_250.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_251.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_252.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_253.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_254.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_255.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_256.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_257.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_258.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_259.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_260.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_261.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_262.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_263.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_264.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_265.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_266.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_267.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_268.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_269.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_270.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_271.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_272.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_273.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_274.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_275.js (for simple-statistics.logit at temperature 0, 0 snippets available): FAILED
+test_276.js (for simple-statistics.mad at temperature 0, 0 snippets available): FAILED
+test_277.js (for simple-statistics.mad at temperature 0, 0 snippets available): PASSED
+test_278.js (for simple-statistics.mad at temperature 0, 0 snippets available): PASSED
+test_279.js (for simple-statistics.mad at temperature 0, 0 snippets available): PASSED
+test_280.js (for simple-statistics.mad at temperature 0, 0 snippets available): PASSED
+test_281.js (for simple-statistics.max at temperature 0, 0 snippets available): PASSED
+test_282.js (for simple-statistics.max at temperature 0, 0 snippets available): PASSED
+test_283.js (for simple-statistics.max at temperature 0, 0 snippets available): PASSED
+test_284.js (for simple-statistics.max at temperature 0, 0 snippets available): PASSED
+test_285.js (for simple-statistics.maxSorted at temperature 0, 0 snippets available): PASSED
+test_286.js (for simple-statistics.maxSorted at temperature 0, 0 snippets available): PASSED
+test_287.js (for simple-statistics.maxSorted at temperature 0, 0 snippets available): PASSED
+test_288.js (for simple-statistics.maxSorted at temperature 0, 0 snippets available): PASSED
+test_289.js (for simple-statistics.median at temperature 0, 0 snippets available): FAILED
+test_290.js (for simple-statistics.median at temperature 0, 0 snippets available): PASSED
+test_291.js (for simple-statistics.median at temperature 0, 0 snippets available): PASSED
+test_292.js (for simple-statistics.median at temperature 0, 0 snippets available): PASSED
+test_293.js (for simple-statistics.median at temperature 0, 0 snippets available): PASSED
+test_294.js (for simple-statistics.medianSorted at temperature 0, 0 snippets available): FAILED
+test_295.js (for simple-statistics.medianSorted at temperature 0, 0 snippets available): PASSED
+test_296.js (for simple-statistics.medianSorted at temperature 0, 0 snippets available): FAILED
+test_297.js (for simple-statistics.medianSorted at temperature 0, 0 snippets available): PASSED
+test_298.js (for simple-statistics.medianSorted at temperature 0, 0 snippets available): PASSED
+test_299.js (for simple-statistics.medianSorted at temperature 0, 0 snippets available): PASSED
+test_300.js (for simple-statistics.min at temperature 0, 0 snippets available): FAILED
+test_301.js (for simple-statistics.min at temperature 0, 0 snippets available): PASSED
+test_302.js (for simple-statistics.min at temperature 0, 0 snippets available): PASSED
+test_303.js (for simple-statistics.min at temperature 0, 0 snippets available): PASSED
+test_304.js (for simple-statistics.min at temperature 0, 0 snippets available): PASSED
+test_305.js (for simple-statistics.minSorted at temperature 0, 0 snippets available): PASSED
+test_306.js (for simple-statistics.minSorted at temperature 0, 0 snippets available): PASSED
+test_307.js (for simple-statistics.minSorted at temperature 0, 0 snippets available): PASSED
+test_308.js (for simple-statistics.minSorted at temperature 0, 0 snippets available): PASSED
+test_309.js (for simple-statistics.mode at temperature 0, 0 snippets available): FAILED
+test_310.js (for simple-statistics.mode at temperature 0, 0 snippets available): PASSED
+test_311.js (for simple-statistics.mode at temperature 0, 0 snippets available): PASSED
+test_312.js (for simple-statistics.mode at temperature 0, 0 snippets available): FAILED
+test_313.js (for simple-statistics.mode at temperature 0, 0 snippets available): PASSED
+test_314.js (for simple-statistics.mode at temperature 0, 0 snippets available): PASSED
+test_315.js (for simple-statistics.modeFast at temperature 0, 0 snippets available): PASSED
+test_316.js (for simple-statistics.modeFast at temperature 0, 0 snippets available): PASSED
+test_317.js (for simple-statistics.modeFast at temperature 0, 0 snippets available): FAILED
+test_318.js (for simple-statistics.modeFast at temperature 0, 0 snippets available): PASSED
+test_319.js (for simple-statistics.modeFast at temperature 0, 0 snippets available): FAILED
+test_320.js (for simple-statistics.modeFast at temperature 0, 0 snippets available): PASSED
+test_321.js (for simple-statistics.modeSorted at temperature 0, 0 snippets available): FAILED
+test_322.js (for simple-statistics.modeSorted at temperature 0, 0 snippets available): PASSED
+test_323.js (for simple-statistics.modeSorted at temperature 0, 0 snippets available): FAILED
+test_324.js (for simple-statistics.modeSorted at temperature 0, 0 snippets available): PASSED
+test_325.js (for simple-statistics.modeSorted at temperature 0, 0 snippets available): FAILED
+test_326.js (for simple-statistics.modeSorted at temperature 0, 0 snippets available): PASSED
+test_327.js (for simple-statistics.modeSorted at temperature 0, 0 snippets available): FAILED
+test_328.js (for simple-statistics.numericSort at temperature 0, 0 snippets available): PASSED
+test_329.js (for simple-statistics.numericSort at temperature 0, 0 snippets available): PASSED
+test_330.js (for simple-statistics.numericSort at temperature 0, 0 snippets available): PASSED
+test_331.js (for simple-statistics.numericSort at temperature 0, 0 snippets available): PASSED
+test_332.js (for simple-statistics.permutationTest at temperature 0, 0 snippets available): FAILED
+test_333.js (for simple-statistics.permutationTest at temperature 0, 0 snippets available): PASSED
+test_334.js (for simple-statistics.permutationTest at temperature 0, 0 snippets available): PASSED
+test_335.js (for simple-statistics.permutationTest at temperature 0, 0 snippets available): FAILED
+test_336.js (for simple-statistics.permutationTest at temperature 0, 0 snippets available): PASSED
+test_337.js (for simple-statistics.permutationTest at temperature 0, 0 snippets available): FAILED
+test_338.js (for simple-statistics.permutationsHeap at temperature 0, 0 snippets available): PASSED
+test_339.js (for simple-statistics.permutationsHeap at temperature 0, 0 snippets available): PASSED
+test_340.js (for simple-statistics.permutationsHeap at temperature 0, 0 snippets available): PASSED
+test_341.js (for simple-statistics.permutationsHeap at temperature 0, 0 snippets available): PASSED
+test_342.js (for simple-statistics.poissonDistribution at temperature 0, 0 snippets available): FAILED
+test_343.js (for simple-statistics.poissonDistribution at temperature 0, 0 snippets available): FAILED
+test_344.js (for simple-statistics.poissonDistribution at temperature 0, 0 snippets available): FAILED
+test_345.js (for simple-statistics.poissonDistribution at temperature 0, 0 snippets available): PASSED
+test_346.js (for simple-statistics.poissonDistribution at temperature 0, 0 snippets available): PASSED
+test_347.js (for simple-statistics.poissonDistribution at temperature 0, 0 snippets available): FAILED
+test_348.js (for simple-statistics.poissonDistribution at temperature 0, 0 snippets available): FAILED
+test_349.js (for simple-statistics.poissonDistribution at temperature 0, 0 snippets available): PASSED
+test_350.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_351.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_352.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_353.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_354.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_355.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_356.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_357.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_358.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_359.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_360.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_361.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_362.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_363.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_364.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_365.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_366.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_367.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_368.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_369.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+Error parsing coverage report: Error: ENOENT: no such file or directory, open '/tmp/mocha-validatorszQU1e/report.json'
+test_370.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_371.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_372.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_373.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_374.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_375.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_376.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_377.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_378.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_379.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_380.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_381.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_382.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_383.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_384.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_385.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_386.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_387.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_388.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_389.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_390.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_391.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_392.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_393.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_394.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_395.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_396.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_397.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_398.js (for simple-statistics.probit at temperature 0, 0 snippets available): FAILED
+test_399.js (for simple-statistics.probit at temperature 0, 0 snippets available): PASSED
+test_400.js (for simple-statistics.product at temperature 0, 0 snippets available): PASSED
+test_401.js (for simple-statistics.product at temperature 0, 0 snippets available): PASSED
+test_402.js (for simple-statistics.product at temperature 0, 0 snippets available): PASSED
+test_403.js (for simple-statistics.product at temperature 0, 0 snippets available): PASSED
+test_404.js (for simple-statistics.quantile at temperature 0, 0 snippets available): PASSED
+test_405.js (for simple-statistics.quantile at temperature 0, 0 snippets available): FAILED
+test_406.js (for simple-statistics.quantile at temperature 0, 0 snippets available): PASSED
+test_407.js (for simple-statistics.quantile at temperature 0, 0 snippets available): FAILED
+test_408.js (for simple-statistics.quantile at temperature 0, 0 snippets available): FAILED
+test_409.js (for simple-statistics.quantile at temperature 0, 0 snippets available): PASSED
+test_410.js (for simple-statistics.quantileRank at temperature 0, 0 snippets available): FAILED
+test_411.js (for simple-statistics.quantileRank at temperature 0, 0 snippets available): FAILED
+test_412.js (for simple-statistics.quantileRank at temperature 0, 0 snippets available): PASSED
+test_413.js (for simple-statistics.quantileRank at temperature 0, 0 snippets available): PASSED
+test_414.js (for simple-statistics.quantileRank at temperature 0, 0 snippets available): PASSED
+test_415.js (for simple-statistics.quantileRank at temperature 0, 0 snippets available): FAILED
+test_416.js (for simple-statistics.quantileRankSorted at temperature 0, 0 snippets available): FAILED
+test_417.js (for simple-statistics.quantileRankSorted at temperature 0, 0 snippets available): PASSED
+test_418.js (for simple-statistics.quantileRankSorted at temperature 0, 0 snippets available): PASSED
+test_419.js (for simple-statistics.quantileRankSorted at temperature 0, 0 snippets available): FAILED
+test_420.js (for simple-statistics.quantileRankSorted at temperature 0, 0 snippets available): FAILED
+test_421.js (for simple-statistics.quantileRankSorted at temperature 0, 0 snippets available): FAILED
+test_422.js (for simple-statistics.quantileSorted at temperature 0, 0 snippets available): FAILED
+test_423.js (for simple-statistics.quantileSorted at temperature 0, 0 snippets available): PASSED
+test_424.js (for simple-statistics.quantileSorted at temperature 0, 0 snippets available): PASSED
+test_425.js (for simple-statistics.quantileSorted at temperature 0, 0 snippets available): FAILED
+test_426.js (for simple-statistics.quantileSorted at temperature 0, 0 snippets available): PASSED
+test_427.js (for simple-statistics.quantileSorted at temperature 0, 0 snippets available): PASSED
+test_428.js (for simple-statistics.quickselect at temperature 0, 0 snippets available): FAILED
+test_429.js (for simple-statistics.quickselect at temperature 0, 0 snippets available): PASSED
+test_430.js (for simple-statistics.quickselect at temperature 0, 0 snippets available): PASSED
+test_431.js (for simple-statistics.quickselect at temperature 0, 0 snippets available): PASSED
+Error parsing coverage report: Error: ENOENT: no such file or directory, open '/tmp/mocha-validatornAW3GL/report.json'
+test_432.js (for simple-statistics.quickselect at temperature 0, 0 snippets available): FAILED
+test_433.js (for simple-statistics.rSquared at temperature 0, 0 snippets available): PASSED
+test_434.js (for simple-statistics.rSquared at temperature 0, 0 snippets available): PASSED
+test_435.js (for simple-statistics.rSquared at temperature 0, 0 snippets available): PASSED
+test_436.js (for simple-statistics.rSquared at temperature 0, 0 snippets available): PASSED
+test_437.js (for simple-statistics.relativeError at temperature 0, 0 snippets available): FAILED
+test_438.js (for simple-statistics.relativeError at temperature 0, 0 snippets available): PASSED
+test_439.js (for simple-statistics.relativeError at temperature 0, 0 snippets available): PASSED
+test_440.js (for simple-statistics.relativeError at temperature 0, 0 snippets available): PASSED
+test_441.js (for simple-statistics.relativeError at temperature 0, 0 snippets available): PASSED
+test_442.js (for simple-statistics.rms at temperature 0, 0 snippets available): PASSED
+test_443.js (for simple-statistics.rms at temperature 0, 0 snippets available): PASSED
+test_444.js (for simple-statistics.rms at temperature 0, 0 snippets available): PASSED
+test_445.js (for simple-statistics.rms at temperature 0, 0 snippets available): PASSED
+test_446.js (for simple-statistics.sample at temperature 0, 0 snippets available): FAILED
+test_447.js (for simple-statistics.sample at temperature 0, 0 snippets available): PASSED
+test_448.js (for simple-statistics.sample at temperature 0, 0 snippets available): PASSED
+test_449.js (for simple-statistics.sample at temperature 0, 0 snippets available): FAILED
+test_450.js (for simple-statistics.sample at temperature 0, 0 snippets available): FAILED
+test_451.js (for simple-statistics.sample at temperature 0, 0 snippets available): FAILED
+test_452.js (for simple-statistics.sampleCorrelation at temperature 0, 0 snippets available): FAILED
+test_453.js (for simple-statistics.sampleCorrelation at temperature 0, 0 snippets available): PASSED
+test_454.js (for simple-statistics.sampleCorrelation at temperature 0, 0 snippets available): PASSED
+test_455.js (for simple-statistics.sampleCorrelation at temperature 0, 0 snippets available): PASSED
+test_456.js (for simple-statistics.sampleCorrelation at temperature 0, 0 snippets available): FAILED
+test_457.js (for simple-statistics.sampleCovariance at temperature 0, 0 snippets available): PASSED
+test_458.js (for simple-statistics.sampleCovariance at temperature 0, 0 snippets available): PASSED
+test_459.js (for simple-statistics.sampleCovariance at temperature 0, 0 snippets available): PASSED
+test_460.js (for simple-statistics.sampleCovariance at temperature 0, 0 snippets available): PASSED
+test_461.js (for simple-statistics.sampleKurtosis at temperature 0, 0 snippets available): PASSED
+test_462.js (for simple-statistics.sampleKurtosis at temperature 0, 0 snippets available): PASSED
+test_463.js (for simple-statistics.sampleKurtosis at temperature 0, 0 snippets available): PASSED
+test_464.js (for simple-statistics.sampleKurtosis at temperature 0, 0 snippets available): PASSED
+test_465.js (for simple-statistics.sampleRankCorrelation at temperature 0, 0 snippets available): FAILED
+test_466.js (for simple-statistics.sampleRankCorrelation at temperature 0, 0 snippets available): FAILED
+test_467.js (for simple-statistics.sampleRankCorrelation at temperature 0, 0 snippets available): FAILED
+test_468.js (for simple-statistics.sampleRankCorrelation at temperature 0, 0 snippets available): PASSED
+test_469.js (for simple-statistics.sampleRankCorrelation at temperature 0, 0 snippets available): FAILED
+test_470.js (for simple-statistics.sampleRankCorrelation at temperature 0, 0 snippets available): FAILED
+test_471.js (for simple-statistics.sampleRankCorrelation at temperature 0, 0 snippets available): PASSED
+test_472.js (for simple-statistics.sampleRankCorrelation at temperature 0, 0 snippets available): PASSED
+test_473.js (for simple-statistics.sampleSkewness at temperature 0, 0 snippets available): PASSED
+Null completion (finish_reason=length)
+test_474.js (for simple-statistics.sampleSkewness at temperature 0, 0 snippets available): FAILED
+test_475.js (for simple-statistics.sampleSkewness at temperature 0, 0 snippets available): PASSED
+test_476.js (for simple-statistics.sampleSkewness at temperature 0, 0 snippets available): FAILED
+test_477.js (for simple-statistics.sampleSkewness at temperature 0, 0 snippets available): PASSED
+test_478.js (for simple-statistics.sampleStandardDeviation at temperature 0, 0 snippets available): FAILED
+test_479.js (for simple-statistics.sampleStandardDeviation at temperature 0, 0 snippets available): PASSED
+test_480.js (for simple-statistics.sampleStandardDeviation at temperature 0, 0 snippets available): PASSED
+test_481.js (for simple-statistics.sampleStandardDeviation at temperature 0, 0 snippets available): FAILED
+test_482.js (for simple-statistics.sampleStandardDeviation at temperature 0, 0 snippets available): FAILED
+test_483.js (for simple-statistics.sampleStandardDeviation at temperature 0, 0 snippets available): PASSED
+test_484.js (for simple-statistics.sampleVariance at temperature 0, 0 snippets available): PASSED
+test_485.js (for simple-statistics.sampleVariance at temperature 0, 0 snippets available): PASSED
+test_486.js (for simple-statistics.sampleVariance at temperature 0, 0 snippets available): PASSED
+test_487.js (for simple-statistics.sampleVariance at temperature 0, 0 snippets available): PASSED
+test_488.js (for simple-statistics.sampleWithReplacement at temperature 0, 0 snippets available): PASSED
+test_489.js (for simple-statistics.sampleWithReplacement at temperature 0, 0 snippets available): PASSED
+test_490.js (for simple-statistics.sampleWithReplacement at temperature 0, 0 snippets available): PASSED
+test_491.js (for simple-statistics.sampleWithReplacement at temperature 0, 0 snippets available): PASSED
+test_492.js (for simple-statistics.shuffle at temperature 0, 0 snippets available): PASSED
+test_493.js (for simple-statistics.shuffle at temperature 0, 0 snippets available): PASSED
+test_494.js (for simple-statistics.shuffle at temperature 0, 0 snippets available): PASSED
+test_495.js (for simple-statistics.shuffle at temperature 0, 0 snippets available): PASSED
+test_496.js (for simple-statistics.shuffleInPlace at temperature 0, 0 snippets available): FAILED
+test_497.js (for simple-statistics.shuffleInPlace at temperature 0, 0 snippets available): FAILED
+test_498.js (for simple-statistics.shuffleInPlace at temperature 0, 0 snippets available): PASSED
+test_499.js (for simple-statistics.shuffleInPlace at temperature 0, 0 snippets available): PASSED
+test_500.js (for simple-statistics.shuffleInPlace at temperature 0, 0 snippets available): PASSED
+test_501.js (for simple-statistics.shuffleInPlace at temperature 0, 0 snippets available): PASSED
+test_502.js (for simple-statistics.sign at temperature 0, 0 snippets available): PASSED
+test_503.js (for simple-statistics.sign at temperature 0, 0 snippets available): PASSED
+test_504.js (for simple-statistics.sign at temperature 0, 0 snippets available): PASSED
+test_505.js (for simple-statistics.sign at temperature 0, 0 snippets available): FAILED
+test_506.js (for simple-statistics.sign at temperature 0, 0 snippets available): FAILED
+test_507.js (for simple-statistics.silhouette at temperature 0, 0 snippets available): FAILED
+test_508.js (for simple-statistics.silhouette at temperature 0, 0 snippets available): FAILED
+test_509.js (for simple-statistics.silhouette at temperature 0, 0 snippets available): FAILED
+test_510.js (for simple-statistics.silhouette at temperature 0, 0 snippets available): PASSED
+test_511.js (for simple-statistics.silhouette at temperature 0, 0 snippets available): FAILED
+test_512.js (for simple-statistics.silhouette at temperature 0, 0 snippets available): FAILED
+Error parsing coverage report: Error: ENOENT: no such file or directory, open '/tmp/mocha-validator8XhqSB/report.json'
+test_513.js (for simple-statistics.silhouette at temperature 0, 0 snippets available): FAILED
+test_514.js (for simple-statistics.silhouette at temperature 0, 0 snippets available): PASSED
+test_515.js (for simple-statistics.silhouetteMetric at temperature 0, 0 snippets available): PASSED
+test_516.js (for simple-statistics.silhouetteMetric at temperature 0, 0 snippets available): FAILED
+test_517.js (for simple-statistics.silhouetteMetric at temperature 0, 0 snippets available): FAILED
+test_518.js (for simple-statistics.silhouetteMetric at temperature 0, 0 snippets available): PASSED
+test_519.js (for simple-statistics.silhouetteMetric at temperature 0, 0 snippets available): FAILED
+test_520.js (for simple-statistics.silhouetteMetric at temperature 0, 0 snippets available): FAILED
+test_521.js (for simple-statistics.silhouetteMetric at temperature 0, 0 snippets available): FAILED
+test_522.js (for simple-statistics.standardDeviation at temperature 0, 0 snippets available): FAILED
+test_523.js (for simple-statistics.standardDeviation at temperature 0, 0 snippets available): FAILED
+test_524.js (for simple-statistics.standardDeviation at temperature 0, 0 snippets available): PASSED
+test_525.js (for simple-statistics.standardDeviation at temperature 0, 0 snippets available): PASSED
+test_526.js (for simple-statistics.standardDeviation at temperature 0, 0 snippets available): PASSED
+test_527.js (for simple-statistics.standardDeviation at temperature 0, 0 snippets available): FAILED
+test_528.js (for simple-statistics.subtractFromMean at temperature 0, 0 snippets available): PASSED
+test_529.js (for simple-statistics.subtractFromMean at temperature 0, 0 snippets available): PASSED
+test_530.js (for simple-statistics.subtractFromMean at temperature 0, 0 snippets available): PASSED
+test_531.js (for simple-statistics.subtractFromMean at temperature 0, 0 snippets available): PASSED
+test_532.js (for simple-statistics.sum at temperature 0, 0 snippets available): FAILED
+test_533.js (for simple-statistics.sum at temperature 0, 0 snippets available): PASSED
+test_534.js (for simple-statistics.sum at temperature 0, 0 snippets available): PASSED
+test_535.js (for simple-statistics.sum at temperature 0, 0 snippets available): PASSED
+test_536.js (for simple-statistics.sum at temperature 0, 0 snippets available): PASSED
+test_537.js (for simple-statistics.sumNthPowerDeviations at temperature 0, 0 snippets available): PASSED
+test_538.js (for simple-statistics.sumNthPowerDeviations at temperature 0, 0 snippets available): PASSED
+test_539.js (for simple-statistics.sumNthPowerDeviations at temperature 0, 0 snippets available): PASSED
+test_540.js (for simple-statistics.sumNthPowerDeviations at temperature 0, 0 snippets available): PASSED
+test_541.js (for simple-statistics.sumSimple at temperature 0, 0 snippets available): PASSED
+test_542.js (for simple-statistics.sumSimple at temperature 0, 0 snippets available): PASSED
+test_543.js (for simple-statistics.sumSimple at temperature 0, 0 snippets available): PASSED
+test_544.js (for simple-statistics.sumSimple at temperature 0, 0 snippets available): PASSED
+test_545.js (for simple-statistics.tTest at temperature 0, 0 snippets available): FAILED
+test_546.js (for simple-statistics.tTest at temperature 0, 0 snippets available): FAILED
+test_547.js (for simple-statistics.tTest at temperature 0, 0 snippets available): FAILED
+test_548.js (for simple-statistics.tTest at temperature 0, 0 snippets available): FAILED
+test_549.js (for simple-statistics.tTest at temperature 0, 0 snippets available): PASSED
+test_550.js (for simple-statistics.tTest at temperature 0, 0 snippets available): PASSED
+test_551.js (for simple-statistics.tTest at temperature 0, 0 snippets available): PASSED
+test_552.js (for simple-statistics.tTestTwoSample at temperature 0, 0 snippets available): FAILED
+test_553.js (for simple-statistics.tTestTwoSample at temperature 0, 0 snippets available): PASSED
+test_554.js (for simple-statistics.tTestTwoSample at temperature 0, 0 snippets available): PASSED
+test_555.js (for simple-statistics.tTestTwoSample at temperature 0, 0 snippets available): PASSED
+test_556.js (for simple-statistics.tTestTwoSample at temperature 0, 0 snippets available): FAILED
+test_557.js (for simple-statistics.uniqueCountSorted at temperature 0, 0 snippets available): PASSED
+test_558.js (for simple-statistics.uniqueCountSorted at temperature 0, 0 snippets available): PASSED
+test_559.js (for simple-statistics.uniqueCountSorted at temperature 0, 0 snippets available): PASSED
+test_560.js (for simple-statistics.uniqueCountSorted at temperature 0, 0 snippets available): PASSED
+test_561.js (for simple-statistics.variance at temperature 0, 0 snippets available): FAILED
+test_562.js (for simple-statistics.variance at temperature 0, 0 snippets available): PASSED
+test_563.js (for simple-statistics.variance at temperature 0, 0 snippets available): PASSED
+test_564.js (for simple-statistics.variance at temperature 0, 0 snippets available): PASSED
+test_565.js (for simple-statistics.variance at temperature 0, 0 snippets available): FAILED
+test_566.js (for simple-statistics.wilcoxonRankSum at temperature 0, 0 snippets available): FAILED
+test_567.js (for simple-statistics.wilcoxonRankSum at temperature 0, 0 snippets available): PASSED
+test_568.js (for simple-statistics.wilcoxonRankSum at temperature 0, 0 snippets available): FAILED
+test_569.js (for simple-statistics.wilcoxonRankSum at temperature 0, 0 snippets available): PASSED
+test_570.js (for simple-statistics.wilcoxonRankSum at temperature 0, 0 snippets available): PASSED
+test_571.js (for simple-statistics.wilcoxonRankSum at temperature 0, 0 snippets available): PASSED
+test_572.js (for simple-statistics.zScore at temperature 0, 0 snippets available): PASSED
+test_573.js (for simple-statistics.zScore at temperature 0, 0 snippets available): PASSED
+test_574.js (for simple-statistics.zScore at temperature 0, 0 snippets available): PASSED
+test_575.js (for simple-statistics.zScore at temperature 0, 0 snippets available): PASSED
+305 passed, 271 failed, 0 pending, 0 other
+API coverage:
+  simple-statistics.BayesianClassifier: [31m✗test_0.js[0m, [32m✓test_1.js[0m, [32m✓test_2.js[0m, [32m✓test_3.js[0m, [31m✗test_4.js[0m
+  simple-statistics.BayesianClassifier.prototype.train: [31m✗test_5.js[0m, [32m✓test_6.js[0m, [32m✓test_7.js[0m, [31m✗test_8.js[0m, [31m✗test_9.js[0m, [31m✗test_10.js[0m
+  simple-statistics.BayesianClassifier.prototype.score: [31m✗test_11.js[0m, [31m✗test_12.js[0m, [31m✗test_13.js[0m, [31m✗test_14.js[0m, [32m✓test_15.js[0m, [31m✗test_16.js[0m, [32m✓test_17.js[0m, [31m✗test_18.js[0m
+  simple-statistics.PerceptronModel: [31m✗test_19.js[0m, [32m✓test_20.js[0m, [32m✓test_21.js[0m, [32m✓test_22.js[0m, [31m✗test_23.js[0m
+  simple-statistics.PerceptronModel.prototype.predict: [31m✗test_24.js[0m, [32m✓test_25.js[0m, [32m✓test_26.js[0m, [31m✗test_27.js[0m, [32m✓test_28.js[0m, [31m✗test_29.js[0m
+  simple-statistics.PerceptronModel.prototype.train: [31m✗test_30.js[0m, [32m✓test_31.js[0m, [32m✓test_32.js[0m, [32m✓test_33.js[0m, [31m✗test_34.js[0m
+  simple-statistics.addToMean: [32m✓test_35.js[0m, [32m✓test_36.js[0m, [32m✓test_37.js[0m, [32m✓test_38.js[0m
+  simple-statistics.approxEqual: [31m✗test_39.js[0m, [32m✓test_40.js[0m, [31m✗test_41.js[0m, [31m✗test_42.js[0m, [32m✓test_43.js[0m, [31m✗test_44.js[0m
+  simple-statistics.average: [31m✗test_45.js[0m, [32m✓test_46.js[0m, [32m✓test_47.js[0m, [32m✓test_48.js[0m, [32m✓test_49.js[0m
+  simple-statistics.averageSimple: [31m✗test_50.js[0m, [32m✓test_51.js[0m, [32m✓test_52.js[0m, [32m✓test_53.js[0m, [32m✓test_54.js[0m
+  simple-statistics.bernoulliDistribution: [31m✗test_55.js[0m, [32m✓test_56.js[0m, [32m✓test_57.js[0m, [32m✓test_58.js[0m, [32m✓test_59.js[0m
+  simple-statistics.binomialDistribution: [31m✗test_60.js[0m, [32m✓test_61.js[0m, [32m✓test_62.js[0m, [32m✓test_63.js[0m, [31m✗test_64.js[0m
+  simple-statistics.bisect: [32m✓test_65.js[0m, [32m✓test_66.js[0m, [32m✓test_67.js[0m, [32m✓test_68.js[0m
+  simple-statistics.chiSquaredGoodnessOfFit: [31m✗test_69.js[0m, [31m✗test_70.js[0m, [31m✗test_71.js[0m, [31m✗test_72.js[0m, [31m✗test_73.js[0m, [31m✗test_74.js[0m, [31m✗test_75.js[0m, [31m✗test_76.js[0m, [31m✗test_77.js[0m, [31m✗test_78.js[0m, [31m✗test_79.js[0m, [31m✗test_80.js[0m, [31m✗test_81.js[0m, [31m✗test_82.js[0m, [31m✗test_83.js[0m, [31m✗test_84.js[0m, [31m✗test_85.js[0m, [31m✗test_86.js[0m, [31m✗test_87.js[0m, [31m✗test_88.js[0m, [31m✗test_89.js[0m, [31m✗test_90.js[0m, [31m✗test_91.js[0m
+  simple-statistics.chunk: [32m✓test_92.js[0m, [32m✓test_93.js[0m, [32m✓test_94.js[0m, [32m✓test_95.js[0m
+  simple-statistics.ckmeans: [32m✓test_96.js[0m, [32m✓test_97.js[0m, [32m✓test_98.js[0m, [32m✓test_99.js[0m, [31m✗test_100.js[0m, [32m✓test_101.js[0m, [32m✓test_102.js[0m, [31m✗test_103.js[0m, [32m✓test_104.js[0m, [31m✗test_105.js[0m, [32m✓test_106.js[0m
+  simple-statistics.coefficientOfVariation: [31m✗test_107.js[0m, [32m✓test_108.js[0m, [32m✓test_109.js[0m, [32m✓test_110.js[0m, [32m✓test_111.js[0m
+  simple-statistics.combinations: [31m✗test_112.js[0m, [32m✓test_113.js[0m, [31m✗test_114.js[0m
+  simple-statistics.combinationsReplacement: [31m✗test_115.js[0m, [32m✓test_116.js[0m, [32m✓test_117.js[0m, [32m✓test_118.js[0m, [31m✗test_119.js[0m
+  simple-statistics.combineMeans: [32m✓test_120.js[0m, [32m✓test_121.js[0m, [32m✓test_122.js[0m, [32m✓test_123.js[0m
+  simple-statistics.combineVariances: [31m✗test_124.js[0m, [31m✗test_125.js[0m, [32m✓test_126.js[0m, [31m✗test_127.js[0m, [32m✓test_128.js[0m, [31m✗test_129.js[0m
+  simple-statistics.cumulativeStdLogisticProbability: [32m✓test_130.js[0m, [32m✓test_131.js[0m, [31m✗test_132.js[0m, [32m✓test_133.js[0m, [32m✓test_134.js[0m
+  simple-statistics.cumulativeStdNormalProbability: [31m✗test_135.js[0m, [31m✗test_136.js[0m, [32m✓test_137.js[0m, [31m✗test_138.js[0m, [31m✗test_139.js[0m, [32m✓test_140.js[0m, [31m✗test_141.js[0m
+  simple-statistics.equalIntervalBreaks: [32m✓test_142.js[0m, [32m✓test_143.js[0m, [32m✓test_144.js[0m, [32m✓test_145.js[0m
+  simple-statistics.erf: [32m✓test_146.js[0m, [32m✓test_147.js[0m, [31m✗test_148.js[0m, [32m✓test_149.js[0m, [31m✗test_150.js[0m, [32m✓test_151.js[0m
+  simple-statistics.extent: [31m✗test_152.js[0m, [32m✓test_153.js[0m, [32m✓test_154.js[0m, [32m✓test_155.js[0m, [32m✓test_156.js[0m
+  simple-statistics.extentSorted: [31m✗test_157.js[0m, [32m✓test_158.js[0m, [32m✓test_159.js[0m, [32m✓test_160.js[0m, [32m✓test_161.js[0m
+  simple-statistics.factorial: [31m✗test_162.js[0m, [32m✓test_163.js[0m, [32m✓test_164.js[0m, [32m✓test_165.js[0m, [32m✓test_166.js[0m
+  simple-statistics.gamma: [31m✗test_167.js[0m, [31m✗test_168.js[0m, [32m✓test_169.js[0m, [32m✓test_170.js[0m, [32m✓test_171.js[0m, [31m✗test_172.js[0m
+  simple-statistics.gammaln: [31m✗test_173.js[0m, [32m✓test_174.js[0m, [32m✓test_175.js[0m, [32m✓test_176.js[0m, [32m✓test_177.js[0m
+  simple-statistics.geometricMean: [31m✗test_178.js[0m, [32m✓test_179.js[0m, [32m✓test_180.js[0m, [32m✓test_181.js[0m, [31m✗test_182.js[0m
+  simple-statistics.harmonicMean: [31m✗test_183.js[0m, [32m✓test_184.js[0m, [31m✗test_185.js[0m, [32m✓test_186.js[0m, [32m✓test_187.js[0m, [32m✓test_188.js[0m
+  simple-statistics.interquartileRange: [31m✗test_189.js[0m, [31m✗test_190.js[0m, [32m✓test_191.js[0m, [31m✗test_192.js[0m, [31m✗test_193.js[0m, [32m✓test_194.js[0m, [32m✓test_195.js[0m
+  simple-statistics.inverseErrorFunction: [31m✗test_196.js[0m, [31m✗test_197.js[0m, [31m✗test_198.js[0m, [32m✓test_199.js[0m, [31m✗test_200.js[0m, [31m✗test_201.js[0m, [31m✗test_202.js[0m, [31m✗test_203.js[0m
+  simple-statistics.kMeansCluster: [31m✗test_204.js[0m, [32m✓test_205.js[0m, [32m✓test_206.js[0m, [31m✗test_207.js[0m, [31m✗test_208.js[0m, [31m✗test_209.js[0m
+  simple-statistics.kde: [31m✗test_210.js[0m, [31m✗test_211.js[0m, [32m✓test_212.js[0m, [31m✗test_213.js[0m, [32m✓test_214.js[0m, [31m✗test_215.js[0m
+  simple-statistics.linearRegression: [32m✓test_216.js[0m, [32m✓test_217.js[0m, [32m✓test_218.js[0m, [32m✓test_219.js[0m, [32m✓test_220.js[0m, [32m✓test_221.js[0m, [32m✓test_222.js[0m, [32m✓test_223.js[0m
+  simple-statistics.linearRegressionLine: [32m✓test_224.js[0m, [32m✓test_225.js[0m, [32m✓test_226.js[0m, [32m✓test_227.js[0m, [32m✓test_228.js[0m, [32m✓test_229.js[0m, [32m✓test_230.js[0m, [32m✓test_231.js[0m
+  simple-statistics.logAverage: [31m✗test_232.js[0m, [32m✓test_233.js[0m, [32m✓test_234.js[0m, [32m✓test_235.js[0m, [32m✓test_236.js[0m
+  simple-statistics.logit: [31m✗test_237.js[0m, [31m✗test_238.js[0m, [31m✗test_239.js[0m, [31m✗test_240.js[0m, [31m✗test_241.js[0m, [31m✗test_242.js[0m, [31m✗test_243.js[0m, [31m✗test_244.js[0m, [31m✗test_245.js[0m, [31m✗test_246.js[0m, [31m✗test_247.js[0m, [31m✗test_248.js[0m, [31m✗test_249.js[0m, [31m✗test_250.js[0m, [31m✗test_251.js[0m, [31m✗test_252.js[0m, [31m✗test_253.js[0m, [31m✗test_254.js[0m, [31m✗test_255.js[0m, [31m✗test_256.js[0m, [31m✗test_257.js[0m, [31m✗test_258.js[0m, [31m✗test_259.js[0m, [31m✗test_260.js[0m, [31m✗test_261.js[0m, [31m✗test_262.js[0m, [31m✗test_263.js[0m, [31m✗test_264.js[0m, [31m✗test_265.js[0m, [31m✗test_266.js[0m, [31m✗test_267.js[0m, [31m✗test_268.js[0m, [31m✗test_269.js[0m, [31m✗test_270.js[0m, [31m✗test_271.js[0m, [31m✗test_272.js[0m, [31m✗test_273.js[0m, [31m✗test_274.js[0m, [31m✗test_275.js[0m
+  simple-statistics.mad: [31m✗test_276.js[0m, [32m✓test_277.js[0m, [32m✓test_278.js[0m, [32m✓test_279.js[0m, [32m✓test_280.js[0m
+  simple-statistics.max: [32m✓test_281.js[0m, [32m✓test_282.js[0m, [32m✓test_283.js[0m, [32m✓test_284.js[0m
+  simple-statistics.maxSorted: [32m✓test_285.js[0m, [32m✓test_286.js[0m, [32m✓test_287.js[0m, [32m✓test_288.js[0m
+  simple-statistics.median: [31m✗test_289.js[0m, [32m✓test_290.js[0m, [32m✓test_291.js[0m, [32m✓test_292.js[0m, [32m✓test_293.js[0m
+  simple-statistics.medianSorted: [31m✗test_294.js[0m, [32m✓test_295.js[0m, [31m✗test_296.js[0m, [32m✓test_297.js[0m, [32m✓test_298.js[0m, [32m✓test_299.js[0m
+  simple-statistics.min: [31m✗test_300.js[0m, [32m✓test_301.js[0m, [32m✓test_302.js[0m, [32m✓test_303.js[0m, [32m✓test_304.js[0m
+  simple-statistics.minSorted: [32m✓test_305.js[0m, [32m✓test_306.js[0m, [32m✓test_307.js[0m, [32m✓test_308.js[0m
+  simple-statistics.mode: [31m✗test_309.js[0m, [32m✓test_310.js[0m, [32m✓test_311.js[0m, [31m✗test_312.js[0m, [32m✓test_313.js[0m, [32m✓test_314.js[0m
+  simple-statistics.modeFast: [32m✓test_315.js[0m, [32m✓test_316.js[0m, [31m✗test_317.js[0m, [32m✓test_318.js[0m, [31m✗test_319.js[0m, [32m✓test_320.js[0m
+  simple-statistics.modeSorted: [31m✗test_321.js[0m, [32m✓test_322.js[0m, [31m✗test_323.js[0m, [32m✓test_324.js[0m, [31m✗test_325.js[0m, [32m✓test_326.js[0m, [31m✗test_327.js[0m
+  simple-statistics.numericSort: [32m✓test_328.js[0m, [32m✓test_329.js[0m, [32m✓test_330.js[0m, [32m✓test_331.js[0m
+  simple-statistics.permutationTest: [31m✗test_332.js[0m, [32m✓test_333.js[0m, [32m✓test_334.js[0m, [31m✗test_335.js[0m, [32m✓test_336.js[0m, [31m✗test_337.js[0m
+  simple-statistics.permutationsHeap: [32m✓test_338.js[0m, [32m✓test_339.js[0m, [32m✓test_340.js[0m, [32m✓test_341.js[0m
+  simple-statistics.poissonDistribution: [31m✗test_342.js[0m, [31m✗test_343.js[0m, [31m✗test_344.js[0m, [32m✓test_345.js[0m, [32m✓test_346.js[0m, [31m✗test_347.js[0m, [31m✗test_348.js[0m, [32m✓test_349.js[0m
+  simple-statistics.probit: [31m✗test_350.js[0m, [31m✗test_351.js[0m, [31m✗test_352.js[0m, [31m✗test_353.js[0m, [31m✗test_354.js[0m, [31m✗test_355.js[0m, [31m✗test_356.js[0m, [31m✗test_357.js[0m, [31m✗test_358.js[0m, [31m✗test_359.js[0m, [31m✗test_360.js[0m, [31m✗test_361.js[0m, [31m✗test_362.js[0m, [31m✗test_363.js[0m, [31m✗test_364.js[0m, [31m✗test_365.js[0m, [31m✗test_366.js[0m, [31m✗test_367.js[0m, [31m✗test_368.js[0m, [31m✗test_369.js[0m, [31m✗test_370.js[0m, [31m✗test_371.js[0m, [31m✗test_372.js[0m, [31m✗test_373.js[0m, [31m✗test_374.js[0m, [31m✗test_375.js[0m, [31m✗test_376.js[0m, [31m✗test_377.js[0m, [31m✗test_378.js[0m, [31m✗test_379.js[0m, [31m✗test_380.js[0m, [31m✗test_381.js[0m, [31m✗test_382.js[0m, [31m✗test_383.js[0m, [31m✗test_384.js[0m, [31m✗test_385.js[0m, [31m✗test_386.js[0m, [31m✗test_387.js[0m, [31m✗test_388.js[0m, [31m✗test_389.js[0m, [31m✗test_390.js[0m, [31m✗test_391.js[0m, [31m✗test_392.js[0m, [31m✗test_393.js[0m, [31m✗test_394.js[0m, [31m✗test_395.js[0m, [31m✗test_396.js[0m, [31m✗test_397.js[0m, [31m✗test_398.js[0m, [32m✓test_399.js[0m
+  simple-statistics.product: [32m✓test_400.js[0m, [32m✓test_401.js[0m, [32m✓test_402.js[0m, [32m✓test_403.js[0m
+  simple-statistics.quantile: [32m✓test_404.js[0m, [31m✗test_405.js[0m, [32m✓test_406.js[0m, [31m✗test_407.js[0m, [31m✗test_408.js[0m, [32m✓test_409.js[0m
+  simple-statistics.quantileRank: [31m✗test_410.js[0m, [31m✗test_411.js[0m, [32m✓test_412.js[0m, [32m✓test_413.js[0m, [32m✓test_414.js[0m, [31m✗test_415.js[0m
+  simple-statistics.quantileRankSorted: [31m✗test_416.js[0m, [32m✓test_417.js[0m, [32m✓test_418.js[0m, [31m✗test_419.js[0m, [31m✗test_420.js[0m, [31m✗test_421.js[0m
+  simple-statistics.quantileSorted: [31m✗test_422.js[0m, [32m✓test_423.js[0m, [32m✓test_424.js[0m, [31m✗test_425.js[0m, [32m✓test_426.js[0m, [32m✓test_427.js[0m
+  simple-statistics.quickselect: [31m✗test_428.js[0m, [32m✓test_429.js[0m, [32m✓test_430.js[0m, [32m✓test_431.js[0m, [31m✗test_432.js[0m
+  simple-statistics.rSquared: [32m✓test_433.js[0m, [32m✓test_434.js[0m, [32m✓test_435.js[0m, [32m✓test_436.js[0m
+  simple-statistics.relativeError: [31m✗test_437.js[0m, [32m✓test_438.js[0m, [32m✓test_439.js[0m, [32m✓test_440.js[0m, [32m✓test_441.js[0m
+  simple-statistics.rms: [32m✓test_442.js[0m, [32m✓test_443.js[0m, [32m✓test_444.js[0m, [32m✓test_445.js[0m
+  simple-statistics.sample: [31m✗test_446.js[0m, [32m✓test_447.js[0m, [32m✓test_448.js[0m, [31m✗test_449.js[0m, [31m✗test_450.js[0m, [31m✗test_451.js[0m
+  simple-statistics.sampleCorrelation: [31m✗test_452.js[0m, [32m✓test_453.js[0m, [32m✓test_454.js[0m, [32m✓test_455.js[0m, [31m✗test_456.js[0m
+  simple-statistics.sampleCovariance: [32m✓test_457.js[0m, [32m✓test_458.js[0m, [32m✓test_459.js[0m, [32m✓test_460.js[0m
+  simple-statistics.sampleKurtosis: [32m✓test_461.js[0m, [32m✓test_462.js[0m, [32m✓test_463.js[0m, [32m✓test_464.js[0m
+  simple-statistics.sampleRankCorrelation: [31m✗test_465.js[0m, [31m✗test_466.js[0m, [31m✗test_467.js[0m, [32m✓test_468.js[0m, [31m✗test_469.js[0m, [31m✗test_470.js[0m, [32m✓test_471.js[0m, [32m✓test_472.js[0m
+  simple-statistics.sampleSkewness: [32m✓test_473.js[0m, [31m✗test_474.js[0m, [32m✓test_475.js[0m, [31m✗test_476.js[0m, [32m✓test_477.js[0m
+  simple-statistics.sampleStandardDeviation: [31m✗test_478.js[0m, [32m✓test_479.js[0m, [32m✓test_480.js[0m, [31m✗test_481.js[0m, [31m✗test_482.js[0m, [32m✓test_483.js[0m
+  simple-statistics.sampleVariance: [32m✓test_484.js[0m, [32m✓test_485.js[0m, [32m✓test_486.js[0m, [32m✓test_487.js[0m
+  simple-statistics.sampleWithReplacement: [32m✓test_488.js[0m, [32m✓test_489.js[0m, [32m✓test_490.js[0m, [32m✓test_491.js[0m
+  simple-statistics.shuffle: [32m✓test_492.js[0m, [32m✓test_493.js[0m, [32m✓test_494.js[0m, [32m✓test_495.js[0m
+  simple-statistics.shuffleInPlace: [31m✗test_496.js[0m, [31m✗test_497.js[0m, [32m✓test_498.js[0m, [32m✓test_499.js[0m, [32m✓test_500.js[0m, [32m✓test_501.js[0m
+  simple-statistics.sign: [32m✓test_502.js[0m, [32m✓test_503.js[0m, [32m✓test_504.js[0m, [31m✗test_505.js[0m, [31m✗test_506.js[0m
+  simple-statistics.silhouette: [31m✗test_507.js[0m, [31m✗test_508.js[0m, [31m✗test_509.js[0m, [32m✓test_510.js[0m, [31m✗test_511.js[0m, [31m✗test_512.js[0m, [31m✗test_513.js[0m, [32m✓test_514.js[0m
+  simple-statistics.silhouetteMetric: [32m✓test_515.js[0m, [31m✗test_516.js[0m, [31m✗test_517.js[0m, [32m✓test_518.js[0m, [31m✗test_519.js[0m, [31m✗test_520.js[0m, [31m✗test_521.js[0m
+  simple-statistics.standardDeviation: [31m✗test_522.js[0m, [31m✗test_523.js[0m, [32m✓test_524.js[0m, [32m✓test_525.js[0m, [32m✓test_526.js[0m, [31m✗test_527.js[0m
+  simple-statistics.subtractFromMean: [32m✓test_528.js[0m, [32m✓test_529.js[0m, [32m✓test_530.js[0m, [32m✓test_531.js[0m
+  simple-statistics.sum: [31m✗test_532.js[0m, [32m✓test_533.js[0m, [32m✓test_534.js[0m, [32m✓test_535.js[0m, [32m✓test_536.js[0m
+  simple-statistics.sumNthPowerDeviations: [32m✓test_537.js[0m, [32m✓test_538.js[0m, [32m✓test_539.js[0m, [32m✓test_540.js[0m
+  simple-statistics.sumSimple: [32m✓test_541.js[0m, [32m✓test_542.js[0m, [32m✓test_543.js[0m, [32m✓test_544.js[0m
+  simple-statistics.tTest: [31m✗test_545.js[0m, [31m✗test_546.js[0m, [31m✗test_547.js[0m, [31m✗test_548.js[0m, [32m✓test_549.js[0m, [32m✓test_550.js[0m, [32m✓test_551.js[0m
+  simple-statistics.tTestTwoSample: [31m✗test_552.js[0m, [32m✓test_553.js[0m, [32m✓test_554.js[0m, [32m✓test_555.js[0m, [31m✗test_556.js[0m
+  simple-statistics.uniqueCountSorted: [32m✓test_557.js[0m, [32m✓test_558.js[0m, [32m✓test_559.js[0m, [32m✓test_560.js[0m
+  simple-statistics.variance: [31m✗test_561.js[0m, [32m✓test_562.js[0m, [32m✓test_563.js[0m, [32m✓test_564.js[0m, [31m✗test_565.js[0m
+  simple-statistics.wilcoxonRankSum: [31m✗test_566.js[0m, [32m✓test_567.js[0m, [31m✗test_568.js[0m, [32m✓test_569.js[0m, [32m✓test_570.js[0m, [32m✓test_571.js[0m
+  simple-statistics.zScore: [32m✓test_572.js[0m, [32m✓test_573.js[0m, [32m✓test_574.js[0m, [32m✓test_575.js[0m
+95.37% statement coverage

@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-10-09T10:47:43.441Z",
+    "end": "2026-10-09T10:47:43.441Z",
+    "duration": 0
+  },
+  "tests": [
+    {
+      "title": "test simple-statistics.addToMean",
+      "fullTitle": "test simple_statistics test simple-statistics.addToMean",
+      "file": "/work/ss/tests-llm/test_37.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "test simple-statistics.addToMean",
+      "fullTitle": "test simple_statistics test simple-statistics.addToMean",
+      "file": "/work/ss/tests-llm/test_37.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}
