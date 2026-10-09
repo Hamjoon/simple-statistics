@@ -8,7 +8,6 @@ services:
     volumes:
       - ../../..:/work/ss
       - ../../../../testpilot2:/work/testpilot2
-    env_file:
-      - .env
+      - ../../../../ss-commits:/work/ss-commits
     tty: true
     stdin_open: true
