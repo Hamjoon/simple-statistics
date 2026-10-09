@@ -1,0 +1,724 @@
+{
+  "metaData": {
+    "packageName": "simple-statistics",
+    "useDocSnippets": true,
+    "useCodeSnippets": false,
+    "numSnippets": 3,
+    "snippetLength": 20,
+    "numCompletions": 1
+  },
+  "prompts": [
+    {
+      "id": 0,
+      "file": "prompt_0.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 1,
+      "file": "prompt_1.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 2,
+      "file": "prompt_2.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 3,
+      "file": "prompt_3.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 4,
+      "file": "prompt_4.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 5,
+      "file": "prompt_5.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 6,
+      "file": "prompt_6.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 7,
+      "file": "prompt_7.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 8,
+      "file": "prompt_8.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 9,
+      "file": "prompt_9.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 10,
+      "file": "prompt_10.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 11,
+      "file": "prompt_11.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 12,
+      "file": "prompt_12.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 13,
+      "file": "prompt_13.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 14,
+      "file": "prompt_14.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 15,
+      "file": "prompt_15.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 16,
+      "file": "prompt_16.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 17,
+      "file": "prompt_17.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 18,
+      "file": "prompt_18.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 19,
+      "file": "prompt_19.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 20,
+      "file": "prompt_20.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 21,
+      "file": "prompt_21.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 22,
+      "file": "prompt_22.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 23,
+      "file": "prompt_23.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 24,
+      "file": "prompt_24.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 25,
+      "file": "prompt_25.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 26,
+      "file": "prompt_26.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 27,
+      "file": "prompt_27.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 28,
+      "file": "prompt_28.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 29,
+      "file": "prompt_29.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 30,
+      "file": "prompt_30.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 31,
+      "file": "prompt_31.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 32,
+      "file": "prompt_32.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 33,
+      "file": "prompt_33.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 34,
+      "file": "prompt_34.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 35,
+      "file": "prompt_35.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 36,
+      "file": "prompt_36.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 37,
+      "file": "prompt_37.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 38,
+      "file": "prompt_38.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 39,
+      "file": "prompt_39.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 40,
+      "file": "prompt_40.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 41,
+      "file": "prompt_41.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 42,
+      "file": "prompt_42.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 43,
+      "file": "prompt_43.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 44,
+      "file": "prompt_44.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 45,
+      "file": "prompt_45.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 46,
+      "file": "prompt_46.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 47,
+      "file": "prompt_47.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 48,
+      "file": "prompt_48.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 49,
+      "file": "prompt_49.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 50,
+      "file": "prompt_50.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 51,
+      "file": "prompt_51.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 52,
+      "file": "prompt_52.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 53,
+      "file": "prompt_53.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 54,
+      "file": "prompt_54.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 55,
+      "file": "prompt_55.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 56,
+      "file": "prompt_56.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 57,
+      "file": "prompt_57.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 58,
+      "file": "prompt_58.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 59,
+      "file": "prompt_59.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 60,
+      "file": "prompt_60.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 61,
+      "file": "prompt_61.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 62,
+      "file": "prompt_62.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 63,
+      "file": "prompt_63.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 64,
+      "file": "prompt_64.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 65,
+      "file": "prompt_65.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 66,
+      "file": "prompt_66.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 67,
+      "file": "prompt_67.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 68,
+      "file": "prompt_68.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 69,
+      "file": "prompt_69.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 70,
+      "file": "prompt_70.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 71,
+      "file": "prompt_71.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 72,
+      "file": "prompt_72.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 73,
+      "file": "prompt_73.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 74,
+      "file": "prompt_74.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 75,
+      "file": "prompt_75.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 76,
+      "file": "prompt_76.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 77,
+      "file": "prompt_77.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 78,
+      "file": "prompt_78.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 79,
+      "file": "prompt_79.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 80,
+      "file": "prompt_80.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 81,
+      "file": "prompt_81.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 82,
+      "file": "prompt_82.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 83,
+      "file": "prompt_83.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 84,
+      "file": "prompt_84.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 85,
+      "file": "prompt_85.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 86,
+      "file": "prompt_86.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 87,
+      "file": "prompt_87.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    },
+    {
+      "id": 88,
+      "file": "prompt_88.js",
+      "temperature": 0,
+      "completions": [],
+      "tests": [],
+      "provenance": []
+    }
+  ]
+}

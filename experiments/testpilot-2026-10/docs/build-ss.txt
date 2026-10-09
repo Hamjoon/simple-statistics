@@ -1,0 +1,12 @@
+yarn run v1.22.22
+$ rollup -c rollup.config.js
+[36m
+[1mindex.js[22m → [1mdist/simple-statistics.mjs[22m...[39m
+[32mcreated [1mdist/simple-statistics.mjs[22m in [1m347ms[22m[39m
+[36m
+[1mindex.js[22m → [1mdist/simple-statistics.js[22m...[39m
+[32mcreated [1mdist/simple-statistics.js[22m in [1m398ms[22m[39m
+[36m
+[1mindex.js[22m → [1mdist/simple-statistics.min.js[22m...[39m
+[32mcreated [1mdist/simple-statistics.min.js[22m in [1m648ms[22m[39m
+Done in 1.65s.

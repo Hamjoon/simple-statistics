@@ -1,0 +1,1878 @@
+Loading completions from file
+Running experiment for simple-statistics
+Exploring API
+Extracting snippets
+Generating tests
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.BayesianClassifier()
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.BayesianClassifier', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.BayesianClassifier.prototype.train(item, category)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.BayesianClassifier.prototype.train', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.BayesianClassifier.prototype.score(item)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.BayesianClassifier.prototype.score', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.PerceptronModel()
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.PerceptronModel', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.PerceptronModel.prototype.predict(features)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.PerceptronModel.prototype.predict', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.PerceptronModel.prototype.train(features, label)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.PerceptronModel.prototype.train', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.addToMean(mean, n, newValue)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.addToMean', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.approxEqual(actual, expected, tolerance)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.approxEqual', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.average(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.average', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.averageSimple(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.averageSimple', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.bernoulliDistribution(p)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.bernoulliDistribution', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.binomialDistribution(trials, probability)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.binomialDistribution', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.bisect(func, start, end, maxIterations, errorTolerance)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.bisect', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.chiSquaredGoodnessOfFit(data, distributionType, significance)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.chiSquaredGoodnessOfFit', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.chunk(x, chunkSize)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.chunk', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.ckmeans(x, nClusters)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.ckmeans', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.coefficientOfVariation(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.coefficientOfVariation', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.combinations(x, k)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.combinations', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.combinationsReplacement(x, k)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.combinationsReplacement', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.combineMeans(mean1, n1, mean2, n2)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.combineMeans', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.combineVariances(variance1, mean1, n1, variance2, mean2, n2)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.combineVariances', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.cumulativeStdLogisticProbability(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.cumulativeStdLogisticProbability', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.cumulativeStdNormalProbability(z)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.cumulativeStdNormalProbability', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.equalIntervalBreaks(x, nClasses)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.equalIntervalBreaks', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.erf(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.erf', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.extent(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.extent', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.extentSorted(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.extentSorted', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.factorial(n)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.factorial', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.gamma(n)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.gamma', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.gammaln(n)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.gammaln', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.geometricMean(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.geometricMean', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.harmonicMean(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.harmonicMean', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.interquartileRange(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.interquartileRange', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.inverseErrorFunction(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.inverseErrorFunction', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.kMeansCluster(points, numCluster, randomSource)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.kMeansCluster', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.kde(X, kernel, bandwidthMethod)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.kde', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.linearRegression(data)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.linearRegression', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.linearRegressionLine(mb /*: { b: number, m: number }*/)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.linearRegressionLine', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.logAverage(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.logAverage', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.logit(p)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.logit', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.mad(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.mad', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.max(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.max', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.maxSorted(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.maxSorted', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.median(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.median', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.medianSorted(sorted)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.medianSorted', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.min(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.min', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.minSorted(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.minSorted', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.mode(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.mode', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.modeFast(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.modeFast', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.modeSorted(sorted)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.modeSorted', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.numericSort(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.numericSort', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.permutationTest(sampleX, sampleY, alternative, k, randomSource)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.permutationTest', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.permutationsHeap(elements)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.permutationsHeap', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.poissonDistribution(lambda)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.poissonDistribution', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.probit(p)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.probit', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.product(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.product', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.quantile(x, p)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.quantile', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.quantileRank(x, value)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.quantileRank', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.quantileRankSorted(x, value)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.quantileRankSorted', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.quantileSorted(x, p)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.quantileSorted', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.quickselect(arr, k, left, right)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.quickselect', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.rSquared(x, func)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.rSquared', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.relativeError(actual, expected)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.relativeError', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.rms(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.rms', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.sample(x, n, randomSource)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.sample', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.sampleCorrelation(x, y)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.sampleCorrelation', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.sampleCovariance(x, y)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.sampleCovariance', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.sampleKurtosis(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.sampleKurtosis', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.sampleRankCorrelation(x, y)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.sampleRankCorrelation', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.sampleSkewness(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.sampleSkewness', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.sampleStandardDeviation(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.sampleStandardDeviation', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.sampleVariance(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.sampleVariance', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.sampleWithReplacement(x, n, randomSource)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.sampleWithReplacement', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.shuffle(x, randomSource)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.shuffle', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.shuffleInPlace(x, randomSource)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.shuffleInPlace', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.sign(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.sign', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.silhouette(points, labels)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.silhouette', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.silhouetteMetric(points, labels)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.silhouetteMetric', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.standardDeviation(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.standardDeviation', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.subtractFromMean(mean, n, value)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.subtractFromMean', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.sum(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.sum', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.sumNthPowerDeviations(x, n)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.sumNthPowerDeviations', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.sumSimple(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.sumSimple', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.tTest(x, expectedValue)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.tTest', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.tTestTwoSample(sampleX, sampleY, difference)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.tTestTwoSample', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.uniqueCountSorted(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.uniqueCountSorted', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.variance(x)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.variance', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.wilcoxonRankSum(sampleX, sampleY)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.wilcoxonRankSum', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+Prompt not found at temperature 0: Your task is to write a test for the following function
+```
+simple-statistics.zScore(x, mean, standardDeviation)
+```
+
+Please proceed by modifying the following code fragment
+```
+let mocha = require('mocha');
+let assert = require('assert');
+let simple_statistics = require('simple-statistics');
+describe('test simple_statistics', function() {
+    it('test simple-statistics.zScore', function(done) {
+``` 
+so that it becomes a single, self-contained unit test.  The test should not rely on any external resources. 
+For example, it should not attempt to access files that it does not create itself.
+Keep the three `require` lines exactly as given and make them the first three lines of your code block; do not put a comment, a file name, or anything else before them. Write exactly one `it` block.
+
+Provide your answer as a fenced code block 
+```
+<unit test>
+```
+0 passed, 0 failed, 0 pending, 0 other
+API coverage:
+0% statement coverage
+WALL_SECONDS=1 EXIT=0
