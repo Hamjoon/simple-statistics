@@ -8,5 +8,7 @@ services:
     volumes:
       - ../../..:/work/ss
       - ../../../../testpilot2:/work/testpilot2
+    env_file:
+      - .env
     tty: true
     stdin_open: true

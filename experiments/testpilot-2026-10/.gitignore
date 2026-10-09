@@ -2,3 +2,4 @@ devrunner/node_modules/
 results/**/coverageData/
 results/probe/coverage/
 .nyc_output/
+docker/.env
