@@ -1,0 +1,26 @@
+[
+  {
+    "accessPath": "simple-statistics.average",
+    "descriptor": {
+      "type": "function",
+      "signature": "(x)",
+      "implementation": "function mean(x) {\n    if (x.length === 0) {\n        throw new Error(\"mean requires at least one data point\");\n    }\n\n    return sum(x) / x.length;\n}",
+      "isAsync": false,
+      "isConstructor": false,
+      "docComment": "*\n * The mean, _also known as average_,\n * is the sum of all values over the number of values.\n * This is a [measure of central tendency](https://en.wikipedia.org/wiki/Central_tendency):\n * a method of finding a typical or central value of a set of numbers.\n *\n * This runs in `O(n)`, linear time, with respect to the length of the array.\n *\n * @param {Array<number>} x sample of one or more data points\n * @throws {Error} if the length of x is less than one\n * @returns {number} mean\n * @example\n * mean([0, 10]); // => 5\n "
+    },
+    "packageName": "simple-statistics"
+  },
+  {
+    "accessPath": "simple-statistics.linearRegression",
+    "descriptor": {
+      "type": "function",
+      "signature": "(data)",
+      "implementation": "function linearRegression(data) {\n    var m, b;\n\n    // Store data length in a local variable to reduce\n    // repeated object property lookups\n    var dataLength = data.length;\n\n    //if there's only one point, arbitrarily choose a slope of 0\n    //and a y-intercept of whatever the y of the initial point is\n    if (dataLength === 1) {\n        m = 0;\n        b = data[0][1];\n    } else {\n        // Initialize our sums and scope the `m` and `b`\n        // variables that define the line.\n        var sumX = 0,\n            sumY = 0,\n            sumXX = 0,\n            sumXY = 0;\n\n        // Use local variables to grab point values\n        // with minimal object property lookups\n        var point, x, y;\n\n        // Gather the sum of all x values, the sum of all\n        // y values, and the sum of x^2 and (x*y) for each\n        // value.\n        //\n        // In math notation, these would be SS_x, SS_y, SS_xx, and SS_xy\n        for (var i = 0; i < dataLength; i++) {\n            point = data[i];\n            x = point[0];\n            y = point[1];\n\n            sumX += x;\n            sumY += y;\n\n            sumXX += x * x;\n            sumXY += x * y;\n        }\n\n        // `m` is the slope of the regression line\n        m =\n            (dataLength * sumXY - sumX * sumY) /\n            (dataLength * sumXX - sumX * sumX);\n\n        // `b` is the y-intercept of the line.\n        b = sumY / dataLength - (m * sumX) / dataLength;\n    }\n\n    // Return both values as an object.\n    return {\n        m: m,\n        b: b\n    };\n}",
+      "isAsync": false,
+      "isConstructor": false,
+      "docComment": "*\n * [Simple linear regression](http://en.wikipedia.org/wiki/Simple_linear_regression)\n * is a simple way to find a fitted line\n * between a set of coordinates. This algorithm finds the slope and y-intercept of a regression line\n * using the least sum of squares.\n *\n * @param {Array<Array<number>>} data an array of two-element of arrays,\n * like `[[0, 1], [2, 3]]`\n * @returns {Object} object containing slope and intersect of regression line\n * @example\n * linearRegression([[0, 0], [1, 1]]); // => { m: 1, b: 0 }\n "
+    },
+    "packageName": "simple-statistics"
+  }
+]
