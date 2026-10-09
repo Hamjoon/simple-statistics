@@ -1,0 +1,1 @@
+238aec97bc667127d7108eeb1c50d0083a6675e4 2026-06-04 Remove standard-version and conventional-commits (#798)

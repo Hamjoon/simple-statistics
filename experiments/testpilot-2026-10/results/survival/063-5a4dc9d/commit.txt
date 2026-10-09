@@ -1,0 +1,1 @@
+5a4dc9dfe2237eaa763443070c0a6775cfdcedd0 2026-03-10 test: Run tests on pull requests

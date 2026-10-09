@@ -1,0 +1,11 @@
+n,sha7,date,subject,total,llm_newly_dead,dev_newly_dead,assertion,throw,load,timeout,src_files,test_files,pkg_changed,changed_files
+64,8bb4ae7,2026-03-10,fix: incorrect quantile computation (Issue #353) (#783),15,7,8,14,1,0,0,2,2,0,.changeset/sixty-eels-travel.md;src/quantile.js;src/quantile_sorted.js;test/quantile.test.js;test/quantilesorted.test.js
+119,ec2cfc7,2026-09-07,fix(silhouette): exclude the point itself from its own cluster mean (#849),5,3,2,5,0,0,0,1,1,0,.changeset/silhouette-intra-cluster-mean.md;src/silhouette.js;test/silhouette.test.js
+113,b6debf9,2026-08-31,fix(gamma): lift small arguments before the Nemes expansion (#852),2,2,0,1,1,0,0,1,1,0,.changeset/gamma-small-argument.md;src/gamma.js;test/gamma.test.js
+84,43e3439,2026-07-08,fix(bayes): accumulate scores across all item properties (#810),1,1,0,1,0,0,0,1,1,0,src/bayesian_classifier.js;test/bayes.test.js
+86,0779f22,2026-08-07,fix(rank-correlation): give tied values midranks (#814),1,1,0,1,0,0,0,1,1,0,.changeset/rank-correlation-midranks.md;src/sample_rank_correlation.js;test/sample_rank_correlation.test.js
+114,a48dc26,2026-08-31,fix(perceptron): stop train from writing through to the caller's array (#846),1,1,0,0,1,0,0,1,1,0,.changeset/perceptron-train-aliases-caller-array.md;src/perceptron.js;test/perceptron.test.js
+1,90990cc,2022-10-26,feat: Re-add Jenks algorithm,0,0,0,0,0,0,0,4,2,1,index.d.ts;index.js;package.json;src/jenks.d.ts;src/jenks.js;src/jenks_breaks.js;src/jenks_matrices.js;test/jenks.test.js;test/types.ts
+2,aecc456,2022-10-26,"build: Update test dependencies, update author URL and email: (#677)",0,0,0,0,0,0,0,0,0,1,README.md;package.json;yarn.lock
+3,362641a,2022-10-26,chore(release): 7.8.0,0,0,0,0,0,0,0,0,0,1,CHANGELOG.md;package.json
+4,b87de8d,2022-12-01,deps: Update build dependencies (#682),0,0,0,0,0,0,0,0,0,1,.github/workflows/nodejs.yml;README.md;package.json;rollup.config.js;rollup.config.mjs;yarn.lock

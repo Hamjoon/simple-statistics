@@ -1,0 +1,1 @@
+cc052d67c18258c836b5a67fc7c7b1bf93574510 2026-08-31 feat(root-mean-square): add scaledRootMeanSquare for extreme magnitudes (#854)

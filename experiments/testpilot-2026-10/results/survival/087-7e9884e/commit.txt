@@ -1,0 +1,1 @@
+7e9884e94d1883224eac652a7db16346ccad1732 2026-08-08 build: normalise line endings to LF so Windows clones can lint (#819)

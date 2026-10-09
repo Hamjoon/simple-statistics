@@ -1,0 +1,1 @@
+b6debf95b256d3d6c226fac7bf210363ff339bdf 2026-08-31 fix(gamma): lift small arguments before the Nemes expansion (#852)

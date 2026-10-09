@@ -1,0 +1,25 @@
+{
+  "n": 84,
+  "sha": "43e343916c3829e0f56d3e67c6f79fe9e9a5cec7",
+  "date": "2026-07-08",
+  "build": "ok",
+  "install_fallback": false,
+  "install_ignore_scripts": true,
+  "build_fallback": false,
+  "require_target": "./dist/simple-statistics.cjs",
+  "reason": "",
+  "llm": {
+    "pass": 297,
+    "fail": 8,
+    "nopass": 0,
+    "loadfail": 0
+  },
+  "dev": {
+    "subtests_ok": 301,
+    "subtests_notok": 8,
+    "subtests_loadfail": 0,
+    "ok_lines": 1005,
+    "notok_lines": 19,
+    "files_exit0": 68
+  }
+}

@@ -1,0 +1,23 @@
+n,sha7,date,tags,subject,llm_decrease,dev_decrease,llm_cum,dev_cum,build
+0,31f037d,2022-08-12,v7.7.6,anchor t,0,0,305,309,ok
+3,362641a,2022-10-26,v7.8.0,chore(release): 7.8.0,0,0,305,309,ok
+7,4dd9bd8,2023-01-15,v7.8.1,chore(release): 7.8.1,0,0,305,309,ok
+14,dd5e72c,2023-01-15,v7.8.2,chore(release): 7.8.2,0,0,305,309,ok
+22,b4a9c78,2023-02-12,v7.8.3,chore(release): 7.8.3,0,0,305,309,ok
+64,8bb4ae7,2026-03-10,,fix: incorrect quantile computation (Issue #353) (#783),7,8,298,301,ok
+66,91a309a,2026-03-10,v7.8.9,Add publishConfig to package.json (#786),0,0,298,301,ok
+76,b963ea8,2026-06-04,v7.9.0,Version Packages (#797),0,0,298,301,ok
+79,17ba2f9,2026-06-26,v7.9.1,Version Packages (#801),0,0,298,301,ok
+81,5715425,2026-06-30,v7.9.2,Version Packages (#806),0,0,298,301,ok
+83,f9d368f,2026-07-03,v7.9.3,Version Packages (#808),0,0,298,301,ok
+84,43e3439,2026-07-08,,fix(bayes): accumulate scores across all item properties (#810),1,0,297,301,ok
+86,0779f22,2026-08-07,,fix(rank-correlation): give tied values midranks (#814),1,0,296,301,ok
+91,8449cf5,2026-08-09,v7.10.0,Version Packages (#817),0,0,296,301,ok
+97,0c33928,2026-08-14,v7.10.1,"Use pnpm 11, not 10 (#827)",0,0,296,301,ok
+104,7643ea9,2026-08-19,v7.10.2,Version Packages (#834),0,0,296,301,ok
+109,a8c348c,2026-08-29,v7.11.0,Version Packages (#842),0,0,296,301,ok
+113,b6debf9,2026-08-31,,fix(gamma): lift small arguments before the Nemes expansion (#852),2,0,294,301,ok
+114,a48dc26,2026-08-31,,fix(perceptron): stop train from writing through to the caller's array (#846),1,0,293,301,ok
+119,ec2cfc7,2026-09-07,,fix(silhouette): exclude the point itself from its own cluster mean (#849),3,2,290,299,ok
+120,2363d93,2026-09-07,v7.12.0,Version Packages (#856),0,0,290,299,ok
+127,5ee3e8b,2026-09-27,v7.12.1,Version Packages (#867),0,0,290,299,ok

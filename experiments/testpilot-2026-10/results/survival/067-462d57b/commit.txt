@@ -1,0 +1,1 @@
+462d57b27959860c387e7f510ad949dc87765e93 2026-03-10 build(deps-dev): bump rollup from 4.52.3 to 4.59.0 (#780)

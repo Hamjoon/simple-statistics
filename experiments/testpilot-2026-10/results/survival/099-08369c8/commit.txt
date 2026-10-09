@@ -1,0 +1,1 @@
+08369c8f7cef90817333f9ae574940976e3f2d02 2026-08-17 fix(types): declare jenks return type as number[] | null (#832)

@@ -1,0 +1,1 @@
+f9166426e8fec9f56e6991c88a1255a036160d39 2026-10-01 build(deps): bump brace-expansion from 2.1.4 to 2.1.7 (#878)

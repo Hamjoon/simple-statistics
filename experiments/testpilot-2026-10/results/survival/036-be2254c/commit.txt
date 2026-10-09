@@ -1,0 +1,1 @@
+be2254c457432721c980b134456dbca6d02ea62d 2024-10-01 build(deps-dev): bump @biomejs/biome from 1.8.3 to 1.9.2 (#735)

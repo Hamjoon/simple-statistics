@@ -1,0 +1,1 @@
+72569e8188a1433b83e25c2d10f72dd7cf91d194 2026-06-04 build(deps-dev): bump @rollup/plugin-terser from 0.4.4 to 1.0.0 (#794)

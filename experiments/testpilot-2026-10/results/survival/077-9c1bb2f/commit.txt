@@ -1,0 +1,1 @@
+9c1bb2f6fdd5c950d47099d9a7c5ec382c378278 2026-06-26 fix: gamma() no longer infinitely recurses for 0 < n < 1 (#800)

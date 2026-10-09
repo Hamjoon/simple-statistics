@@ -1,0 +1,1 @@
+e8518facddde8f5a41eabd7fc92fffbb62aeb1f0 2026-08-29 fix(standard-normal-table): correct six entries above z = 2.9 (#847)

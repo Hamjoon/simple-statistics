@@ -1,0 +1,1 @@
+894958aaedf234fca0b56cee903cff4c28c80477 2026-08-14 fix: chiSquaredGoodnessOfFit no longer reports a fit it never measured (#812)

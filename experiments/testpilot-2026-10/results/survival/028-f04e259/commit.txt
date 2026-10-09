@@ -1,0 +1,1 @@
+f04e2593804bb75dda01909b3662fe85253ba192 2024-08-15 build(deps-dev): bump eslint from 8.33.0 to 8.39.0 (#711)

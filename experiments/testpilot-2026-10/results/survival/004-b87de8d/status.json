@@ -1,0 +1,24 @@
+{
+  "n": 4,
+  "sha": "b87de8df148e2ad8cc4957c90d4987754c0cf302",
+  "date": "2022-12-01",
+  "build": "ok",
+  "install_fallback": false,
+  "build_fallback": false,
+  "require_target": "./dist/simple-statistics.js",
+  "reason": "",
+  "llm": {
+    "pass": 305,
+    "fail": 0,
+    "nopass": 0,
+    "loadfail": 0
+  },
+  "dev": {
+    "subtests_ok": 309,
+    "subtests_notok": 0,
+    "subtests_loadfail": 0,
+    "ok_lines": 1024,
+    "notok_lines": 0,
+    "files_exit0": 70
+  }
+}

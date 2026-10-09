@@ -1,0 +1,1 @@
+48b4edd39f924622c6b4274afa7bf8661c3233ff 2026-09-27 Fix combinations when choosing zero objects (#869)

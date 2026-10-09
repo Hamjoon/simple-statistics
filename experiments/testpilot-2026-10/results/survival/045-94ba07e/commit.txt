@@ -1,0 +1,1 @@
+94ba07e5933fe0e79cfeae5b692894ff93adecc5 2024-12-02 build(deps-dev): bump rollup from 4.24.3 to 4.28.0 (#746)

@@ -1,0 +1,1 @@
+a7b0357b8da0f4f4061e9600d2864698fdf660c6 2026-09-27 Preserve NaN in scaledRootMeanSquare (#872)

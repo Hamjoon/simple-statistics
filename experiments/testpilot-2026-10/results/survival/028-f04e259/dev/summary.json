@@ -1,0 +1,501 @@
+{
+  "totals": {
+    "files": 70,
+    "nonzeroExits": 0,
+    "ok": 1024,
+    "notOk": 0,
+    "subtests": 309
+  },
+  "files": [
+    {
+      "file": "add_to_mean.test.js",
+      "exitCode": 0,
+      "ok": 4,
+      "notOk": 0,
+      "subtests": 2
+    },
+    {
+      "file": "approx_equal.test.js",
+      "exitCode": 0,
+      "ok": 22,
+      "notOk": 0,
+      "subtests": 9
+    },
+    {
+      "file": "bayes.test.js",
+      "exitCode": 0,
+      "ok": 12,
+      "notOk": 0,
+      "subtests": 6
+    },
+    {
+      "file": "bernoulli_distribution.test.js",
+      "exitCode": 0,
+      "ok": 8,
+      "notOk": 0,
+      "subtests": 3
+    },
+    {
+      "file": "binomial_distribution.test.js",
+      "exitCode": 0,
+      "ok": 15,
+      "notOk": 0,
+      "subtests": 3
+    },
+    {
+      "file": "bisect.test.js",
+      "exitCode": 0,
+      "ok": 6,
+      "notOk": 0,
+      "subtests": 2
+    },
+    {
+      "file": "chi_squared_goodness_of_fit.test.js",
+      "exitCode": 0,
+      "ok": 7,
+      "notOk": 0,
+      "subtests": 4
+    },
+    {
+      "file": "chunk.test.js",
+      "exitCode": 0,
+      "ok": 11,
+      "notOk": 0,
+      "subtests": 2
+    },
+    {
+      "file": "ckmeans.test.js",
+      "exitCode": 0,
+      "ok": 17,
+      "notOk": 0,
+      "subtests": 1
+    },
+    {
+      "file": "coefficient_of_variation.test.js",
+      "exitCode": 0,
+      "ok": 3,
+      "notOk": 0,
+      "subtests": 2
+    },
+    {
+      "file": "combinations.test.js",
+      "exitCode": 0,
+      "ok": 5,
+      "notOk": 0,
+      "subtests": 3
+    },
+    {
+      "file": "combinations_replacement.test.js",
+      "exitCode": 0,
+      "ok": 5,
+      "notOk": 0,
+      "subtests": 3
+    },
+    {
+      "file": "combine_means.test.js",
+      "exitCode": 0,
+      "ok": 4,
+      "notOk": 0,
+      "subtests": 2
+    },
+    {
+      "file": "combine_variances.test.js",
+      "exitCode": 0,
+      "ok": 4,
+      "notOk": 0,
+      "subtests": 2
+    },
+    {
+      "file": "cumulative.test.js",
+      "exitCode": 0,
+      "ok": 114,
+      "notOk": 0,
+      "subtests": 10
+    },
+    {
+      "file": "equal_interval_breaks.test.js",
+      "exitCode": 0,
+      "ok": 5,
+      "notOk": 0,
+      "subtests": 1
+    },
+    {
+      "file": "error_function.test.js",
+      "exitCode": 0,
+      "ok": 204,
+      "notOk": 0,
+      "subtests": 3
+    },
+    {
+      "file": "factorial.test.js",
+      "exitCode": 0,
+      "ok": 11,
+      "notOk": 0,
+      "subtests": 6
+    },
+    {
+      "file": "gamma.test.js",
+      "exitCode": 0,
+      "ok": 11,
+      "notOk": 0,
+      "subtests": 6
+    },
+    {
+      "file": "gammaln.test.js",
+      "exitCode": 0,
+      "ok": 9,
+      "notOk": 0,
+      "subtests": 5
+    },
+    {
+      "file": "geometric_mean.test.js",
+      "exitCode": 0,
+      "ok": 10,
+      "notOk": 0,
+      "subtests": 5
+    },
+    {
+      "file": "harmonic_mean.test.js",
+      "exitCode": 0,
+      "ok": 9,
+      "notOk": 0,
+      "subtests": 4
+    },
+    {
+      "file": "iqr.test.js",
+      "exitCode": 0,
+      "ok": 7,
+      "notOk": 0,
+      "subtests": 4
+    },
+    {
+      "file": "k_means_cluster.test.js",
+      "exitCode": 0,
+      "ok": 21,
+      "notOk": 0,
+      "subtests": 8
+    },
+    {
+      "file": "kernel_density_estimation.test.js",
+      "exitCode": 0,
+      "ok": 15,
+      "notOk": 0,
+      "subtests": 4
+    },
+    {
+      "file": "linear_regression.test.js",
+      "exitCode": 0,
+      "ok": 17,
+      "notOk": 0,
+      "subtests": 7
+    },
+    {
+      "file": "log_average.test.js",
+      "exitCode": 0,
+      "ok": 9,
+      "notOk": 0,
+      "subtests": 7
+    },
+    {
+      "file": "logit.test.js",
+      "exitCode": 0,
+      "ok": 5,
+      "notOk": 0,
+      "subtests": 3
+    },
+    {
+      "file": "mad.test.js",
+      "exitCode": 0,
+      "ok": 9,
+      "notOk": 0,
+      "subtests": 5
+    },
+    {
+      "file": "mean.test.js",
+      "exitCode": 0,
+      "ok": 7,
+      "notOk": 0,
+      "subtests": 4
+    },
+    {
+      "file": "mean_simple.test.js",
+      "exitCode": 0,
+      "ok": 7,
+      "notOk": 0,
+      "subtests": 4
+    },
+    {
+      "file": "median.test.js",
+      "exitCode": 0,
+      "ok": 16,
+      "notOk": 0,
+      "subtests": 7
+    },
+    {
+      "file": "minmax.test.js",
+      "exitCode": 0,
+      "ok": 21,
+      "notOk": 0,
+      "subtests": 9
+    },
+    {
+      "file": "mode.test.js",
+      "exitCode": 0,
+      "ok": 39,
+      "notOk": 0,
+      "subtests": 14
+    },
+    {
+      "file": "normal_distribution.test.js",
+      "exitCode": 0,
+      "ok": 16,
+      "notOk": 0,
+      "subtests": 8
+    },
+    {
+      "file": "numeric_sort.test.js",
+      "exitCode": 0,
+      "ok": 5,
+      "notOk": 0,
+      "subtests": 1
+    },
+    {
+      "file": "perceptron.test.js",
+      "exitCode": 0,
+      "ok": 19,
+      "notOk": 0,
+      "subtests": 7
+    },
+    {
+      "file": "permutation_test.test.js",
+      "exitCode": 0,
+      "ok": 9,
+      "notOk": 0,
+      "subtests": 5
+    },
+    {
+      "file": "permutations_heap.test.js",
+      "exitCode": 0,
+      "ok": 5,
+      "notOk": 0,
+      "subtests": 3
+    },
+    {
+      "file": "poisson_distribution.test.js",
+      "exitCode": 0,
+      "ok": 16,
+      "notOk": 0,
+      "subtests": 6
+    },
+    {
+      "file": "product.test.js",
+      "exitCode": 0,
+      "ok": 9,
+      "notOk": 0,
+      "subtests": 5
+    },
+    {
+      "file": "quantile.test.js",
+      "exitCode": 0,
+      "ok": 28,
+      "notOk": 0,
+      "subtests": 10
+    },
+    {
+      "file": "quantile_rank.test.js",
+      "exitCode": 0,
+      "ok": 8,
+      "notOk": 0,
+      "subtests": 2
+    },
+    {
+      "file": "quantile_rank_sorted.test.js",
+      "exitCode": 0,
+      "ok": 7,
+      "notOk": 0,
+      "subtests": 2
+    },
+    {
+      "file": "quantilesorted.test.js",
+      "exitCode": 0,
+      "ok": 5,
+      "notOk": 0,
+      "subtests": 2
+    },
+    {
+      "file": "quickselect.test.js",
+      "exitCode": 0,
+      "ok": 6,
+      "notOk": 0,
+      "subtests": 3
+    },
+    {
+      "file": "r_squared.test.js",
+      "exitCode": 0,
+      "ok": 7,
+      "notOk": 0,
+      "subtests": 4
+    },
+    {
+      "file": "root_mean_square.test.js",
+      "exitCode": 0,
+      "ok": 7,
+      "notOk": 0,
+      "subtests": 3
+    },
+    {
+      "file": "sample.test.js",
+      "exitCode": 0,
+      "ok": 10,
+      "notOk": 0,
+      "subtests": 1
+    },
+    {
+      "file": "sample_correlation.test.js",
+      "exitCode": 0,
+      "ok": 10,
+      "notOk": 0,
+      "subtests": 7
+    },
+    {
+      "file": "sample_covariance.test.js",
+      "exitCode": 0,
+      "ok": 11,
+      "notOk": 0,
+      "subtests": 6
+    },
+    {
+      "file": "sample_kurtosis.test.js",
+      "exitCode": 0,
+      "ok": 17,
+      "notOk": 0,
+      "subtests": 9
+    },
+    {
+      "file": "sample_skewness.test.js",
+      "exitCode": 0,
+      "ok": 13,
+      "notOk": 0,
+      "subtests": 7
+    },
+    {
+      "file": "sample_standard_deviation.test.js",
+      "exitCode": 0,
+      "ok": 4,
+      "notOk": 0,
+      "subtests": 2
+    },
+    {
+      "file": "sample_variance.test.js",
+      "exitCode": 0,
+      "ok": 9,
+      "notOk": 0,
+      "subtests": 4
+    },
+    {
+      "file": "sample_with_replacement.test.js",
+      "exitCode": 0,
+      "ok": 6,
+      "notOk": 0,
+      "subtests": 1
+    },
+    {
+      "file": "shuffle.test.js",
+      "exitCode": 0,
+      "ok": 13,
+      "notOk": 0,
+      "subtests": 3
+    },
+    {
+      "file": "sign.test.js",
+      "exitCode": 0,
+      "ok": 9,
+      "notOk": 0,
+      "subtests": 2
+    },
+    {
+      "file": "silhouette.test.js",
+      "exitCode": 0,
+      "ok": 15,
+      "notOk": 0,
+      "subtests": 6
+    },
+    {
+      "file": "standard_deviation.test.js",
+      "exitCode": 0,
+      "ok": 11,
+      "notOk": 0,
+      "subtests": 6
+    },
+    {
+      "file": "standard_normal_table.test.js",
+      "exitCode": 0,
+      "ok": 2,
+      "notOk": 0,
+      "subtests": 2
+    },
+    {
+      "file": "subtract_from_mean.test.js",
+      "exitCode": 0,
+      "ok": 4,
+      "notOk": 0,
+      "subtests": 2
+    },
+    {
+      "file": "sum.test.js",
+      "exitCode": 0,
+      "ok": 21,
+      "notOk": 0,
+      "subtests": 9
+    },
+    {
+      "file": "sum_nth_power_deviations.test.js",
+      "exitCode": 0,
+      "ok": 5,
+      "notOk": 0,
+      "subtests": 1
+    },
+    {
+      "file": "t_test.test.js",
+      "exitCode": 0,
+      "ok": 3,
+      "notOk": 0,
+      "subtests": 2
+    },
+    {
+      "file": "t_test_two_sample.test.js",
+      "exitCode": 0,
+      "ok": 11,
+      "notOk": 0,
+      "subtests": 5
+    },
+    {
+      "file": "unique_count_sorted.test.js",
+      "exitCode": 0,
+      "ok": 8,
+      "notOk": 0,
+      "subtests": 1
+    },
+    {
+      "file": "variance.test.js",
+      "exitCode": 0,
+      "ok": 7,
+      "notOk": 0,
+      "subtests": 4
+    },
+    {
+      "file": "wilcoxon_rank_sum.test.js",
+      "exitCode": 0,
+      "ok": 15,
+      "notOk": 0,
+      "subtests": 7
+    },
+    {
+      "file": "z_score.test.js",
+      "exitCode": 0,
+      "ok": 4,
+      "notOk": 0,
+      "subtests": 1
+    }
+  ]
+}

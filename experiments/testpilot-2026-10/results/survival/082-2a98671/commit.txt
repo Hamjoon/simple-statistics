@@ -1,0 +1,1 @@
+2a98671dc16f973ec6b1ab37f4c88836ec8cbb6b 2026-07-03 Modernize test setup, switch the package to ESM (#807)

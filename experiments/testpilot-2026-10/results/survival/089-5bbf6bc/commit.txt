@@ -1,0 +1,1 @@
+5bbf6bc2700dfa4e5e7f833b9c1f0dcf1414e237 2026-08-09 Remove badges in readme (#821)

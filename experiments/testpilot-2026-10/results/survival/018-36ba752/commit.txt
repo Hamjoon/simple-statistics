@@ -1,0 +1,1 @@
+36ba752b6f30f60f9bf1365d8d63d1a97cbe97b0 2023-02-01 build(deps-dev): bump prettier from 2.8.1 to 2.8.3 (#696)

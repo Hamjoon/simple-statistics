@@ -1,0 +1,2 @@
+external llm runner exit=0 wall=approx90s
+external dev runner exit=0 wall=approx6s

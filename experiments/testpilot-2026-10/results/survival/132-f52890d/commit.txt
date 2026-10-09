@@ -1,0 +1,1 @@
+f52890d1649f45a7e7614803eac29b0e85985af3 2026-10-01 fix(minmax): return NaN from min, max and extent wherever NaN appears (#873)

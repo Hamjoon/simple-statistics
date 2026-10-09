@@ -1,0 +1,1 @@
+aa8eecc92726939632e06d7d70255483c9f33681 2023-02-12 bugfix: fix the export path of browser from dist/simple-statistics.min.js to ./dist/simple-statistics.min.js (#699)

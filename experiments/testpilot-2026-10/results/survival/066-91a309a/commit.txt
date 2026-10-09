@@ -1,0 +1,1 @@
+91a309a32e5cd132fdfce4062df32f1ba60b6a2a 2026-03-10 Add publishConfig to package.json (#786)

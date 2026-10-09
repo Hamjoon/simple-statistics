@@ -1,0 +1,1 @@
+f25c2bad94d75db2f5950ca377c053e9e6f3afd5 2026-08-19 docs(jsdoc): repair quantileRank, jenks, and kMeansCluster rendering (#831)

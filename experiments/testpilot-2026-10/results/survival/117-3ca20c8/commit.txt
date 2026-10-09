@@ -1,0 +1,1 @@
+3ca20c841dd6870c18a8f91a71e29226419b8e17 2026-09-02 docs(mode): describe how each implementation actually breaks ties (#858)

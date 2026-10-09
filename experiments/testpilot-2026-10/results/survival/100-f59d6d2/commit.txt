@@ -1,0 +1,1 @@
+f59d6d2ffc235bd2a68628a8d57c4365623092a5 2026-08-19 docs(permutation-test): correct alternative values to 'two_side' (#828)

@@ -1,0 +1,1 @@
+39492494282c4fb13d8d6fbc41903c774c0c82f7 2025-10-03 feat: Make interfaces readonly (#767)

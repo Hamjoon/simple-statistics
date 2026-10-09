@@ -1,0 +1,1 @@
+a078231c2f62ab1fc885d527b044e7d36a433b80 2026-08-14 fix(perceptron): declare that predict and train can return null (#823)

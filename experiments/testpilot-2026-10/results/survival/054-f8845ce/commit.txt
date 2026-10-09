@@ -1,0 +1,1 @@
+f8845ce396b7f4d69628fd702bd50d059de9ad3a 2025-06-08 docs: Update note about Deno

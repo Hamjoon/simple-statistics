@@ -1,0 +1,1 @@
+d3e92a67b37c846afc38a7236edcf9fa0b1fc2b1 2026-09-27 fix(weighted-mean): sum through the compensated sum (#865)

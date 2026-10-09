@@ -1,0 +1,1 @@
+6314edb1fbe40d8467b5ef74cc527e5d6bf8a6b6 2026-08-09 Update to TypeScript 7, fix audits (#822)

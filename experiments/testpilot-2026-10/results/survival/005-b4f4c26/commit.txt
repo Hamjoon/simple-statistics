@@ -1,0 +1,1 @@
+b4f4c2688a0984f45eaca673b2d59f3cc239ca66 2023-01-09 build(deps): bump json5 from 1.0.1 to 1.0.2 (#688)

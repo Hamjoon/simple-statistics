@@ -1,0 +1,1 @@
+4a073caf45b78d202ffd65a4fb8e8bb630b3bb6d 2024-12-02 build(deps): bump cross-spawn from 7.0.3 to 7.0.6 (#748)

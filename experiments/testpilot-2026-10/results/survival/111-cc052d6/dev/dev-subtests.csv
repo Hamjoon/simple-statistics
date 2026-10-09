@@ -1,0 +1,310 @@
+file,subtestIndex,subtestName,status,okCount,notOkCount
+add_to_mean.test.js,1,addToMean,ok,3,0
+add_to_mean.test.js,2,can get add a single value to a mean,ok,2,0
+approx_equal.test.js,1,approximate strict equality,ok,21,0
+approx_equal.test.js,2,handles equal values,ok,1,0
+approx_equal.test.js,3,handles values separated by less than epsilon,ok,1,0
+approx_equal.test.js,4,handles values separated by more than epsilon,ok,1,0
+approx_equal.test.js,5,handles values separated by relatively less than epsilon,ok,1,0
+approx_equal.test.js,6,handles values separated by relatively more than epsilon,ok,1,0
+approx_equal.test.js,7,handles negative values,ok,4,0
+approx_equal.test.js,8,handles larger tolerances,ok,2,0
+approx_equal.test.js,9,handles values near zero,ok,2,0
+bayes.test.js,1,BayesianClassifier,ok,11,0
+bayes.test.js,2,makes an easy call with one training round,ok,1,0
+bayes.test.js,3,makes fify-fifty call,ok,1,0
+bayes.test.js,4,makes seventy-five/twenty-five call,ok,1,0
+bayes.test.js,5,tests multiple properties,ok,1,0
+bayes.test.js,6,classifies multiple things,ok,2,0
+bernoulli_distribution.test.js,1,bernoulliDistribution,ok,7,0
+bernoulli_distribution.test.js,2,can return generate probability and cumulative probability distributions for p = 0.3,ok,3,0
+bernoulli_distribution.test.js,3,can return null when p is not a valid probability,ok,2,0
+binomial_distribution.test.js,1,binomialDistribution,ok,14,0
+binomial_distribution.test.js,2,"can return generate probability and cumulative probability distributions for n = 6, p = 0.3",ok,8,0
+binomial_distribution.test.js,3,can return null when p or n are not valid parameters,ok,4,0
+bisect.test.js,1,bisect,ok,5,0
+bisect.test.js,2,can find root of sin and cos,ok,4,0
+chi_squared_goodness_of_fit.test.js,1,chiSquaredGoodnessOfFit,ok,6,0
+chi_squared_goodness_of_fit.test.js,2,can reject the null hypothesis with level of confidence specified at 0.05,ok,1,0
+chi_squared_goodness_of_fit.test.js,3,can accept the null hypothesis with level of confidence specified at 0.10,ok,1,0
+chi_squared_goodness_of_fit.test.js,4,can tolerate gaps in distribution,ok,1,0
+chunk.test.js,1,chunk,ok,10,0
+chunk.test.js,2,can get chunks of an array,ok,9,0
+ckmeans.test.js,1,C k-means,ok,16,0
+coefficient_of_variation.test.js,1,coefficient_of_variation,ok,2,0
+coefficient_of_variation.test.js,2,can get the coefficientOfVariation of a six-sided die,ok,1,0
+combinations.test.js,1,combinations,ok,4,0
+combinations.test.js,2,generates 1 permutation,ok,1,0
+combinations.test.js,3,"generates combinations of 1,2,3 choosing two at a time",ok,1,0
+combinations_replacement.test.js,1,combinations,ok,4,0
+combinations_replacement.test.js,2,generates 1 permutation,ok,1,0
+combinations_replacement.test.js,3,"generates combinations of 1,2 choosing two at a time, with replacement",ok,1,0
+combine_means.test.js,1,combineMeans,ok,3,0
+combine_means.test.js,2,can combine the means of two lists,ok,2,0
+combine_variances.test.js,1,combineVariances,ok,3,0
+combine_variances.test.js,2,can combine the variances of two lists,ok,2,0
+cumulative.test.js,1,cumulativeStdNormalProbability,ok,108,0
+cumulative.test.js,2,wikipedia test example works,ok,1,0
+cumulative.test.js,3,nondecreasing,ok,0,0
+cumulative.test.js,4,matches errorFunction,ok,0,0
+cumulative.test.js,5,symmetry,ok,1,0
+cumulative.test.js,6,inverse,ok,101,0
+cumulative.test.js,7,cumulativeStdLogisticProbability,ok,4,0
+cumulative.test.js,8,median is zero,ok,1,0
+cumulative.test.js,9,increasing,ok,0,0
+cumulative.test.js,10,symmetry,ok,0,0
+equal_interval_breaks.test.js,1,equalIntervalBreaks,ok,4,0
+error_function.test.js,1,errorFunction,ok,0,0
+error_function.test.js,2,symmetry,ok,1,0
+error_function.test.js,3,inverse,ok,200,0
+factorial.test.js,1,factorial,ok,10,0
+factorial.test.js,2,cannot calculate the factorial of a number lower than zero,ok,1,0
+factorial.test.js,3,rejects floating-point inputs,ok,1,0
+factorial.test.js,4,can calculate 0! = 1,ok,1,0
+factorial.test.js,5,can calculate 1! = 1,ok,1,0
+factorial.test.js,6,can calculate 100! = 1,ok,1,0
+gamma.test.js,1,gamma,ok,10,0
+gamma.test.js,2,gamma for integer should return whole number,ok,1,0
+gamma.test.js,3,gamma for positive real float should be correct,ok,1,0
+gamma.test.js,4,gamma for negative real float should be correct,ok,1,0
+gamma.test.js,5,gamma for negative integer should return NaN,ok,1,0
+gamma.test.js,6,gamma for zero should return NaN,ok,1,0
+gammaln.test.js,1,gammaln,ok,8,0
+gammaln.test.js,2,gammaln for positive real float should be correct,ok,1,0
+gammaln.test.js,3,exp(gammaln(n)) for n should equal gamma(n),ok,1,0
+gammaln.test.js,4,gammaln for negative n should be Infinity,ok,1,0
+gammaln.test.js,5,gammaln for n === 0 should return NaN,ok,1,0
+geometric_mean.test.js,1,geometric mean,ok,9,0
+geometric_mean.test.js,2,can get the mean of two numbers,ok,3,0
+geometric_mean.test.js,3,cannot calculate for empty lists,ok,1,0
+geometric_mean.test.js,4,cannot calculate for lists with negative numbers,ok,1,0
+geometric_mean.test.js,5,equals zero if array contains zero,ok,0,0
+harmonic_mean.test.js,1,harmonicMean,ok,8,0
+harmonic_mean.test.js,2,can get the mean of two or more numbers,ok,3,0
+harmonic_mean.test.js,3,cannot calculate for empty lists,ok,1,0
+harmonic_mean.test.js,4,cannot calculate for lists with negative numbers,ok,1,0
+iqr.test.js,1,interquartile range (iqr),ok,6,0
+iqr.test.js,2,can get proper iqr of an even-length list,ok,1,0
+iqr.test.js,3,can get proper iqr of an odd-length list,ok,1,0
+iqr.test.js,4,an iqr of a zero-length list cannot be calculated,ok,1,0
+k_means_cluster.test.js,1,k-means clustering test,ok,20,0
+k_means_cluster.test.js,2,Single cluster of one point contains only that point,ok,2,0
+k_means_cluster.test.js,3,Single cluster of two points contains both points,ok,2,0
+k_means_cluster.test.js,4,Two clusters of two points puts each point in its own cluster,ok,2,0
+k_means_cluster.test.js,5,Two clusters of four paired points puts each pair in a cluster,ok,2,0
+k_means_cluster.test.js,6,Two clusters of two 2D points puts each point in its own cluster,ok,2,0
+k_means_cluster.test.js,7,Base case of one value,ok,1,0
+k_means_cluster.test.js,8,Two clusters of three 2D points puts two points in one cluster and one in the other,ok,2,0
+kernel_density_estimation.test.js,1,kernel density estimation,ok,14,0
+kernel_density_estimation.test.js,2,default kernel and bandwidth,ok,7,0
+kernel_density_estimation.test.js,3,gaussian default kernel,ok,2,0
+kernel_density_estimation.test.js,4,invalid kernel,ok,2,0
+linear_regression.test.js,1,linear regression,ok,16,0
+linear_regression.test.js,2,"correctly generates a line for a 0, 0 to 1, 1 dataset",ok,3,0
+linear_regression.test.js,3,"correctly generates a line for a 0, 0 to 1, 0 dataset",ok,3,0
+linear_regression.test.js,4,handles a single-point sample,ok,1,0
+linear_regression.test.js,5,a straight line will have a slope of 0,ok,1,0
+linear_regression.test.js,6,a line at 50% grade,ok,1,0
+linear_regression.test.js,7,a line with a high y-intercept,ok,1,0
+log_average.test.js,1,log average,ok,8,0
+log_average.test.js,2,cannot calculate for empty lists,ok,1,0
+log_average.test.js,3,cannot calculate for lists with negative numbers,ok,1,0
+log_average.test.js,4,does not overflow for large products,ok,0,0
+log_average.test.js,5,does not underflow for small products,ok,0,0
+log_average.test.js,6,agrees with geometricMean,ok,0,0
+log_average.test.js,7,equals zero if array contains zero,ok,0,0
+logit.test.js,1,logit,ok,4,0
+logit.test.js,2,throws on logit < 0,ok,1,0
+logit.test.js,3,computes the logit otherwise,ok,1,0
+mad.test.js,1,median absolute deviation (mad),ok,8,0
+mad.test.js,2,median absolute deviation of an example on wikipedia,ok,1,0
+mad.test.js,3,median absolute deviation of 0-10,ok,1,0
+mad.test.js,4,median absolute deviation of one number is zero,ok,1,0
+mad.test.js,5,zero-length corner case,ok,1,0
+mean.test.js,1,mean,ok,6,0
+mean.test.js,2,can get the mean of two numbers,ok,1,0
+mean.test.js,3,can get the mean of one number,ok,1,0
+mean.test.js,4,an empty list has no average,ok,1,0
+mean_simple.test.js,1,meanSimple,ok,6,0
+mean_simple.test.js,2,can get the mean of two numbers,ok,1,0
+mean_simple.test.js,3,can get the mean of one number,ok,1,0
+mean_simple.test.js,4,an empty list has no average,ok,1,0
+median.test.js,1,median,ok,15,0
+median.test.js,2,can get the median of three numbers,ok,1,0
+median.test.js,3,can get the median of two numbers,ok,2,0
+median.test.js,4,can get the median of four numbers,ok,1,0
+median.test.js,5,cannot calculate the median of an empty list,ok,1,0
+median.test.js,6,sorts numbers numerically,ok,1,0
+median.test.js,7,does not change the sorting order of its input,ok,3,0
+minmax.test.js,1,min,ok,5,0
+minmax.test.js,2,can get the minimum of one number,ok,1,0
+minmax.test.js,3,can get the minimum of three numbers,ok,1,0
+minmax.test.js,4,max,ok,3,0
+minmax.test.js,5,can get the maximum of three numbers,ok,1,0
+minmax.test.js,6,extent,ok,6,0
+minmax.test.js,7,can get the extent of one number,ok,2,0
+minmax.test.js,8,can get the extent of three numbers,ok,1,0
+minmax.test.js,9,sorted,ok,3,0
+mode.test.js,1,mode,ok,38,0
+mode.test.js,2,mode,ok,17,0
+mode.test.js,3,the mode of a single-number array is that one number,ok,1,0
+mode.test.js,4,the mode of a two-number array is that one number,ok,1,0
+mode.test.js,5,other cases,ok,8,0
+mode.test.js,6,the mode of an empty array is null,ok,1,0
+mode.test.js,7,the mode of a three-number array with two same numbers is the repeated one,ok,1,0
+mode.test.js,8,modeFast,ok,17,0
+mode.test.js,9,the mode of a single-number array is that one number,ok,1,0
+mode.test.js,10,the mode of a two-number array is that one number,ok,1,0
+mode.test.js,11,other cases,ok,8,0
+mode.test.js,12,the mode of an empty array is null,ok,1,0
+mode.test.js,13,the mode of a three-number array with two same numbers is the repeated one,ok,1,0
+mode.test.js,14,mode sorted,ok,1,0
+normal_distribution.test.js,1,natural distribution and z-score,ok,15,0
+normal_distribution.test.js,2,normal table is exposed in the API,ok,2,0
+normal_distribution.test.js,3,P(Z <= 0.4) is 0.6554,ok,1,0
+normal_distribution.test.js,4,P(Z <= -1.20) is 0.1151,ok,1,0
+normal_distribution.test.js,5,"P(X <= 82) when X ~ N (80, 25) is 0.6554",ok,1,0
+normal_distribution.test.js,6,"P(X >= 90) when X ~ N (80, 25) is 0.0228",ok,1,0
+normal_distribution.test.js,7,"P(X <= 74) when X ~ N (80, 25) is 0.1151",ok,1,0
+normal_distribution.test.js,8,"P(78 <= X <= 88) when X ~ N (80, 25) is 0.6006",ok,1,0
+numeric_sort.test.js,1,numericSort,ok,4,0
+perceptron.test.js,1,perceptron,ok,18,0
+perceptron.test.js,2,initializes to zeros if label is zero,ok,2,0
+perceptron.test.js,3,initializes to values if label is one,ok,2,0
+perceptron.test.js,4,base case of zero prediction features,ok,1,0
+perceptron.test.js,5,train with invalid label,ok,1,0
+perceptron.test.js,6,learns to separate one from two,ok,2,0
+perceptron.test.js,7,learns a diagonal boundary,ok,4,0
+permutation_test.test.js,1,permutation test,ok,8,0
+permutation_test.test.js,2,P-value of identical distributions being different should be 1,ok,1,0
+permutation_test.test.js,3,P-value of distribution less than itself should be 1,ok,1,0
+permutation_test.test.js,4,P-value of small sample greater than large sample should be 0,ok,1,0
+permutation_test.test.js,5,permutationTest should throw error if wrong argument received,ok,1,0
+permutations_heap.test.js,1,permutationsHeap,ok,4,0
+permutations_heap.test.js,2,generates 1 permutation,ok,1,0
+permutations_heap.test.js,3,"generates 1, 2, 3 permutations",ok,1,0
+poisson_distribution.test.js,1,poissonDistribution,ok,15,0
+poisson_distribution.test.js,2,can return generate probability and cumulative probability distributions for lambda = 3.0,ok,2,0
+poisson_distribution.test.js,3,can generate probability and cumulative probability distributions for lambda = 4.0,ok,2,0
+poisson_distribution.test.js,4,can generate probability and cumulative probability distributions for lambda = 5.5,ok,2,0
+poisson_distribution.test.js,5,can generate probability and cumulative probability distributions for lambda = 9.5,ok,2,0
+poisson_distribution.test.js,6,can return undefined when lambda <= 0,ok,2,0
+product.test.js,1,product,ok,8,0
+product.test.js,2,can get the product of one number,ok,1,0
+product.test.js,3,can get the product of two numbers,ok,1,0
+product.test.js,4,can get the product of a negative number,ok,1,0
+product.test.js,5,the product of no numbers is one - the multiplicative identity,ok,1,0
+quantile.test.js,1,quantile,not ok,13,14
+quantile.test.js,2,can get proper quantiles of an even-length list,not ok,1,2
+quantile.test.js,3,can get proper quantiles of an odd-length list,not ok,1,2
+quantile.test.js,4,the median quantile is equal to the median,ok,2,0
+quantile.test.js,5,test odd-value case,not ok,0,1
+quantile.test.js,6,bad bounds throw an error,ok,2,0
+quantile.test.js,7,max quantile is equal to the max,ok,1,0
+quantile.test.js,8,min quantile is equal to the min,ok,1,0
+quantile.test.js,9,"if quantile arg is an array, response is an array of quantiles",not ok,0,2
+quantile.test.js,10,can get an array of quantiles on a small number of elements,not ok,0,2
+quantile_rank.test.js,1,quantileRank,ok,7,0
+quantile_rank.test.js,2,can get proper quantile ranks,ok,6,0
+quantile_rank_sorted.test.js,1,quantileRankSorted,ok,6,0
+quantile_rank_sorted.test.js,2,can get proper quantile ranks,ok,5,0
+quantilesorted.test.js,1,quantileSorted,not ok,1,3
+quantilesorted.test.js,2,can get proper quantiles of an even-length list,not ok,1,2
+quickselect.test.js,1,quickselect,ok,1,0
+quickselect.test.js,2,quickselect long arrays,ok,1,0
+quickselect.test.js,3,quickselect long arrays L35 coverage,ok,1,0
+r_squared.test.js,1,r-squared,ok,6,0
+r_squared.test.js,2,says that the r squared of a two-point line is perfect,ok,1,0
+r_squared.test.js,3,says that the r squared of a three-point line is not perfect,ok,1,0
+r_squared.test.js,4,r-squared of single sample is 1,ok,1,0
+root_mean_square.test.js,1,root_mean_square,ok,6,0
+root_mean_square.test.js,2,can get the RMS of two or more numbers,ok,3,0
+root_mean_square.test.js,3,returns null for empty lists,ok,1,0
+sample.test.js,1,sample,ok,9,0
+sample_correlation.test.js,1,sample correlation,ok,6,0
+sample_correlation.test.js,2,can get the sample correlation of identical arrays,ok,1,0
+sample_correlation.test.js,3,can get the sample correlation of different arrays,ok,1,0
+sample_correlation.test.js,4,zero-length corner case,ok,1,0
+sample_correlation.test.js,5,sample rank correlation,ok,2,0
+sample_correlation.test.js,6,absolute rank correlation for monotonic function equals one,ok,0,0
+sample_correlation.test.js,7,rank correlation agrees with R calculation,ok,0,0
+sample_covariance.test.js,1,sample covariance,ok,10,0
+sample_covariance.test.js,2,can get perfect negative covariance,ok,1,0
+sample_covariance.test.js,3,covariance of something with itself is its variance,ok,1,0
+sample_covariance.test.js,4,covariance is zero for something with no correlation,ok,1,0
+sample_covariance.test.js,5,unequal-length corner case,ok,1,0
+sample_covariance.test.js,6,zero-length corner case,ok,1,0
+sample_kurtosis.test.js,1,sample kurtosis,ok,16,0
+sample_kurtosis.test.js,2,the kurtosis of an empty sample is null,ok,1,0
+sample_kurtosis.test.js,3,the kurtosis of an sample with one number is null,ok,1,0
+sample_kurtosis.test.js,4,the kurtosis of an sample with two numbers is null,ok,1,0
+sample_kurtosis.test.js,5,the kurtosis of an sample with three numbers is null,ok,1,0
+sample_kurtosis.test.js,6,can calculate the kurtosis of SAS example 1,ok,1,0
+sample_kurtosis.test.js,7,can calculate the kurtosis of SAS example 2,ok,1,0
+sample_kurtosis.test.js,8,can calculate the kurtosis of SAS example 3,ok,1,0
+sample_kurtosis.test.js,9,can calculate the kurtosis of SAS example 4,ok,1,0
+sample_skewness.test.js,1,sample skewness,ok,12,0
+sample_skewness.test.js,2,the skewness of an empty sample is null,ok,1,0
+sample_skewness.test.js,3,the skewness of an sample with one number is null,ok,1,0
+sample_skewness.test.js,4,the skewness of an sample with two numbers is null,ok,1,0
+sample_skewness.test.js,5,can calculate the skewness of SAS example 1,ok,1,0
+sample_skewness.test.js,6,can calculate the skewness of SAS example 2,ok,1,0
+sample_skewness.test.js,7,can calculate the skewness of SAS example 3,ok,1,0
+sample_standard_deviation.test.js,1,sampleStandardDeviation,ok,3,0
+sample_standard_deviation.test.js,2,can get the standard deviation of an example on wikipedia,ok,1,0
+sample_variance.test.js,1,sample variance,ok,8,0
+sample_variance.test.js,2,can get the sample variance of a six-sided die,ok,1,0
+sample_variance.test.js,3,can get the sample variance of numbers 1-10,ok,1,0
+sample_variance.test.js,4,the sample variance of two numbers that are the same is 0,ok,1,0
+sample_with_replacement.test.js,1,sampleWithReplacement,ok,5,0
+shuffle.test.js,1,shuffle,ok,5,0
+shuffle.test.js,2,shuffleInPlace,ok,3,0
+shuffle.test.js,3,shuffleInPlace truly random,ok,2,0
+sign.test.js,1,bisect,ok,8,0
+sign.test.js,2,can find sign of number,ok,7,0
+silhouette.test.js,1,silhouette test,ok,14,0
+silhouette.test.js,2,Requires equal-sized arrays,ok,1,0
+silhouette.test.js,3,Single cluster of one point has metric 0,ok,2,0
+silhouette.test.js,4,Single cluster of two points has metric 1.0,ok,2,0
+silhouette.test.js,5,Two clusters with one point each has metric 0.0,ok,2,0
+silhouette.test.js,6,Two clusters with two points each has metric 0.5,ok,2,0
+standard_deviation.test.js,1,standardDeviation,ok,10,0
+standard_deviation.test.js,2,can get the standard deviation of an example on wikipedia,ok,1,0
+standard_deviation.test.js,3,can get the standard deviation of 1-3,ok,1,0
+standard_deviation.test.js,4,zero-length array corner case,ok,1,0
+standard_deviation.test.js,5,can get the standard deviation of 1-10,ok,1,0
+standard_deviation.test.js,6,the standard deviation of one number is zero,ok,1,0
+standard_normal_table.test.js,1,standardNormalTable,ok,0,0
+standard_normal_table.test.js,2,all entries are numeric,ok,0,0
+subtract_from_mean.test.js,1,subtractFromMean,ok,3,0
+subtract_from_mean.test.js,2,can remove a single value from a mean,ok,2,0
+sum.test.js,1,sum,ok,9,0
+sum.test.js,2,can get the sum of two numbers,ok,1,0
+sum.test.js,3,the sum of no numbers is zero,ok,1,0
+sum.test.js,4,returns NaN if a non-number is given,ok,4,0
+sum.test.js,5,sumSimple,ok,10,0
+sum.test.js,6,can get the sum of two numbers,ok,1,0
+sum.test.js,7,can get the sum of two numbers,ok,2,0
+sum.test.js,8,the sum of no numbers is zero,ok,1,0
+sum.test.js,9,same NaN behavior as sum,ok,2,0
+sum_nth_power_deviations.test.js,1,sumNthPowerDeviations,ok,4,0
+t_test.test.js,1,t test,ok,2,0
+t_test.test.js,2,can compare a known value to the mean of samples,ok,1,0
+t_test_two_sample.test.js,1,tTestTwoSample,ok,10,0
+t_test_two_sample.test.js,2,can test independency of two samples,ok,1,0
+t_test_two_sample.test.js,3,can test independency of two samples (mu == -2),ok,1,0
+t_test_two_sample.test.js,4,can test independency of two samples of different lengths,ok,1,0
+t_test_two_sample.test.js,5,has an edge case for one sample being of size zero,ok,3,0
+unique_count_sorted.test.js,1,uniqueCountSorted,ok,7,0
+variance.test.js,1,variance,ok,6,0
+variance.test.js,2,can get the variance of a six-sided die,ok,1,0
+variance.test.js,3,the variance of one number is zero,ok,1,0
+variance.test.js,4,the variance of no numbers cannot be calculated,ok,1,0
+wilcoxon_rank_sum.test.js,1,wilcoxonRankSum,ok,14,0
+wilcoxon_rank_sum.test.js,2,x is dominated by y,ok,1,0
+wilcoxon_rank_sum.test.js,3,y is dominated by x,ok,1,0
+wilcoxon_rank_sum.test.js,4,x and y are interleaved,ok,1,0
+wilcoxon_rank_sum.test.js,5,x and y overlap at one value,ok,1,0
+wilcoxon_rank_sum.test.js,6,trailing tied ranks are handled correctly,ok,1,0
+wilcoxon_rank_sum.test.js,7,empty input throws,ok,3,0
+z_score.test.js,1,zScore,ok,3,0

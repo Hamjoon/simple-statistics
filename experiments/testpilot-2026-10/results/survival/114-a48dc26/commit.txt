@@ -1,0 +1,1 @@
+a48dc2675b3bd7d2a8b8c44856ef41bdd2196eb6 2026-08-31 fix(perceptron): stop train from writing through to the caller's array (#846)

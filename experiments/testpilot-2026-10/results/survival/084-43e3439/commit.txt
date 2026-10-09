@@ -1,0 +1,1 @@
+43e343916c3829e0f56d3e67c6f79fe9e9a5cec7 2026-07-08 fix(bayes): accumulate scores across all item properties (#810)

@@ -1,0 +1,1 @@
+d4adf284f78bb4b113d09c0e774981bd57dbe9c6 2026-08-31 fix(chi-squared): correct the critical value at 7 degrees of freedom (#851)
