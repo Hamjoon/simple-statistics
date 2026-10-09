@@ -1,0 +1,13 @@
+TAP version 13
+# Subtest: sampleStandardDeviation
+    # Subtest: can get the standard deviation of an example on wikipedia
+        ok 1 - should be equal
+        1..1
+    ok 1 - can get the standard deviation of an example on wikipedia # time=1.175ms
+    
+    ok 2 - zero-length corner case
+    1..2
+ok 1 - sampleStandardDeviation # time=4.014ms
+
+1..1
+# time=5.082ms

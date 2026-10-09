@@ -1,0 +1,12 @@
+TAP version 13
+# Subtest: t test
+    # Subtest: can compare a known value to the mean of samples
+        ok 1 - should be equal
+        1..1
+    ok 1 - can compare a known value to the mean of samples # time=1.344ms
+    
+    1..1
+ok 1 - t test # time=3.866ms
+
+1..1
+# time=5.112ms

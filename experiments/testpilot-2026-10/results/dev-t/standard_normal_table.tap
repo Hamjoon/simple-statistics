@@ -1,0 +1,11 @@
+TAP version 13
+# Subtest: standardNormalTable
+    1..0
+ok 1 - standardNormalTable # time=2.099ms
+
+# Subtest: all entries are numeric
+    1..0
+ok 2 - all entries are numeric # time=0.439ms
+
+1..2
+# time=4.517ms

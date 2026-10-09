@@ -1,0 +1,27 @@
+TAP version 13
+# Subtest: median absolute deviation (mad)
+    # Subtest: median absolute deviation of an example on wikipedia
+        ok 1 - should be equal
+        1..1
+    ok 1 - median absolute deviation of an example on wikipedia # time=1.54ms
+    
+    # Subtest: median absolute deviation of 0-10
+        ok 1 - should be equal
+        1..1
+    ok 2 - median absolute deviation of 0-10 # time=0.662ms
+    
+    # Subtest: median absolute deviation of one number is zero
+        ok 1 - should be equal
+        1..1
+    ok 3 - median absolute deviation of one number is zero # time=0.36ms
+    
+    # Subtest: zero-length corner case
+        ok 1 - expected to throw
+        1..1
+    ok 4 - zero-length corner case # time=0.613ms
+    
+    1..4
+ok 1 - median absolute deviation (mad) # time=8.541ms
+
+1..1
+# time=9.648ms

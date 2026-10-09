@@ -1,0 +1,43 @@
+TAP version 13
+# Subtest: perceptron
+    # Subtest: initializes to zeros if label is zero
+        ok 1 - should be equivalent
+        ok 2 - should be equal
+        1..2
+    ok 1 - initializes to zeros if label is zero # time=2.157ms
+    
+    # Subtest: initializes to values if label is one
+        ok 1 - should be equivalent
+        ok 2 - should be equal
+        1..2
+    ok 2 - initializes to values if label is one # time=0.909ms
+    
+    # Subtest: base case of zero prediction features
+        ok 1 - should be equivalent
+        1..1
+    ok 3 - base case of zero prediction features # time=0.491ms
+    
+    # Subtest: train with invalid label
+        ok 1 - should be equivalent
+        1..1
+    ok 4 - train with invalid label # time=0.446ms
+    
+    # Subtest: learns to separate one from two
+        ok 1 - should be equal
+        ok 2 - should be equal
+        1..2
+    ok 5 - learns to separate one from two # time=0.312ms
+    
+    # Subtest: learns a diagonal boundary
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        ok 4 - should be equal
+        1..4
+    ok 6 - learns a diagonal boundary # time=0.736ms
+    
+    1..6
+ok 1 - perceptron # time=12.81ms
+
+1..1
+# time=13.874ms

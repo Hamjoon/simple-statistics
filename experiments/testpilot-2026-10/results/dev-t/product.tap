@@ -1,0 +1,27 @@
+TAP version 13
+# Subtest: product
+    # Subtest: can get the product of one number
+        ok 1 - should be equal
+        1..1
+    ok 1 - can get the product of one number # time=1.111ms
+    
+    # Subtest: can get the product of two numbers
+        ok 1 - should be equal
+        1..1
+    ok 2 - can get the product of two numbers # time=0.637ms
+    
+    # Subtest: can get the product of a negative number
+        ok 1 - should be equal
+        1..1
+    ok 3 - can get the product of a negative number # time=0.292ms
+    
+    # Subtest: the product of no numbers is one - the multiplicative identity
+        ok 1 - should be equal
+        1..1
+    ok 4 - the product of no numbers is one - the multiplicative identity # time=0.428ms
+    
+    1..4
+ok 1 - product # time=7.457ms
+
+1..1
+# time=8.518ms

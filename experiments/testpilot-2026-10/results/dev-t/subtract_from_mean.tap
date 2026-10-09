@@ -1,0 +1,13 @@
+TAP version 13
+# Subtest: subtractFromMean
+    # Subtest: can remove a single value from a mean
+        ok 1 - should be equal
+        ok 2 - should be equal
+        1..2
+    ok 1 - can remove a single value from a mean # time=1.439ms
+    
+    1..1
+ok 1 - subtractFromMean # time=4.099ms
+
+1..1
+# time=5.253ms

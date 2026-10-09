@@ -1,0 +1,20 @@
+TAP version 13
+# Subtest: chunk
+    # Subtest: can get chunks of an array
+        ok 1 - should be equivalent
+        ok 2 - should be equivalent
+        ok 3 - should be equivalent
+        ok 4 - should be equivalent
+        ok 5 - should be equivalent
+        ok 6 - should be equivalent
+        ok 7 - should be equivalent
+        ok 8 - Throws with zero chunk size
+        ok 9 - Throws with non-integer chunk size
+        1..9
+    ok 1 - can get chunks of an array # time=4.664ms
+    
+    1..1
+ok 1 - chunk # time=7.257ms
+
+1..1
+# time=8.396ms

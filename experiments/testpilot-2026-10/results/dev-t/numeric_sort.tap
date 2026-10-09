@@ -1,0 +1,11 @@
+TAP version 13
+# Subtest: numericSort
+    ok 1 - should be equivalent
+    ok 2 - should be equivalent
+    ok 3 - should be equivalent
+    ok 4 - does not mutate input
+    1..4
+ok 1 - numericSort # time=3.396ms
+
+1..1
+# time=4.853ms

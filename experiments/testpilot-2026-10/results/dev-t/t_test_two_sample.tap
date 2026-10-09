@@ -1,0 +1,29 @@
+TAP version 13
+# Subtest: tTestTwoSample
+    # Subtest: can test independency of two samples
+        ok 1 - should be equal
+        1..1
+    ok 1 - can test independency of two samples # time=1.429ms
+    
+    # Subtest: can test independency of two samples (mu == -2)
+        ok 1 - should be equal
+        1..1
+    ok 2 - can test independency of two samples (mu == -2) # time=0.654ms
+    
+    # Subtest: can test independency of two samples of different lengths
+        ok 1 - should be equal
+        1..1
+    ok 3 - can test independency of two samples of different lengths # time=0.41ms
+    
+    # Subtest: has an edge case for one sample being of size zero
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        1..3
+    ok 4 - has an edge case for one sample being of size zero # time=0.788ms
+    
+    1..4
+ok 1 - tTestTwoSample # time=8.908ms
+
+1..1
+# time=10.242ms

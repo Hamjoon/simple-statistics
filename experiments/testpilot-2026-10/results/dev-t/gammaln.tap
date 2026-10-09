@@ -1,0 +1,27 @@
+TAP version 13
+# Subtest: gammaln
+    # Subtest: gammaln for positive real float should be correct
+        ok 1 - should be equal
+        1..1
+    ok 1 - gammaln for positive real float should be correct # time=1.313ms
+    
+    # Subtest: exp(gammaln(n)) for n should equal gamma(n)
+        ok 1 - should be equal
+        1..1
+    ok 2 - exp(gammaln(n)) for n should equal gamma(n) # time=0.859ms
+    
+    # Subtest: gammaln for negative n should be Infinity
+        ok 1 - should be equal
+        1..1
+    ok 3 - gammaln for negative n should be Infinity # time=0.404ms
+    
+    # Subtest: gammaln for n === 0 should return NaN
+        ok 1 - should be equal
+        1..1
+    ok 4 - gammaln for n === 0 should return NaN # time=0.43ms
+    
+    1..4
+ok 1 - gammaln # time=8.843ms
+
+1..1
+# time=10.178ms

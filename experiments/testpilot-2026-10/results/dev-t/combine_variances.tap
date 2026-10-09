@@ -1,0 +1,13 @@
+TAP version 13
+# Subtest: combineVariances
+    # Subtest: can combine the variances of two lists
+        ok 1 - should be equal
+        ok 2 - should be equal
+        1..2
+    ok 1 - can combine the variances of two lists # time=1.367ms
+    
+    1..1
+ok 1 - combineVariances # time=3.86ms
+
+1..1
+# time=4.918ms

@@ -1,0 +1,22 @@
+TAP version 13
+# Subtest: variance
+    # Subtest: can get the variance of a six-sided die
+        ok 1 - should be equal
+        1..1
+    ok 1 - can get the variance of a six-sided die # time=1.371ms
+    
+    # Subtest: the variance of one number is zero
+        ok 1 - should be equal
+        1..1
+    ok 2 - the variance of one number is zero # time=0.658ms
+    
+    # Subtest: the variance of no numbers cannot be calculated
+        ok 1 - expected to throw
+        1..1
+    ok 3 - the variance of no numbers cannot be calculated # time=0.454ms
+    
+    1..3
+ok 1 - variance # time=7.331ms
+
+1..1
+# time=8.543ms

@@ -1,0 +1,13 @@
+TAP version 13
+# Subtest: addToMean
+    # Subtest: can get add a single value to a mean
+        ok 1 - should be equal
+        ok 2 - should be equal
+        1..2
+    ok 1 - can get add a single value to a mean # time=1.66ms
+    
+    1..1
+ok 1 - addToMean # time=4.5ms
+
+1..1
+# time=5.634ms

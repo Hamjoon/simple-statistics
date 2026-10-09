@@ -1,0 +1,41 @@
+TAP version 13
+# Subtest: linear regression
+    # Subtest: correctly generates a line for a 0, 0 to 1, 1 dataset
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        1..3
+    ok 1 - correctly generates a line for a 0, 0 to 1, 1 dataset # time=1.685ms
+    
+    # Subtest: correctly generates a line for a 0, 0 to 1, 0 dataset
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        1..3
+    ok 2 - correctly generates a line for a 0, 0 to 1, 0 dataset # time=0.621ms
+    
+    # Subtest: handles a single-point sample
+        ok 1 - should be equivalent
+        1..1
+    ok 3 - handles a single-point sample # time=1.043ms
+    
+    # Subtest: a straight line will have a slope of 0
+        ok 1 - should be equivalent
+        1..1
+    ok 4 - a straight line will have a slope of 0 # time=1.033ms
+    
+    # Subtest: a line at 50% grade
+        ok 1 - should be equivalent
+        1..1
+    ok 5 - a line at 50% grade # time=0.522ms
+    
+    # Subtest: a line with a high y-intercept
+        ok 1 - should be equivalent
+        1..1
+    ok 6 - a line with a high y-intercept # time=0.826ms
+    
+    1..6
+ok 1 - linear regression # time=14.516ms
+
+1..1
+# time=16.936ms

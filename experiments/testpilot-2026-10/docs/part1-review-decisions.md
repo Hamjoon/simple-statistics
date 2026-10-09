@@ -1,0 +1,6 @@
+# Part 1 review decisions (local experiment record)
+
+1. **Generation population:** Use the 89 functions in `results/explore-native/api.json` exactly. This includes prototype methods of the exported ES5 constructors. Every `isConstructor` value is false because the built bundle represents those classes as functions. The `mean` export aliases the same function object as `average`; the explorer records that object once under `average`. Mention the alias in one line in the report, without changing the population. The counts match Table 1: 89 functions, 88 with a doc comment, three with examples, and three snippets.
+2. **testpilot2 revision:** Use the clean checkout at `2c0581c` unchanged. It adds the zod experiment's null-completion patch in `src/chatmodel.ts` to `31c0179` and is the revision used for zod's 124-function result.
+3. **Release tag:** The fork has no `v7.7.6` tag. The verified anchor is commit `31f037dd5550d554c4a96c3ee35b12e10a1c9cb7`; upstream release tags will be considered in a later part.
+4. **Doc comments:** The CommonJS bundle retains 109 `/**` openers, and 88 API descriptors have nonempty comments. Direct assembly with the experiment template verifies their prompt rendering. The empty mock runner produced only base prompts because refinement follows a generated test; that behavior is expected.

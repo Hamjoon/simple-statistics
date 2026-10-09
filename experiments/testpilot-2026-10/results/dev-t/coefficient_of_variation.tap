@@ -1,0 +1,12 @@
+TAP version 13
+# Subtest: coefficient_of_variation
+    # Subtest: can get the coefficientOfVariation of a six-sided die
+        ok 1 - should be equal
+        1..1
+    ok 1 - can get the coefficientOfVariation of a six-sided die # time=1.543ms
+    
+    1..1
+ok 1 - coefficient_of_variation # time=4.192ms
+
+1..1
+# time=5.425ms

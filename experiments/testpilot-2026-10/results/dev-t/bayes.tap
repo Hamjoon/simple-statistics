@@ -1,0 +1,33 @@
+TAP version 13
+# Subtest: BayesianClassifier
+    # Subtest: makes an easy call with one training round
+        ok 1 - should be equivalent
+        1..1
+    ok 1 - makes an easy call with one training round # time=1.977ms
+    
+    # Subtest: makes fify-fifty call
+        ok 1 - should be equivalent
+        1..1
+    ok 2 - makes fify-fifty call # time=0.959ms
+    
+    # Subtest: makes seventy-five/twenty-five call
+        ok 1 - should be equivalent
+        1..1
+    ok 3 - makes seventy-five/twenty-five call # time=0.562ms
+    
+    # Subtest: tests multiple properties
+        ok 1 - should be equivalent
+        1..1
+    ok 4 - tests multiple properties # time=0.691ms
+    
+    # Subtest: classifies multiple things
+        ok 1 - should be equivalent
+        ok 2 - should be equivalent
+        1..2
+    ok 5 - classifies multiple things # time=0.945ms
+    
+    1..5
+ok 1 - BayesianClassifier # time=11.403ms
+
+1..1
+# time=13.012ms

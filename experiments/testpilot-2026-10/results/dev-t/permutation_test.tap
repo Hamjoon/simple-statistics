@@ -1,0 +1,27 @@
+TAP version 13
+# Subtest: permutation test
+    # Subtest: P-value of identical distributions being different should be 1
+        ok 1 - should be equal
+        1..1
+    ok 1 - P-value of identical distributions being different should be 1 # time=6.664ms
+    
+    # Subtest: P-value of distribution less than itself should be 1
+        ok 1 - should be equal
+        1..1
+    ok 2 - P-value of distribution less than itself should be 1 # time=8.548ms
+    
+    # Subtest: P-value of small sample greater than large sample should be 0
+        ok 1 - expect truthy value
+        1..1
+    ok 3 - P-value of small sample greater than large sample should be 0 # time=7.072ms
+    
+    # Subtest: permutationTest should throw error if wrong argument received
+        ok 1 - alternative must be one of specified options
+        1..1
+    ok 4 - permutationTest should throw error if wrong argument received # time=0.532ms
+    
+    1..4
+ok 1 - permutation test # time=28.274ms
+
+1..1
+# time=29.284ms

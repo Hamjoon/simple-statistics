@@ -1,0 +1,17 @@
+TAP version 13
+# Subtest: combinations
+    # Subtest: generates 1 permutation
+        ok 1 - should be equivalent
+        1..1
+    ok 1 - generates 1 permutation # time=1.977ms
+    
+    # Subtest: generates combinations of 1,2 choosing two at a time, with replacement
+        ok 1 - should be equivalent
+        1..1
+    ok 2 - generates combinations of 1,2 choosing two at a time, with replacement # time=1.006ms
+    
+    1..2
+ok 1 - combinations # time=6.362ms
+
+1..1
+# time=7.384ms

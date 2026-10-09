@@ -1,0 +1,17 @@
+TAP version 13
+# Subtest: logit
+    # Subtest: throws on logit < 0
+        ok 1 - expected to throw
+        1..1
+    ok 1 - throws on logit < 0 # time=1.44ms
+    
+    # Subtest: computes the logit otherwise
+        ok 1 - should be equal
+        1..1
+    ok 2 - computes the logit otherwise # time=0.878ms
+    
+    1..2
+ok 1 - logit # time=6.348ms
+
+1..1
+# time=7.769ms

@@ -1,0 +1,37 @@
+TAP version 13
+# Subtest: sample skewness
+    # Subtest: the skewness of an empty sample is null
+        ok 1 - expected to throw
+        1..1
+    ok 1 - the skewness of an empty sample is null # time=1.632ms
+    
+    # Subtest: the skewness of an sample with one number is null
+        ok 1 - expected to throw
+        1..1
+    ok 2 - the skewness of an sample with one number is null # time=0.866ms
+    
+    # Subtest: the skewness of an sample with two numbers is null
+        ok 1 - expected to throw
+        1..1
+    ok 3 - the skewness of an sample with two numbers is null # time=0.557ms
+    
+    # Subtest: can calculate the skewness of SAS example 1
+        ok 1 - should be equal
+        1..1
+    ok 4 - can calculate the skewness of SAS example 1 # time=0.632ms
+    
+    # Subtest: can calculate the skewness of SAS example 2
+        ok 1 - should be equal
+        1..1
+    ok 5 - can calculate the skewness of SAS example 2 # time=0.489ms
+    
+    # Subtest: can calculate the skewness of SAS example 3
+        ok 1 - should be equal
+        1..1
+    ok 6 - can calculate the skewness of SAS example 3 # time=0.593ms
+    
+    1..6
+ok 1 - sample skewness # time=14.677ms
+
+1..1
+# time=16.768ms

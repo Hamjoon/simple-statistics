@@ -1,0 +1,48 @@
+TAP version 13
+# Subtest: k-means clustering test
+    # Subtest: Single cluster of one point contains only that point
+        ok 1 - should be equivalent
+        ok 2 - should be equivalent
+        1..2
+    ok 1 - Single cluster of one point contains only that point # time=2.661ms
+    
+    # Subtest: Single cluster of two points contains both points
+        ok 1 - should be equivalent
+        ok 2 - should be equivalent
+        1..2
+    ok 2 - Single cluster of two points contains both points # time=1.189ms
+    
+    # Subtest: Two clusters of two points puts each point in its own cluster
+        ok 1 - should be equivalent
+        ok 2 - should be equivalent
+        1..2
+    ok 3 - Two clusters of two points puts each point in its own cluster # time=0.869ms
+    
+    # Subtest: Two clusters of four paired points puts each pair in a cluster
+        ok 1 - should be equivalent
+        ok 2 - should be equivalent
+        1..2
+    ok 4 - Two clusters of four paired points puts each pair in a cluster # time=0.581ms
+    
+    # Subtest: Two clusters of two 2D points puts each point in its own cluster
+        ok 1 - should be equivalent
+        ok 2 - should be equivalent
+        1..2
+    ok 5 - Two clusters of two 2D points puts each point in its own cluster # time=0.631ms
+    
+    # Subtest: Base case of one value
+        ok 1 - expected to throw
+        1..1
+    ok 6 - Base case of one value # time=0.357ms
+    
+    # Subtest: Two clusters of three 2D points puts two points in one cluster and one in the other
+        ok 1 - should be equivalent
+        ok 2 - should be equivalent
+        1..2
+    ok 7 - Two clusters of three 2D points puts two points in one cluster and one in the other # time=0.353ms
+    
+    1..7
+ok 1 - k-means clustering test # time=15.535ms
+
+1..1
+# time=16.657ms

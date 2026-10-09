@@ -1,0 +1,18 @@
+TAP version 13
+# Subtest: bisect
+    # Subtest: can find sign of number
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        ok 4 - should be equal
+        ok 5 - should be equal
+        ok 6 - should be equal
+        ok 7 - Throws with syntax error x is not a number
+        1..7
+    ok 1 - can find sign of number # time=2.509ms
+    
+    1..1
+ok 1 - bisect # time=5.048ms
+
+1..1
+# time=6.232ms

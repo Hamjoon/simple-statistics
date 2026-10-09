@@ -1,0 +1,90 @@
+accessPath,depth,isConstructor,isAsync,hasDocComment,snippets,signature,implLength,implGroupSize
+simple-statistics.BayesianClassifier,1,false,false,true,0,(),197,1
+simple-statistics.BayesianClassifier.prototype.score,3,false,false,true,0,(item),1504,1
+simple-statistics.BayesianClassifier.prototype.train,3,false,false,true,0,"(item, category)",817,1
+simple-statistics.PerceptronModel,1,false,false,true,0,(),329,1
+simple-statistics.PerceptronModel.prototype.predict,3,false,false,true,0,(features),581,1
+simple-statistics.PerceptronModel.prototype.train,3,false,false,true,0,"(features, label)",963,1
+simple-statistics.addToMean,1,false,false,true,0,"(mean, n, newValue)",88,1
+simple-statistics.approxEqual,1,false,false,true,0,"(actual, expected, tolerance)",164,1
+simple-statistics.average,1,false,false,true,0,(x),149,1
+simple-statistics.averageSimple,1,false,false,true,0,(x),167,1
+simple-statistics.bernoulliDistribution,1,false,false,true,0,(p),291,1
+simple-statistics.binomialDistribution,1,false,false,true,0,"(trials, probability)",1562,1
+simple-statistics.bisect,1,false,false,true,0,"(func, start, end, maxIterations, errorTolerance)",612,1
+simple-statistics.chiSquaredGoodnessOfFit,1,false,false,true,0,"(data, distributionType, significance)",3071,1
+simple-statistics.chunk,1,false,false,true,0,"(x, chunkSize)",936,1
+simple-statistics.ckmeans,1,false,false,true,2,"(x, nClusters)",2038,1
+simple-statistics.coefficientOfVariation,1,false,false,true,0,(x),87,1
+simple-statistics.combinations,1,false,false,false,0,"(x, k)",586,1
+simple-statistics.combinationsReplacement,1,false,false,true,0,"(x, k)",1180,1
+simple-statistics.combineMeans,1,false,false,true,0,"(mean1, n1, mean2, n2)",97,1
+simple-statistics.combineVariances,1,false,false,true,0,"(variance1, mean1, n1, variance2, mean2, n2)",288,1
+simple-statistics.cumulativeStdLogisticProbability,1,false,false,true,0,(x),83,1
+simple-statistics.cumulativeStdNormalProbability,1,false,false,true,0,(z),972,1
+simple-statistics.equalIntervalBreaks,1,false,false,true,0,"(x, nClasses)",710,1
+simple-statistics.erf,1,false,false,true,0,(x),683,1
+simple-statistics.extent,1,false,false,true,0,(x),353,1
+simple-statistics.extentSorted,1,false,false,true,0,(x),64,1
+simple-statistics.factorial,1,false,false,true,0,(n),800,1
+simple-statistics.gamma,1,false,false,true,0,(n),1205,1
+simple-statistics.gammaln,1,false,false,true,0,(n),482,1
+simple-statistics.geometricMean,1,false,false,true,0,(x),573,1
+simple-statistics.harmonicMean,1,false,false,true,0,(x),536,1
+simple-statistics.interquartileRange,1,false,false,true,0,(x),301,1
+simple-statistics.inverseErrorFunction,1,false,false,true,0,(x),413,1
+simple-statistics.kMeansCluster,1,false,false,true,0,"(points, numCluster, randomSource)",607,1
+simple-statistics.kde,1,false,false,true,0,"(X, kernel, bandwidthMethod)",1061,1
+simple-statistics.linearRegression,1,false,false,true,1,(data),1529,1
+simple-statistics.linearRegressionLine,1,false,false,true,1,"(mb /*: { b: number, m: number }*/)",286,1
+simple-statistics.logAverage,1,false,false,true,0,(x),421,1
+simple-statistics.logit,1,false,false,true,0,(p),157,1
+simple-statistics.mad,1,false,false,true,0,(x),374,1
+simple-statistics.max,1,false,false,true,0,(x),268,1
+simple-statistics.maxSorted,1,false,false,true,0,(x),53,1
+simple-statistics.median,1,false,false,true,0,(x),52,1
+simple-statistics.medianSorted,1,false,false,true,0,(sorted),73,1
+simple-statistics.min,1,false,false,true,0,(x),268,1
+simple-statistics.minSorted,1,false,false,true,0,(x),42,1
+simple-statistics.mode,1,false,false,true,0,(x),230,1
+simple-statistics.modeFast,1,false,false,true,0,(x),738,1
+simple-statistics.modeSorted,1,false,false,true,0,(sorted),1529,1
+simple-statistics.numericSort,1,false,false,true,0,(x),279,1
+simple-statistics.permutationTest,1,false,false,true,0,"(sampleX, sampleY, alternative, k, randomSource)",2402,1
+simple-statistics.permutationsHeap,1,false,false,true,0,(elements),950,1
+simple-statistics.poissonDistribution,1,false,false,true,0,(lambda),1108,1
+simple-statistics.probit,1,false,false,true,0,(p),177,1
+simple-statistics.product,1,false,false,true,0,(x),130,1
+simple-statistics.quantile,1,false,false,true,0,"(x, p)",675,1
+simple-statistics.quantileRank,1,false,false,true,0,"(x, value)",160,1
+simple-statistics.quantileRankSorted,1,false,false,true,0,"(x, value)",897,1
+simple-statistics.quantileSorted,1,false,false,true,0,"(x, p)",978,1
+simple-statistics.quickselect,1,false,false,true,0,"(arr, k, left, right)",1343,1
+simple-statistics.rSquared,1,false,false,true,0,"(x, func)",995,1
+simple-statistics.relativeError,1,false,false,true,0,"(actual, expected)",163,1
+simple-statistics.rms,1,false,false,true,0,(x),303,1
+simple-statistics.sample,1,false,false,true,0,"(x, n, randomSource)",245,1
+simple-statistics.sampleCorrelation,1,false,false,true,0,"(x, y)",191,1
+simple-statistics.sampleCovariance,1,false,false,true,0,"(x, y)",1411,1
+simple-statistics.sampleKurtosis,1,false,false,true,0,(x),673,1
+simple-statistics.sampleRankCorrelation,1,false,false,true,0,"(x, y)",865,1
+simple-statistics.sampleSkewness,1,false,false,true,0,(x),1012,1
+simple-statistics.sampleStandardDeviation,1,false,false,true,0,(x),123,1
+simple-statistics.sampleVariance,1,false,false,true,0,(x),559,1
+simple-statistics.sampleWithReplacement,1,false,false,true,0,"(x, n, randomSource)",546,1
+simple-statistics.shuffle,1,false,false,true,0,"(x, randomSource)",234,1
+simple-statistics.shuffleInPlace,1,false,false,true,0,"(x, randomSource)",1029,1
+simple-statistics.sign,1,false,false,true,0,(x),262,1
+simple-statistics.silhouette,1,false,false,true,0,"(points, labels)",793,1
+simple-statistics.silhouetteMetric,1,false,false,true,0,"(points, labels)",114,1
+simple-statistics.standardDeviation,1,false,false,true,0,(x),133,1
+simple-statistics.subtractFromMean,1,false,false,true,0,"(mean, n, value)",86,1
+simple-statistics.sum,1,false,false,true,0,(x),951,1
+simple-statistics.sumNthPowerDeviations,1,false,false,true,0,"(x, n)",591,1
+simple-statistics.sumSimple,1,false,false,true,0,(x),206,1
+simple-statistics.tTest,1,false,false,true,0,"(x, expectedValue)",344,1
+simple-statistics.tTestTwoSample,1,false,false,true,0,"(sampleX, sampleY, difference)",980,1
+simple-statistics.uniqueCountSorted,1,false,false,true,0,(x),287,1
+simple-statistics.variance,1,false,false,true,0,(x),267,1
+simple-statistics.wilcoxonRankSum,1,false,false,true,0,"(sampleX, sampleY)",1536,1
+simple-statistics.zScore,1,false,false,true,0,"(x, mean, standardDeviation)",90,1

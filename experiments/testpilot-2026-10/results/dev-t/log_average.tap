@@ -1,0 +1,33 @@
+TAP version 13
+# Subtest: log average
+    # Subtest: cannot calculate for empty lists
+        ok 1 - expected to throw
+        1..1
+    ok 1 - cannot calculate for empty lists # time=1.232ms
+    
+    # Subtest: cannot calculate for lists with negative numbers
+        ok 1 - expected to throw
+        1..1
+    ok 2 - cannot calculate for lists with negative numbers # time=0.816ms
+    
+    # Subtest: does not overflow for large products
+        1..0
+    ok 3 - does not overflow for large products # time=0.339ms
+    
+    # Subtest: does not underflow for small products
+        1..0
+    ok 4 - does not underflow for small products # time=0.518ms
+    
+    # Subtest: agrees with geometricMean
+        1..0
+    ok 5 - agrees with geometricMean # time=0.332ms
+    
+    # Subtest: equals zero if array contains zero
+        1..0
+    ok 6 - equals zero if array contains zero # time=0.268ms
+    
+    1..6
+ok 1 - log average # time=12.516ms
+
+1..1
+# time=14.591ms

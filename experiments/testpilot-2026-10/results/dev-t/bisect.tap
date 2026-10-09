@@ -1,0 +1,15 @@
+TAP version 13
+# Subtest: bisect
+    # Subtest: can find root of sin and cos
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - Throws if it exceeds the number of iterations allowed
+        ok 4 - Throws with syntax error f must be a function
+        1..4
+    ok 1 - can find root of sin and cos # time=1.925ms
+    
+    1..1
+ok 1 - bisect # time=4.405ms
+
+1..1
+# time=5.389ms

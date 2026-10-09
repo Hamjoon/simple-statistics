@@ -1,0 +1,37 @@
+TAP version 13
+# Subtest: poissonDistribution
+    # Subtest: can return generate probability and cumulative probability distributions for lambda = 3.0
+        ok 1 - should be equal
+        ok 2 - 0.0001
+        1..2
+    ok 1 - can return generate probability and cumulative probability distributions for lambda = 3.0 # time=1.238ms
+    
+    # Subtest: can generate probability and cumulative probability distributions for lambda = 4.0
+        ok 1 - should be equal
+        ok 2 - 0.0001
+        1..2
+    ok 2 - can generate probability and cumulative probability distributions for lambda = 4.0 # time=0.671ms
+    
+    # Subtest: can generate probability and cumulative probability distributions for lambda = 5.5
+        ok 1 - should be equal
+        ok 2 - 0.0001
+        1..2
+    ok 3 - can generate probability and cumulative probability distributions for lambda = 5.5 # time=0.331ms
+    
+    # Subtest: can generate probability and cumulative probability distributions for lambda = 9.5
+        ok 1 - should be equal
+        ok 2 - 0.0001
+        1..2
+    ok 4 - can generate probability and cumulative probability distributions for lambda = 9.5 # time=0.449ms
+    
+    # Subtest: can return undefined when lambda <= 0
+        ok 1 - should be equal
+        ok 2 - should be equal
+        1..2
+    ok 5 - can return undefined when lambda <= 0 # time=0.317ms
+    
+    1..5
+ok 1 - poissonDistribution # time=9.17ms
+
+1..1
+# time=10.78ms

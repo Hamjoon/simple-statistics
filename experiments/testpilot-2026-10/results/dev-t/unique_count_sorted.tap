@@ -1,0 +1,14 @@
+TAP version 13
+# Subtest: uniqueCountSorted
+    ok 1 - should be equal
+    ok 2 - should be equal
+    ok 3 - should be equal
+    ok 4 - should be equal
+    ok 5 - should be equal
+    ok 6 - should be equal
+    ok 7 - should be equal
+    1..7
+ok 1 - uniqueCountSorted # time=2.622ms
+
+1..1
+# time=4.073ms

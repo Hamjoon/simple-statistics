@@ -1,0 +1,47 @@
+TAP version 13
+# Subtest: sample kurtosis
+    # Subtest: the kurtosis of an empty sample is null
+        ok 1 - expected to throw
+        1..1
+    ok 1 - the kurtosis of an empty sample is null # time=1.444ms
+    
+    # Subtest: the kurtosis of an sample with one number is null
+        ok 1 - expected to throw
+        1..1
+    ok 2 - the kurtosis of an sample with one number is null # time=0.667ms
+    
+    # Subtest: the kurtosis of an sample with two numbers is null
+        ok 1 - expected to throw
+        1..1
+    ok 3 - the kurtosis of an sample with two numbers is null # time=0.4ms
+    
+    # Subtest: the kurtosis of an sample with three numbers is null
+        ok 1 - expected to throw
+        1..1
+    ok 4 - the kurtosis of an sample with three numbers is null # time=0.565ms
+    
+    # Subtest: can calculate the kurtosis of SAS example 1
+        ok 1 - should be equal
+        1..1
+    ok 5 - can calculate the kurtosis of SAS example 1 # time=4.75ms
+    
+    # Subtest: can calculate the kurtosis of SAS example 2
+        ok 1 - should be equal
+        1..1
+    ok 6 - can calculate the kurtosis of SAS example 2 # time=0.851ms
+    
+    # Subtest: can calculate the kurtosis of SAS example 3
+        ok 1 - should be equal
+        1..1
+    ok 7 - can calculate the kurtosis of SAS example 3 # time=0.243ms
+    
+    # Subtest: can calculate the kurtosis of SAS example 4
+        ok 1 - should be equal
+        1..1
+    ok 8 - can calculate the kurtosis of SAS example 4 # time=0.455ms
+    
+    1..8
+ok 1 - sample kurtosis # time=24.512ms
+
+1..1
+# time=25.897ms

@@ -1,0 +1,39 @@
+TAP version 13
+# Subtest: wilcoxonRankSum
+    # Subtest: x is dominated by y
+        ok 1 - should be equal
+        1..1
+    ok 1 - x is dominated by y # time=1.479ms
+    
+    # Subtest: y is dominated by x
+        ok 1 - should be equal
+        1..1
+    ok 2 - y is dominated by x # time=0.699ms
+    
+    # Subtest: x and y are interleaved
+        ok 1 - should be equal
+        1..1
+    ok 3 - x and y are interleaved # time=0.392ms
+    
+    # Subtest: x and y overlap at one value
+        ok 1 - should be equal
+        1..1
+    ok 4 - x and y overlap at one value # time=0.489ms
+    
+    # Subtest: trailing tied ranks are handled correctly
+        ok 1 - should be equal
+        1..1
+    ok 5 - trailing tied ranks are handled correctly # time=0.331ms
+    
+    # Subtest: empty input throws
+        ok 1 - Neither sample can be empty
+        ok 2 - Neither sample can be empty
+        ok 3 - Neither sample can be empty
+        1..3
+    ok 6 - empty input throws # time=0.495ms
+    
+    1..6
+ok 1 - wilcoxonRankSum # time=11.858ms
+
+1..1
+# time=13.013ms

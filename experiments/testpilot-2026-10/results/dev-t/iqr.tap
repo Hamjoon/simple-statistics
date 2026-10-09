@@ -1,0 +1,22 @@
+TAP version 13
+# Subtest: interquartile range (iqr)
+    # Subtest: can get proper iqr of an even-length list
+        ok 1 - should be equal
+        1..1
+    ok 1 - can get proper iqr of an even-length list # time=1.344ms
+    
+    # Subtest: can get proper iqr of an odd-length list
+        ok 1 - should be equal
+        1..1
+    ok 2 - can get proper iqr of an odd-length list # time=0.639ms
+    
+    # Subtest: an iqr of a zero-length list cannot be calculated
+        ok 1 - expected to throw
+        1..1
+    ok 3 - an iqr of a zero-length list cannot be calculated # time=0.381ms
+    
+    1..3
+ok 1 - interquartile range (iqr) # time=6.646ms
+
+1..1
+# time=7.614ms

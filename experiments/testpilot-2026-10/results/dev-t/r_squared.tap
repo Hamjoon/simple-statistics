@@ -1,0 +1,22 @@
+TAP version 13
+# Subtest: r-squared
+    # Subtest: says that the r squared of a two-point line is perfect
+        ok 1 - should be equal
+        1..1
+    ok 1 - says that the r squared of a two-point line is perfect # time=1.454ms
+    
+    # Subtest: says that the r squared of a three-point line is not perfect
+        ok 1 - should not be equal
+        1..1
+    ok 2 - says that the r squared of a three-point line is not perfect # time=0.757ms
+    
+    # Subtest: r-squared of single sample is 1
+        ok 1 - should be equal
+        1..1
+    ok 3 - r-squared of single sample is 1 # time=0.456ms
+    
+    1..3
+ok 1 - r-squared # time=8.112ms
+
+1..1
+# time=9.327ms

@@ -1,0 +1,11 @@
+TAP version 13
+# Subtest: equalIntervalBreaks
+    ok 1 - 1-length case
+    ok 2 - three breaks
+    ok 3 - two breaks
+    ok 4 - one break
+    1..4
+ok 1 - equalIntervalBreaks # time=2.993ms
+
+1..1
+# time=4.384ms

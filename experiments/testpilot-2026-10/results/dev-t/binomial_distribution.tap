@@ -1,0 +1,27 @@
+TAP version 13
+# Subtest: binomialDistribution
+    # Subtest: can return generate probability and cumulative probability distributions for n = 6, p = 0.3
+        ok 1 - should be equal
+        ok 2 - 0.0001
+        ok 3 - 0.0001
+        ok 4 - 0.0001
+        ok 5 - 0.0001
+        ok 6 - 0.0001
+        ok 7 - 0.0001
+        ok 8 - 0.0001
+        1..8
+    ok 1 - can return generate probability and cumulative probability distributions for n = 6, p = 0.3 # time=2.36ms
+    
+    # Subtest: can return null when p or n are not valid parameters
+        ok 1 - n should be strictly positive
+        ok 2 - n should be an integer
+        ok 3 - p should be greater than 0.0
+        ok 4 - p should be less than 1.0
+        1..4
+    ok 2 - can return null when p or n are not valid parameters # time=0.635ms
+    
+    1..2
+ok 1 - binomialDistribution # time=6.817ms
+
+1..1
+# time=7.945ms

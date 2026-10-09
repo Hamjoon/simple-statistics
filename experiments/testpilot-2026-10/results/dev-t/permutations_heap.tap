@@ -1,0 +1,17 @@
+TAP version 13
+# Subtest: permutationsHeap
+    # Subtest: generates 1 permutation
+        ok 1 - should be equivalent
+        1..1
+    ok 1 - generates 1 permutation # time=1.924ms
+    
+    # Subtest: generates 1, 2, 3 permutations
+        ok 1 - should be equivalent
+        1..1
+    ok 2 - generates 1, 2, 3 permutations # time=1.156ms
+    
+    1..2
+ok 1 - permutationsHeap # time=6.412ms
+
+1..1
+# time=7.435ms

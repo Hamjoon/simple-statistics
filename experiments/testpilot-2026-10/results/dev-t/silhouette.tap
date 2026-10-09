@@ -1,0 +1,36 @@
+TAP version 13
+# Subtest: silhouette test
+    # Subtest: Requires equal-sized arrays
+        ok 1 - expected to throw
+        1..1
+    ok 1 - Requires equal-sized arrays # time=1.293ms
+    
+    # Subtest: Single cluster of one point has metric 0
+        ok 1 - should be equivalent
+        ok 2 - should be equal
+        1..2
+    ok 2 - Single cluster of one point has metric 0 # time=1.694ms
+    
+    # Subtest: Single cluster of two points has metric 1.0
+        ok 1 - should be equivalent
+        ok 2 - should be equal
+        1..2
+    ok 3 - Single cluster of two points has metric 1.0 # time=0.739ms
+    
+    # Subtest: Two clusters with one point each has metric 0.0
+        ok 1 - should be equivalent
+        ok 2 - should be equal
+        1..2
+    ok 4 - Two clusters with one point each has metric 0.0 # time=0.731ms
+    
+    # Subtest: Two clusters with two points each has metric 0.5
+        ok 1 - expect truthy value
+        ok 2 - expect truthy value
+        1..2
+    ok 5 - Two clusters with two points each has metric 0.5 # time=0.432ms
+    
+    1..5
+ok 1 - silhouette test # time=11.189ms
+
+1..1
+# time=12.543ms

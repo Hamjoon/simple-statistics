@@ -1,0 +1,32 @@
+TAP version 13
+# Subtest: gamma
+    # Subtest: gamma for integer should return whole number
+        ok 1 - should be equal
+        1..1
+    ok 1 - gamma for integer should return whole number # time=1.537ms
+    
+    # Subtest: gamma for positive real float should be correct
+        ok 1 - expect truthy value
+        1..1
+    ok 2 - gamma for positive real float should be correct # time=0.799ms
+    
+    # Subtest: gamma for negative real float should be correct
+        ok 1 - expect truthy value
+        1..1
+    ok 3 - gamma for negative real float should be correct # time=0.355ms
+    
+    # Subtest: gamma for negative integer should return NaN
+        ok 1 - expect truthy value
+        1..1
+    ok 4 - gamma for negative integer should return NaN # time=0.458ms
+    
+    # Subtest: gamma for zero should return NaN
+        ok 1 - expect truthy value
+        1..1
+    ok 5 - gamma for zero should return NaN # time=0.347ms
+    
+    1..5
+ok 1 - gamma # time=10.265ms
+
+1..1
+# time=11.979ms

@@ -1,0 +1,12 @@
+TAP version 13
+# Subtest: sampleWithReplacement
+    ok 1 - should be equivalent
+    ok 2 - should be equivalent
+    ok 3 - should be equivalent
+    ok 4 - should be equivalent
+    ok 5 - should be equivalent
+    1..5
+ok 1 - sampleWithReplacement # time=4.275ms
+
+1..1
+# time=5.835ms

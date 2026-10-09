@@ -1,0 +1,24 @@
+TAP version 13
+# Subtest: sample variance
+    # Subtest: can get the sample variance of a six-sided die
+        ok 1 - should be equal
+        1..1
+    ok 1 - can get the sample variance of a six-sided die # time=1.339ms
+    
+    # Subtest: can get the sample variance of numbers 1-10
+        ok 1 - should be equal
+        1..1
+    ok 2 - can get the sample variance of numbers 1-10 # time=0.678ms
+    
+    # Subtest: the sample variance of two numbers that are the same is 0
+        ok 1 - should be equal
+        1..1
+    ok 3 - the sample variance of two numbers that are the same is 0 # time=0.449ms
+    
+    ok 4 - the sample variance of one number cannot be calculated
+    ok 5 - the sample variance of no numbers cannot be calculated
+    1..5
+ok 1 - sample variance # time=7.696ms
+
+1..1
+# time=8.984ms

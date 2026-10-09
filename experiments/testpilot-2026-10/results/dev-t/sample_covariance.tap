@@ -1,0 +1,32 @@
+TAP version 13
+# Subtest: sample covariance
+    # Subtest: can get perfect negative covariance
+        ok 1 - should be equal
+        1..1
+    ok 1 - can get perfect negative covariance # time=1.485ms
+    
+    # Subtest: covariance of something with itself is its variance
+        ok 1 - should be equal
+        1..1
+    ok 2 - covariance of something with itself is its variance # time=0.596ms
+    
+    # Subtest: covariance is zero for something with no correlation
+        ok 1 - should be equal
+        1..1
+    ok 3 - covariance is zero for something with no correlation # time=0.345ms
+    
+    # Subtest: unequal-length corner case
+        ok 1 - expected to throw
+        1..1
+    ok 4 - unequal-length corner case # time=0.667ms
+    
+    # Subtest: zero-length corner case
+        ok 1 - expected to throw
+        1..1
+    ok 5 - zero-length corner case # time=0.366ms
+    
+    1..5
+ok 1 - sample covariance # time=10.109ms
+
+1..1
+# time=11.865ms

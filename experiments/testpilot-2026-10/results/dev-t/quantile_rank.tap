@@ -1,0 +1,17 @@
+TAP version 13
+# Subtest: quantileRank
+    # Subtest: can get proper quantile ranks
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        ok 4 - should be equal
+        ok 5 - should be equal
+        ok 6 - should be equal
+        1..6
+    ok 1 - can get proper quantile ranks # time=2.216ms
+    
+    1..1
+ok 1 - quantileRank # time=4.825ms
+
+1..1
+# time=5.781ms

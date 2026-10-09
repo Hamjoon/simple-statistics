@@ -1,0 +1,32 @@
+TAP version 13
+# Subtest: factorial
+    # Subtest: cannot calculate the factorial of a number lower than zero
+        ok 1 - expected to throw
+        1..1
+    ok 1 - cannot calculate the factorial of a number lower than zero # time=1.353ms
+    
+    # Subtest: rejects floating-point inputs
+        ok 1 - expected to throw
+        1..1
+    ok 2 - rejects floating-point inputs # time=0.675ms
+    
+    # Subtest: can calculate 0! = 1
+        ok 1 - should be equal
+        1..1
+    ok 3 - can calculate 0! = 1 # time=0.421ms
+    
+    # Subtest: can calculate 1! = 1
+        ok 1 - should be equal
+        1..1
+    ok 4 - can calculate 1! = 1 # time=0.372ms
+    
+    # Subtest: can calculate 100! = 1
+        ok 1 - should be equal
+        1..1
+    ok 5 - can calculate 100! = 1 # time=0.492ms
+    
+    1..5
+ok 1 - factorial # time=10.08ms
+
+1..1
+# time=11.575ms
